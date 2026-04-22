@@ -1,16 +1,20 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { useRouter } from 'next/navigation';
+
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    reproio?: (...args: any[]) => void;
+  }
+}
 
 interface SessionResponse {
   authenticated: boolean;
   user?: { userId: string; email: string; username: string };
-  lineLink?: { lineUserId: string; linkedAt: string } | null;
 }
 
 export default function Home() {
-  const router = useRouter();
   const [session, setSession] = useState<SessionResponse | null>(null);
   const [loading, setLoading] = useState(true);
 
@@ -20,6 +24,13 @@ export default function Home() {
       .then((data: SessionResponse) => {
         setSession(data);
         setLoading(false);
+
+        // ログイン済みの場合、Repro Web SDK にユーザーIDを設定
+        if (data.authenticated && data.user) {
+          if (typeof window.reproio === 'function') {
+            window.reproio('setUserID', data.user.userId);
+          }
+        }
       })
       .catch(() => {
         setSession({ authenticated: false });
@@ -30,16 +41,6 @@ export default function Home() {
   const handleLogout = async () => {
     await fetch('/api/auth/logout', { method: 'POST' });
     setSession({ authenticated: false });
-  };
-
-  const handleUnlink = async () => {
-    if (!confirm('LINE連携を解除しますか？')) return;
-    const res = await fetch('/api/line/unlink', { method: 'DELETE' });
-    if (res.ok) {
-      setSession((prev) => prev ? { ...prev, lineLink: null } : prev);
-    } else {
-      alert('連携解除に失敗しました');
-    }
   };
 
   if (loading) {
@@ -76,40 +77,8 @@ export default function Home() {
                   <dt className="text-sm text-gray-500">メールアドレス</dt>
                   <dd className="text-sm text-gray-900">{session.user.email}</dd>
                 </div>
-                <div className="flex justify-between">
-                  <dt className="text-sm text-gray-500">LINE連携</dt>
-                  <dd className="text-sm">
-                    {session.lineLink ? (
-                      <span className="text-green-600 font-medium">連携済み</span>
-                    ) : (
-                      <span className="text-gray-400">未連携</span>
-                    )}
-                  </dd>
-                </div>
               </dl>
             </div>
-
-            {session.lineLink ? (
-              <div className="space-y-3 mb-4">
-                <button
-                  onClick={() => router.push('/linked')}
-                  className="block w-full text-center bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-6 rounded-lg transition-colors"
-                >
-                  連携情報を確認
-                </button>
-                <button
-                  onClick={handleUnlink}
-                  className="block w-full text-center bg-white hover:bg-red-50 text-red-600 font-semibold py-3 px-6 rounded-lg border border-red-300 transition-colors"
-                >
-                  LINE連携を解除する
-                </button>
-              </div>
-            ) : (
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-4 text-sm text-blue-800">
-                <p className="font-medium mb-1">LINEとの連携を開始するには</p>
-                <p>LINE公式アカウントのトーク画面で「<strong>連携</strong>」と送信してください。</p>
-              </div>
-            )}
 
             <button
               onClick={handleLogout}
@@ -133,33 +102,11 @@ export default function Home() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1" />
               </svg>
             </div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-4">LINE Messaging API<br />アカウント連携デモ</h1>
+            <h1 className="text-3xl font-bold text-gray-900 mb-4">LINE クリック連携デモ</h1>
             <p className="text-gray-600">
-              LINE Messaging APIの「ユーザーアカウントの連携」機能を使って、
-              サービスアカウントとLINEアカウントを連携するデモアプリです。
+              Repro Web SDK を使った LINE 簡単ID連携のデモアプリです。<br />
+              アカウントを作成またはログインして、Repro Web SDK の動作を確認できます。
             </p>
-          </div>
-
-          <div className="bg-blue-50 border border-blue-200 rounded-lg p-6 mb-8">
-            <h2 className="text-base font-semibold text-gray-900 mb-3">連携の流れ</h2>
-            <ol className="space-y-3 text-sm text-gray-700">
-              <li className="flex items-start gap-3">
-                <span className="inline-flex w-6 h-6 bg-green-600 text-white rounded-full items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">1</span>
-                <span>サービスアカウントを作成してください</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="inline-flex w-6 h-6 bg-green-600 text-white rounded-full items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">2</span>
-                <span>LINE公式アカウントのトーク画面で「<strong>連携</strong>」と送信</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="inline-flex w-6 h-6 bg-green-600 text-white rounded-full items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">3</span>
-                <span>ボットから届く連携URLをタップしてログイン</span>
-              </li>
-              <li className="flex items-start gap-3">
-                <span className="inline-flex w-6 h-6 bg-green-600 text-white rounded-full items-center justify-center text-xs font-bold flex-shrink-0 mt-0.5">4</span>
-                <span>連携完了！LINEにお知らせが届きます</span>
-              </li>
-            </ol>
           </div>
 
           <div className="flex flex-col sm:flex-row gap-4">

@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { getIronSession } from 'iron-session';
-import { userDb, lineLinkDb } from '@/lib/kv';
+import { userDb } from '@/lib/kv';
 import { sessionOptions } from '@/lib/session';
 import { SessionData } from '@/lib/types';
 import { cookies } from 'next/headers';
@@ -19,9 +19,6 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ authenticated: false });
     }
 
-    // LINE連携情報も取得
-    const lineLink = await lineLinkDb.findByUserId(user.userId);
-
     return NextResponse.json({
       authenticated: true,
       user: {
@@ -29,12 +26,6 @@ export async function GET(request: NextRequest) {
         email: user.email,
         username: user.username,
       },
-      lineLink: lineLink
-        ? {
-            lineUserId: lineLink.lineUserId,
-            linkedAt: lineLink.linkedAt,
-          }
-        : null,
     });
   } catch (error) {
     console.error('Session check error:', error);

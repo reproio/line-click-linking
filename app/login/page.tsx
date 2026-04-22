@@ -1,19 +1,22 @@
 'use client';
 
 import { useState, Suspense } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    reproio?: (...args: any[]) => void;
+  }
+}
 
 function LoginForm() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const fromLink = searchParams.get('from') === 'link';
-  const linkToken = searchParams.get('linkToken') ?? '';
-  const errorParam = searchParams.get('error');
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const [error, setError] = useState(errorParam || '');
+  const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
 
   const handleSubmit = async (e: React.FormEvent) => {
@@ -36,12 +39,12 @@ function LoginForm() {
         return;
       }
 
-      // LINE連携フローから来た場合は連携ページへ戻る
-      if (fromLink && linkToken) {
-        router.push(`/link?linkToken=${encodeURIComponent(linkToken)}`);
-      } else {
-        router.push('/');
+      // Repro Web SDK にユーザーIDを設定
+      if (typeof window.reproio === 'function') {
+        window.reproio('setUserID', data.user.userId);
       }
+
+      router.push('/');
     } catch {
       setError('ログインに失敗しました');
       setLoading(false);
@@ -54,13 +57,6 @@ function LoginForm() {
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <div className="mb-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-2">ログイン</h1>
-            {fromLink && (
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
-                <p className="text-sm text-green-800">
-                  アカウント連携を完了するには、サービスにログインしてください
-                </p>
-              </div>
-            )}
             <p className="text-gray-600">メールアドレスとパスワードを入力してください</p>
           </div>
 
@@ -115,10 +111,7 @@ function LoginForm() {
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
               アカウントをお持ちでない方は
-              <Link
-                href={fromLink && linkToken ? `/register?from=link&linkToken=${encodeURIComponent(linkToken)}` : '/register'}
-                className="text-green-600 hover:underline font-medium ml-1"
-              >
+              <Link href="/register" className="text-green-600 hover:underline font-medium ml-1">
                 新規登録
               </Link>
             </p>

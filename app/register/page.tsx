@@ -1,14 +1,18 @@
 'use client';
 
 import { useState, Suspense } from 'react';
-import { useRouter, useSearchParams } from 'next/navigation';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+
+declare global {
+  interface Window {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    reproio?: (...args: any[]) => void;
+  }
+}
 
 function RegisterForm() {
   const router = useRouter();
-  const searchParams = useSearchParams();
-  const fromLink = searchParams.get('from') === 'link';
-  const linkToken = searchParams.get('linkToken') ?? '';
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
@@ -47,12 +51,12 @@ function RegisterForm() {
         return;
       }
 
-      // LINE連携フローから来た場合は連携ページへ戻る
-      if (fromLink && linkToken) {
-        router.push(`/link?linkToken=${encodeURIComponent(linkToken)}`);
-      } else {
-        router.push('/');
+      // Repro Web SDK にユーザーIDを設定
+      if (typeof window.reproio === 'function') {
+        window.reproio('setUserID', data.user.userId);
       }
+
+      router.push('/');
     } catch {
       setError('アカウント作成に失敗しました');
       setLoading(false);
@@ -65,13 +69,6 @@ function RegisterForm() {
         <div className="bg-white rounded-2xl shadow-xl p-8">
           <div className="mb-8">
             <h1 className="text-2xl font-bold text-gray-900 mb-2">アカウント作成</h1>
-            {fromLink && (
-              <div className="bg-green-50 border border-green-200 rounded-lg p-4 mb-4">
-                <p className="text-sm text-green-800">
-                  アカウント連携のため新規登録します
-                </p>
-              </div>
-            )}
             <p className="text-gray-600">新しいアカウントを作成してください</p>
           </div>
 
@@ -158,10 +155,7 @@ function RegisterForm() {
           <div className="mt-6 text-center">
             <p className="text-sm text-gray-600">
               既にアカウントをお持ちの方は
-              <Link
-                href={fromLink && linkToken ? `/login?from=link&linkToken=${encodeURIComponent(linkToken)}` : '/login'}
-                className="text-green-600 hover:underline font-medium ml-1"
-              >
+              <Link href="/login" className="text-green-600 hover:underline font-medium ml-1">
                 ログイン
               </Link>
             </p>
