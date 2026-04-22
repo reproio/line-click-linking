@@ -1,0 +1,1943 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Repro - Mobile Analytics for growth" [ref=e4] [cursor=pointer]:
+        - /url: ../../../../ja/
+        - img "Repro - Mobile Analytics for growth" [ref=e5]
+      - navigation [ref=e6]:
+        - link "English" [ref=e8] [cursor=pointer]:
+          - /url: ../../../../en/dashboard/campaign/web-message.html
+        - link "アカウント登録" [ref=e9] [cursor=pointer]:
+          - /url: https://app.repro.io/suppliers/sign_up
+          - generic [ref=e10]: アカウント登録
+        - link "管理画面に戻る" [ref=e11] [cursor=pointer]:
+          - /url: https://app.repro.io/
+          - generic [ref=e12]: 管理画面に戻る
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - complementary [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19]:
+            - searchbox "Search" [ref=e21]
+            - text: 
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "動作環境" [ref=e24] [cursor=pointer]:
+                - /url: ../../requirements.html
+            - listitem [ref=e25]:
+              - link "管理画面ガイド" [ref=e26] [cursor=pointer]:
+                - /url: ../index.html
+              - list [ref=e27]:
+                - listitem [ref=e28]:
+                  - link "アナリティクス" [ref=e29] [cursor=pointer]:
+                    - /url: ../analytics/index.html
+                - listitem [ref=e30]:
+                  - link "マーケティング" [ref=e31] [cursor=pointer]:
+                    - /url: index.html
+                  - list [ref=e32]:
+                    - listitem [ref=e33]:
+                      - link "プッシュ通知" [ref=e34] [cursor=pointer]:
+                        - /url: push-notification.html
+                    - listitem [ref=e35]:
+                      - link "イベント起点プッシュ通知" [ref=e36] [cursor=pointer]:
+                        - /url: event-based-push-notification.html
+                    - listitem [ref=e37]:
+                      - link "アプリ内メッセージ" [ref=e38] [cursor=pointer]:
+                        - /url: in-app-message.html
+                    - listitem [ref=e39]:
+                      - link "HTMLアプリ内メッセージ" [ref=e40] [cursor=pointer]:
+                        - /url: html-in-app-message.html
+                    - listitem [ref=e41]:
+                      - link "Webメッセージ" [ref=e42] [cursor=pointer]:
+                        - /url: "#"
+                      - list [ref=e43]:
+                        - listitem [ref=e44]:
+                          - link "Webメッセージを作成する" [ref=e45] [cursor=pointer]:
+                            - /url: "#id1"
+                          - list [ref=e46]:
+                            - listitem [ref=e47]:
+                              - link "メッセージテンプレートの選択" [ref=e48] [cursor=pointer]:
+                                - /url: "#id2"
+                            - listitem [ref=e49]:
+                              - link "キャンペーン設定" [ref=e50] [cursor=pointer]:
+                                - /url: "#web-message-campaign-settings"
+                        - listitem [ref=e51]:
+                          - link "メッセージの表示タイミングを選択" [ref=e52] [cursor=pointer]:
+                            - /url: "#web-message-timming"
+                          - list [ref=e53]:
+                            - listitem [ref=e54]:
+                              - link "配信トリガーの発生後、すぐに表示" [ref=e55] [cursor=pointer]:
+                                - /url: "#id8"
+                            - listitem [ref=e56]:
+                              - link "配信トリガーの発生後、以下のいずれかの条件を満たした時表示" [ref=e57] [cursor=pointer]:
+                                - /url: "#id9"
+                            - listitem [ref=e58]:
+                              - link "コントロールグループへのパターン設定の反映に関して" [ref=e59] [cursor=pointer]:
+                                - /url: "#id10"
+                        - listitem [ref=e60]:
+                          - link "表示位置" [ref=e61] [cursor=pointer]:
+                            - /url: "#web-message-position"
+                          - list [ref=e62]:
+                            - listitem [ref=e63]:
+                              - link "ウィンドウまたはページ上に固定" [ref=e64] [cursor=pointer]:
+                                - /url: "#web-message-position-fixed"
+                            - listitem [ref=e65]:
+                              - link "要素を指定して固定" [ref=e66] [cursor=pointer]:
+                                - /url: "#web-message-position-relative"
+                            - listitem [ref=e67]:
+                              - link "埋め込み" [ref=e68] [cursor=pointer]:
+                                - /url: "#web-message-position-embedded"
+                        - listitem [ref=e69]:
+                          - link "コンテンツを作成する" [ref=e70] [cursor=pointer]:
+                            - /url: "#web-message-versions"
+                          - list [ref=e71]:
+                            - listitem [ref=e72]:
+                              - link "ダイアログ" [ref=e73] [cursor=pointer]:
+                                - /url: "#web-message-version-dialog"
+                            - listitem [ref=e74]:
+                              - link "画像のカスタマイズ項目" [ref=e75] [cursor=pointer]:
+                                - /url: "#id25"
+                            - listitem [ref=e76]:
+                              - link "吹き出し" [ref=e77] [cursor=pointer]:
+                                - /url: "#web-message-version-balloon"
+                            - listitem [ref=e78]:
+                              - link "埋め込み" [ref=e79] [cursor=pointer]:
+                                - /url: "#web-message-version-embedded"
+                            - listitem [ref=e80]:
+                              - link "カウントダウン" [ref=e81] [cursor=pointer]:
+                                - /url: "#web-message-version-countdown"
+                            - listitem [ref=e82]:
+                              - link "固定バー" [ref=e83] [cursor=pointer]:
+                                - /url: "#web-message-version-sticky-bar"
+                            - listitem [ref=e84]:
+                              - link "アイコン" [ref=e85] [cursor=pointer]:
+                                - /url: "#web-message-version-icon"
+                        - listitem [ref=e86]:
+                          - link "キャンペーンをニュースフィードとして利用する" [ref=e87] [cursor=pointer]:
+                            - /url: "#id53"
+                          - list [ref=e88]:
+                            - listitem [ref=e89]:
+                              - link "プレビュー機能を使った確認方法" [ref=e90] [cursor=pointer]:
+                                - /url: "#web-message-preview"
+                        - listitem [ref=e91]:
+                          - link "カスタムメッセージ" [ref=e92] [cursor=pointer]:
+                            - /url: "#web-message-variant-distribution"
+                        - listitem [ref=e93]:
+                          - link "配信対象者を各パターンに振り分ける" [ref=e94] [cursor=pointer]:
+                            - /url: "#id56"
+                          - list [ref=e95]:
+                            - listitem [ref=e96]:
+                              - link "割合を設定する" [ref=e97] [cursor=pointer]:
+                                - /url: "#id57"
+                        - listitem [ref=e98]:
+                          - link "配信設定" [ref=e99] [cursor=pointer]:
+                            - /url: "#web-message-delivery"
+                        - listitem [ref=e100]:
+                          - link "メッセージ表示トリガー" [ref=e101] [cursor=pointer]:
+                            - /url: "#web-message-display-trigger"
+                          - list [ref=e102]:
+                            - listitem [ref=e103]:
+                              - link "イベント実行時にトリガーを実行する" [ref=e104] [cursor=pointer]:
+                                - /url: "#id60"
+                            - listitem [ref=e105]:
+                              - link "イベントの合計実行回数によってトリガーを実行する" [ref=e106] [cursor=pointer]:
+                                - /url: "#id61"
+                            - listitem [ref=e107]:
+                              - link "イベント実行時のイベントプロパティの値によってトリガーを実行する" [ref=e108] [cursor=pointer]:
+                                - /url: "#id62"
+                            - listitem [ref=e109]:
+                              - link "ユーザープロフィールのセットによってトリガーを実行する" [ref=e110] [cursor=pointer]:
+                                - /url: "#web-message-triggered-by-set-userprofile"
+                        - listitem [ref=e111]:
+                          - link "配信対象設定" [ref=e112] [cursor=pointer]:
+                            - /url: "#web-message-select-target"
+                          - list [ref=e113]:
+                            - listitem [ref=e114]:
+                              - link "対象デバイス" [ref=e115] [cursor=pointer]:
+                                - /url: "#id65"
+                            - listitem [ref=e116]:
+                              - link "オーディエンスでフィルタリング" [ref=e117] [cursor=pointer]:
+                                - /url: "#id66"
+                            - listitem [ref=e118]:
+                              - link "イベントでフィルタリング" [ref=e119] [cursor=pointer]:
+                                - /url: "#id67"
+                            - listitem [ref=e120]:
+                              - link "イベントプロパティでフィルタリング" [ref=e121] [cursor=pointer]:
+                                - /url: "#id68"
+                            - listitem [ref=e122]:
+                              - link "ユーザープロフィールでフィルタリング" [ref=e123] [cursor=pointer]:
+                                - /url: "#id69"
+                            - listitem [ref=e124]:
+                              - link "全ユーザー" [ref=e125] [cursor=pointer]:
+                                - /url: "#id70"
+                            - listitem [ref=e126]:
+                              - link "初回ユーザー" [ref=e127] [cursor=pointer]:
+                                - /url: "#web-message-first-time-users"
+                            - listitem [ref=e128]:
+                              - link "既存ユーザー" [ref=e129] [cursor=pointer]:
+                                - /url: "#id72"
+                        - listitem [ref=e130]:
+                          - link "下書きとして保存" [ref=e131] [cursor=pointer]:
+                            - /url: "#web-message-save-as-draft"
+                        - listitem [ref=e132]:
+                          - link "公開、もしくは、非公開にする" [ref=e133] [cursor=pointer]:
+                            - /url: "#web-message-launch-as-public"
+                        - listitem [ref=e134]:
+                          - link "効果測定" [ref=e135] [cursor=pointer]:
+                            - /url: "#web-message-measurement"
+                          - list [ref=e136]:
+                            - listitem [ref=e137]:
+                              - link "配信結果" [ref=e138] [cursor=pointer]:
+                                - /url: "#web-measurement-result"
+                        - listitem [ref=e139]:
+                          - link "A/Bテスト" [ref=e140] [cursor=pointer]:
+                            - /url: "#a-b"
+                          - list [ref=e141]:
+                            - listitem [ref=e142]:
+                              - link "メッセージ作成" [ref=e143] [cursor=pointer]:
+                                - /url: "#id77"
+                            - listitem [ref=e144]:
+                              - link "配信対象者を各パターンに振り分ける" [ref=e145] [cursor=pointer]:
+                                - /url: "#id78"
+                            - listitem [ref=e146]:
+                              - link "効果測定（A/Bテスト）" [ref=e147] [cursor=pointer]:
+                                - /url: "#web-message-abtest-measurement"
+                            - listitem [ref=e148]:
+                              - link "勝ちパターンを選ぶ" [ref=e149] [cursor=pointer]:
+                                - /url: "#id80"
+                    - listitem [ref=e150]:
+                      - link "カスタムメッセージ" [ref=e151] [cursor=pointer]:
+                        - /url: custom-message.html
+                    - listitem [ref=e152]:
+                      - link "カスタムJavaScript" [ref=e153] [cursor=pointer]:
+                        - /url: custom-js.html
+                    - listitem [ref=e154]:
+                      - link "カスタムメッセージで利用可能なHTMLタグ・属性" [ref=e155] [cursor=pointer]:
+                        - /url: available-tags.html
+                    - listitem [ref=e156]:
+                      - link "シルバーエッグレコメンドメッセージ" [ref=e157] [cursor=pointer]:
+                        - /url: silver-egg-recommend-message.html
+                    - listitem [ref=e158]:
+                      - link "閲覧人数表示" [ref=e159] [cursor=pointer]:
+                        - /url: social-proof.html
+                    - listitem [ref=e160]:
+                      - link "Webプッシュ通知" [ref=e161] [cursor=pointer]:
+                        - /url: web-push-notification.html
+                    - listitem [ref=e162]:
+                      - link "アプリ内パラメーター" [ref=e163] [cursor=pointer]:
+                        - /url: remote-config.html
+                    - listitem [ref=e164]:
+                      - link "オーディエンス" [ref=e165] [cursor=pointer]:
+                        - /url: audience.html
+                    - listitem [ref=e166]:
+                      - link "シナリオ" [ref=e167] [cursor=pointer]:
+                        - /url: scenario.html
+                    - listitem [ref=e168]:
+                      - link "変数の挿入" [ref=e169] [cursor=pointer]:
+                        - /url: insert-variable.html
+                    - listitem [ref=e170]:
+                      - link "Liquidによるパーソナライズ" [ref=e171] [cursor=pointer]:
+                        - /url: liquid-personalization.html
+                    - listitem [ref=e172]:
+                      - link "インセンティブコード管理機能" [ref=e173] [cursor=pointer]:
+                        - /url: incentive-code-management.html
+                    - listitem [ref=e174]:
+                      - link "メール" [ref=e175] [cursor=pointer]:
+                        - /url: mail/index.html
+                    - listitem [ref=e176]:
+                      - link "LINEメッセージ(β)" [ref=e177] [cursor=pointer]:
+                        - /url: line-message.html
+                    - listitem [ref=e178]:
+                      - link "ニュースフィード" [ref=e179] [cursor=pointer]:
+                        - /url: newsfeed.html
+                - listitem [ref=e180]:
+                  - link "データエクスポート" [ref=e181] [cursor=pointer]:
+                    - /url: ../export/index.html
+                - listitem [ref=e182]:
+                  - link "イベント" [ref=e183] [cursor=pointer]:
+                    - /url: ../event/index.html
+                - listitem [ref=e184]:
+                  - link "ユーザープロフィール" [ref=e185] [cursor=pointer]:
+                    - /url: ../user-profile/index.html
+                - listitem [ref=e186]:
+                  - link "設定" [ref=e187] [cursor=pointer]:
+                    - /url: ../setting/index.html
+                - listitem [ref=e188]:
+                  - link "アカウント" [ref=e189] [cursor=pointer]:
+                    - /url: ../account/index.html
+                - listitem [ref=e190]:
+                  - link "その他" [ref=e191] [cursor=pointer]:
+                    - /url: ../misc/index.html
+            - listitem [ref=e192]:
+              - link "開発ガイド" [ref=e193] [cursor=pointer]:
+                - /url: ../../dev/index.html
+            - listitem [ref=e194]:
+              - link "リリースノート" [ref=e195] [cursor=pointer]:
+                - /url: ../../releases/index.html
+            - listitem [ref=e196]:
+              - link "FAQ" [ref=e197] [cursor=pointer]:
+                - /url: ../../faq/index.html
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - heading "Webメッセージ" [level=1] [ref=e203]
+          - paragraph [ref=e204]: WebメッセージはWebサイトを閲覧中の特定のユーザーに対し、適切なタイミングで画像やボタンのついたカスタマイズ可能なメッセージをポップアップで表示できる機能です。管理画面でメッセージを登録するだけで、既にリリースされたWebサイトにメッセージを配信することができます。そのため、マーケターだけでコンバージョンを上げるためのキャンペーンを配信することができます。
+          - paragraph [ref=e205]:
+            - link "web banner sample" [ref=e206] [cursor=pointer]:
+              - /url: ../../_images/web-message-sample1.jpg
+              - img "web banner sample" [ref=e207]
+            - link "web dialog1 sample" [ref=e208] [cursor=pointer]:
+              - /url: ../../_images/web-message-sample2.jpg
+              - img "web dialog1 sample" [ref=e209]
+            - link "web dialog2 sample" [ref=e210] [cursor=pointer]:
+              - /url: ../../_images/web-message-sample3.jpg
+              - img "web dialog2 sample" [ref=e211]
+          - paragraph [ref=e212]: 以下の設定をカスタマイズすることで、エンドユーザーの行動に即した効果的なマーケティング施策を実行することができます。
+          - list [ref=e213]:
+            - listitem [ref=e214]:
+              - paragraph [ref=e215]: 画像
+            - listitem [ref=e216]:
+              - paragraph [ref=e217]: Webサイト上のLPを開くためのURLや、Webメッセージからアプリを起動し、アプリ内の任意の画面に遷移するためのディープリンクを埋め込めるボタン（1-4個設定可能）
+            - listitem [ref=e218]:
+              - paragraph [ref=e219]: スケジュール
+            - listitem [ref=e220]:
+              - paragraph [ref=e221]: 配信対象となるユーザー
+            - listitem [ref=e222]:
+              - paragraph [ref=e223]: メッセージ表示タイミング
+          - paragraph [ref=e224]: "例えば:"
+          - list [ref=e225]:
+            - listitem [ref=e226]:
+              - paragraph [ref=e227]: カートに商品を入れたあと購入に至らなかったユーザーに対しクーポンを配信する
+            - listitem [ref=e228]:
+              - paragraph [ref=e229]: コンバージョンをあげるために、数日前に登録したユーザーに適切なナビゲーションを表示する
+          - paragraph [ref=e230]: また、作成されたWebメッセージはキャンペーン毎に1ユーザーに対して1回、もしくは複数回メッセージを表示することができます。表示回数については、配信設定で設定できます。なお、Webメッセージは画面上に表示されたタイミングで既読したとみなし、各種計測結果に反映されます。
+          - generic [ref=e231]:
+            - heading "Webメッセージを作成する" [level=2] [ref=e232]
+            - paragraph [ref=e233]: 管理画面を開いて以下を実行してください。
+            - paragraph [ref=e234]:
+              - strong [ref=e235]: マーケティング > メッセージ
+              - text: に行き、 新規作成ボタンから
+              - strong [ref=e236]: Webメッセージ
+              - text: をクリックしてください。
+            - img "Create web message" [ref=e237]
+            - generic [ref=e238]:
+              - paragraph [ref=e239]: "警告:"
+              - generic [ref=e240]:
+                - generic [ref=e241]:
+                  - text: サイトのソースコード上でmeta要素 での
+                  - code [ref=e242]: viewport
+                  - text: の 設定次第で、いずれのメッセージテンプレートにおいても意図通りに表示されない可能性があります。
+                - generic [ref=e243]:
+                  - text: 意図通りに表示されない場合は、
+                  - code [ref=e244]: viewport
+                  - text: の設定もの変更もしくは、カスタムメッセージをご利用いただきWeb メッセージの設定を変更していただく必要があります。
+                - generic [ref=e245]: ご不明点がございましたら、チャットサポートまでご連絡ください。
+            - generic [ref=e246]:
+              - heading "メッセージテンプレートの選択" [level=3] [ref=e247]
+              - paragraph [ref=e248]:
+                - text: テンプレート選択画面からどのタイプのメッセージを作るかを決めます。メッセージのタイプは
+                - strong [ref=e249]: ダイアログ
+                - text: 、
+                - strong [ref=e250]: 固定バー
+                - text: 、
+                - strong [ref=e251]: 吹き出し
+                - text: 、
+                - strong [ref=e252]: 埋め込み
+                - text: 、
+                - strong [ref=e253]: その他
+                - text: の5タイプがあり、ボタンやテキスト、画像の有無別にテンプレートが用意されています。使用するテンプレートの画像をクリックすると、メッセージの編集画面へと遷移します。
+              - list [ref=e254]:
+                - listitem [ref=e255]:
+                  - paragraph [ref=e256]: "テキスト : メッセージに見出しと本文が含まれます"
+                - listitem [ref=e257]:
+                  - paragraph [ref=e258]: "画像 : メッセージに画像を添付できます"
+                - listitem [ref=e259]:
+                  - paragraph [ref=e260]: "ボタン : 任意のテキストのボタンを設置できます。ボタンのクリックイベントはその他のイベント同様、トラックすることができます。"
+              - img "select web message template" [ref=e261]
+            - generic [ref=e262]:
+              - heading "キャンペーン設定" [level=3] [ref=e263]
+              - paragraph [ref=e264]: メッセージの効果を測るため、キャンペーン名とコンバージョンゴールを設定します。
+              - img "web message Campaign" [ref=e265]
+              - generic [ref=e266]:
+                - heading "キャンペーン名" [level=4] [ref=e267]
+                - paragraph [ref=e268]: キャンペーン名を設定します。メッセージの一覧に表示されます。
+              - generic [ref=e269]:
+                - heading "コンバージョンイベントを指定" [level=4] [ref=e270]
+                - paragraph [ref=e271]:
+                  - text: キャンペーンのゴールとなるイベントを最大2つまで指定できます。Webメッセージが表示されてから24時間以内にこれらのイベントを実施したユーザーの数が集計されます。詳細は
+                  - link "こちら" [ref=e272] [cursor=pointer]:
+                    - /url: "#web-message-measurement"
+                  - text: をご覧ください。詳細は
+                  - link "ニュースフィード" [ref=e273] [cursor=pointer]:
+                    - /url: newsfeed.html
+                  - text: をご覧ください。
+                - generic [ref=e274]:
+                  - heading "キャンペーンをニュースフィードとして利用するかを指定" [level=5] [ref=e275]
+                  - paragraph [ref=e276]: 上記の画像にある「通知をニュースフィードとして使う」のチェックボックスを使い、キャンペーンをニュースフィードとして利用するかを指定します。
+                  - paragraph [ref=e277]:
+                    - text: ニュースフィードとは、
+                    - strong [ref=e278]: ユーザーごとのキャンペーンの配信履歴
+                    - text: のことです。この履歴を利用することで、今までに送ったキャンペーンの履歴をアプリ内のお知らせ欄で表示するといったことが可能です。
+                  - paragraph [ref=e279]:
+                    - text: ご利用に際しては、ニュースフィードAPIを使用して取得可能です。詳細は
+                    - link "開発ガイド" [ref=e280] [cursor=pointer]:
+                      - /url: ../../dev/newsfeed-api/index.html
+                    - text: をご覧ください。
+                  - paragraph [ref=e281]:
+                    - text: またWeb SDKに加えて、Native SDKもご利用されている場合は、SDKを使用しても取得が可能です。この場合、アプリ側で実装が必要になります。詳細は
+                    - link "開発ガイド" [ref=e282] [cursor=pointer]:
+                      - /url: ../../dev/sdk/newsfeed.html
+                    - text: をご覧ください。
+                  - generic [ref=e283]:
+                    - paragraph [ref=e284]: "警告:"
+                    - paragraph [ref=e285]: アプリ内メッセージおよびWebメッセージをニュースフィードとして利用する際には、仕様上下記のようなユースケースでは意図した挙動とならないことがございますのでご注意ください。
+                    - paragraph [ref=e286]: 例) 購入イベントをトリガーにして、作成されたキャンペーンをニュースフィードとして利用する場合
+                    - list [ref=e287]:
+                      - listitem [ref=e288]:
+                        - paragraph [ref=e289]: ニュースフィードはキャンペーンとは別に独立して作成されるため、キャンペーンが表示されていなくてもニュースフィードとしては取得が可能になります。
+          - generic [ref=e290]:
+            - heading "メッセージの表示タイミングを選択" [level=2] [ref=e291]
+            - paragraph [ref=e292]: メッセージの表示タイミングを制御することができます。 ユースケースによって以下の設定を行います。
+            - img "Web Message Display Timing" [ref=e293]
+            - generic [ref=e294]:
+              - heading "配信トリガーの発生後、すぐに表示" [level=3] [ref=e295]
+              - paragraph [ref=e296]: デフォルト設定項目として本項目が選択されます。 配信トリガーで設定したトリガー条件を満たした時点でメッセージを表示します。
+              - generic [ref=e297]:
+                - paragraph [ref=e298]: "注釈:"
+                - list [ref=e299]:
+                  - listitem [ref=e300]:
+                    - paragraph [ref=e301]:
+                      - text: 配信トリガーの設定については
+                      - link "こちら" [ref=e302] [cursor=pointer]:
+                        - /url: "#web-message-display-trigger"
+                      - text: をご参照ください。
+            - generic [ref=e303]:
+              - heading "配信トリガーの発生後、以下のいずれかの条件を満たした時表示" [level=3] [ref=e304]
+              - generic [ref=e305]:
+                - paragraph [ref=e306]: "警告:"
+                - list [ref=e307]:
+                  - listitem [ref=e308]:
+                    - paragraph [ref=e309]:
+                      - code [ref=e310]: 配信トリガーの発生後、以下のいずれかの条件を満たした時表示
+                      - text: 機能を利用するには事前にカスタムJavaScriptを有効にしておく必要があります。カスタムJavaScriptの有効化に関しては
+                      - link "カスタムJavaScript" [ref=e311] [cursor=pointer]:
+                        - /url: custom-js.html
+                      - text: をご参考ください。
+              - paragraph [ref=e312]:
+                - strong [ref=e313]: ページの %までスクロールした時
+              - paragraph [ref=e314]: 配信トリガーで設定した配信トリガーの発生後、さらに指定した割合までページスクロールを行った時点でメッセージを表示します。
+              - paragraph [ref=e315]:
+                - strong [ref=e316]: 秒後
+              - paragraph [ref=e317]: 配信トリガーで設定した配信トリガーの発生後、さらに指定した秒数が経過した後にメッセージを表示します。
+              - generic [ref=e318]:
+                - paragraph [ref=e319]: "注釈:"
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - paragraph [ref=e322]: スクロール率は1%から100%まで指定できます。
+                  - listitem [ref=e323]:
+                    - paragraph [ref=e324]: 秒数は1秒から18000秒（3時間）まで指定できます。
+                  - listitem [ref=e325]:
+                    - paragraph [ref=e326]:
+                      - strong [ref=e327]: ページの %までスクロールした時
+                      - text: と
+                      - strong [ref=e328]: 秒後
+                      - text: が同時に設定された場合は、一番最初に条件を満たしたものでメッセージが表示されます。
+            - generic [ref=e329]:
+              - heading "コントロールグループへのパターン設定の反映に関して" [level=3] [ref=e330]
+              - paragraph [ref=e331]:
+                - strong [ref=e332]: 配信トリガーの発生後、以下のいずれかの条件を満たした時表示
+                - text: を利用する場合、効果測定をより正確に行うために下記の注意事項をご確認の上ご利用ください。
+              - generic [ref=e333]:
+                - paragraph [ref=e334]: "警告:"
+                - list [ref=e335]:
+                  - listitem [ref=e336]:
+                    - paragraph [ref=e337]:
+                      - text: コントロールグループの振り分けが1%以上でパターン1のメッセージタイプが
+                      - strong [ref=e338]: スタンダード
+                      - text: の場合、パターン１で設定したスクロール率と経過時間がコントロールグループに自動反映されます
+                  - listitem [ref=e339]:
+                    - paragraph [ref=e340]:
+                      - text: コントロールグループの振り分けが1%以上でパターン1のメッセージタイプが
+                      - strong [ref=e341]: カスタム
+                      - text: の場合、
+                      - strong [ref=e342]: スタンダード
+                      - text: から
+                      - strong [ref=e343]: カスタム
+                      - text: に変更した時点のスクロール率と経過時間を含むJavaScriptコードがコントロールグループに自動反映されます。ただし、それ以降に
+                      - strong [ref=e344]: カスタム
+                      - text: で行われた変更内容は自動的に反映されませんので、必要に応じてコントロールグループ内のJavaScriptを個別で編集してください
+                  - listitem [ref=e345]:
+                    - paragraph [ref=e346]:
+                      - text: コントロールグループの振り分けが1%以上でパターン1のメッセージタイプが
+                      - strong [ref=e347]: カスタム
+                      - text: の場合、
+                      - code [ref=e348]: コントロールグループと比較をする際の条件や基準
+                      - text: を揃えるために、コントロールグループにもパターン1と同様なJavaScriptを設定頂くことを推奨しております
+          - generic [ref=e349]:
+            - heading "表示位置" [level=2] [ref=e350]
+            - paragraph [ref=e351]:
+              - text: Webメッセージの表示位置を設定します。表示タイプは
+              - strong [ref=e352]: ウィンドウまたはページ上に固定
+              - text: 、
+              - strong [ref=e353]: 要素を指定して固定
+              - text: 、
+              - strong [ref=e354]: 埋め込み
+              - text: の3種類があり、選択したテンプレートによって利用できる種類が異なります。
+            - generic [ref=e355]:
+              - heading "ウィンドウまたはページ上に固定" [level=3] [ref=e356]
+              - paragraph [ref=e357]: ウィンドウやページに対してコンテンツをポップアップ表示できます。
+              - img "web message position fixed" [ref=e358]
+              - paragraph [ref=e359]: 下記のフォームを入力します。
+              - img "web message position fixed form" [ref=e360]
+              - generic [ref=e361]:
+                - term [ref=e362]:
+                  - strong [ref=e363]: 位置
+                - definition [ref=e364]:
+                  - paragraph [ref=e365]: ページ全体に対して配置する位置を以下から指定します。
+                  - list [ref=e366]:
+                    - listitem [ref=e367]:
+                      - paragraph [ref=e368]: 左上
+                    - listitem [ref=e369]:
+                      - paragraph [ref=e370]: 上
+                    - listitem [ref=e371]:
+                      - paragraph [ref=e372]: 右上
+                    - listitem [ref=e373]:
+                      - paragraph [ref=e374]: 左
+                    - listitem [ref=e375]:
+                      - paragraph [ref=e376]: 中央
+                    - listitem [ref=e377]:
+                      - paragraph [ref=e378]: 右
+                    - listitem [ref=e379]:
+                      - paragraph [ref=e380]: 左下
+                    - listitem [ref=e381]:
+                      - paragraph [ref=e382]: 下
+                    - listitem [ref=e383]:
+                      - paragraph [ref=e384]: 右下
+            - generic [ref=e385]:
+              - heading "要素を指定して固定" [level=3] [ref=e386]
+              - paragraph [ref=e387]: ページ内の特定の要素に対してコンテンツをポップアップ表示（浮かべて表示）します。
+              - link "web message position relative" [ref=e388] [cursor=pointer]:
+                - /url: ../../_images/position-relative.ja.png
+                - img "web message position relative" [ref=e389]
+              - paragraph [ref=e390]: 下記のフォームを入力します。
+              - img "web message position relative form" [ref=e391]
+              - generic [ref=e392]:
+                - term [ref=e393]:
+                  - strong [ref=e394]: 基準の要素
+                - definition [ref=e395]:
+                  - paragraph [ref=e396]: 表示位置の基準となる要素をCSSセレクターで指定します。表示トリガー実行時に指定した基準の要素が存在しない場合はメッセージが表示されません。
+                - term [ref=e397]:
+                  - strong [ref=e398]: 位置
+                - definition [ref=e399]:
+                  - paragraph [ref=e400]: 基準の要素に対して、配置する方向を以下から指定します。
+                  - list [ref=e401]:
+                    - listitem [ref=e402]:
+                      - paragraph [ref=e403]: 左上
+                    - listitem [ref=e404]:
+                      - paragraph [ref=e405]: 上
+                    - listitem [ref=e406]:
+                      - paragraph [ref=e407]: 右上
+                    - listitem [ref=e408]:
+                      - paragraph [ref=e409]: 左
+                    - listitem [ref=e410]:
+                      - paragraph [ref=e411]: 右
+                    - listitem [ref=e412]:
+                      - paragraph [ref=e413]: 左下
+                    - listitem [ref=e414]:
+                      - paragraph [ref=e415]: 下
+                    - listitem [ref=e416]:
+                      - paragraph [ref=e417]: 右下
+                  - paragraph [ref=e418]: 表示位置の基準は次の図のようになります。
+                  - list [ref=e419]:
+                    - listitem [ref=e420]:
+                      - paragraph [ref=e421]: 灰色の四角： 基準の要素
+                    - listitem [ref=e422]:
+                      - paragraph [ref=e423]: 赤色の四角： メッセージ
+                  - img "web message position relative calculation" [ref=e424]
+                  - paragraph [ref=e425]:
+                    - text: 例：
+                    - strong [ref=e426]: 位置
+                    - text: を「右上」に設定した場合
+                  - list [ref=e427]:
+                    - listitem [ref=e428]:
+                      - paragraph [ref=e429]: 横軸： 基準の要素の横幅の中心がメッセージの左端に来るよう配置する
+                    - listitem [ref=e430]:
+                      - paragraph [ref=e431]: 縦軸： 基準の要素の上端がメッセージの下端に来るよう配置する
+                - term [ref=e432]:
+                  - strong [ref=e433]: オフセット
+                - definition [ref=e434]:
+                  - paragraph [ref=e435]: 指定された要素からの上下左右の距離をピクセル単位で調整することができます。数値はマイナスや小数でも指定可能です。
+              - generic [ref=e436]:
+                - paragraph [ref=e437]: "警告:"
+                - list [ref=e438]:
+                  - listitem [ref=e439]:
+                    - paragraph [ref=e440]:
+                      - strong [ref=e441]: 基準の要素
+                      - text: や
+                      - strong [ref=e442]: 位置
+                      - text: 、
+                      - strong [ref=e443]: オフセット
+                      - text: を元に配置された表示位置がページの幅や高さから溢れる場合は、メッセージが途切れて全体が表示できなくなりますのでご注意ください。
+                  - listitem [ref=e444]:
+                    - paragraph [ref=e445]:
+                      - text: 管理画面上のプレビューには表示位置に関する設定が反映されません。実際の表示位置の確認は
+                      - link "プレビュー機能を使った確認方法" [ref=e446] [cursor=pointer]:
+                        - /url: "#web-message-preview"
+                      - text: をご活用ください。
+            - generic [ref=e447]:
+              - heading "埋め込み" [level=3] [ref=e448]
+              - paragraph [ref=e449]: 下記の画像のようにページ内の特定の要素の前後または内部にコンテンツを埋め込みます。
+              - link "web message position embedded" [ref=e450] [cursor=pointer]:
+                - /url: ../../_images/position-embedded.ja.png
+                - img "web message position embedded" [ref=e451]
+              - paragraph [ref=e452]: 下記のフォームを入力します。
+              - img "web message position embedded form" [ref=e453]
+              - generic [ref=e454]:
+                - term [ref=e455]:
+                  - strong [ref=e456]: 基準の要素
+                - definition [ref=e457]:
+                  - paragraph [ref=e458]: 表示位置の基準となる要素をCSSセレクターで指定します。表示トリガー実行時に指定した基準の要素が存在しない場合はメッセージが表示されません。
+                - term [ref=e459]:
+                  - strong [ref=e460]: 位置
+                - definition [ref=e461]:
+                  - paragraph [ref=e462]: 基準の要素に対して、配置する位置を以下から指定します。
+                  - list [ref=e463]:
+                    - listitem [ref=e464]:
+                      - paragraph [ref=e465]: 前に挿入
+                    - listitem [ref=e466]:
+                      - paragraph [ref=e467]: 子要素の先頭に挿入
+                    - listitem [ref=e468]:
+                      - paragraph [ref=e469]: 子要素の末尾に挿入
+                    - listitem [ref=e470]:
+                      - paragraph [ref=e471]: 後ろに挿入
+              - generic [ref=e472]:
+                - heading "基準となるCSSセレクターの取得方法" [level=4] [ref=e473]
+                - paragraph [ref=e474]:
+                  - text: 以下ではブラウザとして
+                  - strong [ref=e475]: Google Chrome
+                  - text: を利用する場合を想定しています。
+                - paragraph [ref=e476]:
+                  - strong [ref=e477]: 1. Chrome DevToolsを開く
+                - paragraph [ref=e478]: Ctrl+Shift+I キー（Windows）または Cmd+Opt+I キー（Mac）を埋め込みを行いたいWebページ上で押下します。すると下記のような画面が表示されます。
+                - img "../../_images/dev_tools_open.png" [ref=e479]
+                - paragraph [ref=e480]:
+                  - strong [ref=e481]: 2. 対象の要素のCSSセレクタを見つける
+                - paragraph [ref=e482]:
+                  - text: 上記の画像では右半分に表示されているElementsパネル（詳細は
+                  - link "こちら" [ref=e483] [cursor=pointer]:
+                    - /url: https://developers.google.com/web/tools/chrome-devtools/inspect-styles
+                  - text: をご参照ください）上で基準となる要素を探します。Elementsパネル上のどの要素がWebサイト上のどの要素に対応するかが分かるので、下図では赤枠に表示されているCSSセレクタ（li.toctree-l2）をキャンペーン作成画面の基準の要素の項目に入力してください。
+                - img "../../_images/dev_tools_find.png" [ref=e484]
+                - generic [ref=e485]:
+                  - paragraph [ref=e486]: "警告:"
+                  - list [ref=e487]:
+                    - listitem [ref=e488]:
+                      - paragraph [ref=e489]:
+                        - text: 管理画面上のプレビューには表示位置に関する設定が反映されません。実際の表示位置の確認は
+                        - link "プレビュー機能を使った確認方法" [ref=e490] [cursor=pointer]:
+                          - /url: "#web-message-preview"
+                        - text: をご活用ください。
+                    - listitem [ref=e491]:
+                      - paragraph [ref=e492]:
+                        - text: 公開前に必ず意図したCSSセレクターが選択されているかを
+                        - link "プレビュー機能を使った確認方法" [ref=e493] [cursor=pointer]:
+                          - /url: "#web-message-preview"
+                        - text: を用いてご確認ください。
+              - generic [ref=e494]:
+                - heading "コントロールグループへのパターンの設定の反映に関して" [level=4] [ref=e495]
+                - paragraph [ref=e496]: 表示位置の指定が「要素を指定して固定」ならびに「埋め込み」のテンプレートを選択し、かつコントロールグループを利用したキャンペーンを配信する場合、効果測定をより正確に行うために下記のようなパターンの設定の引き継ぎが行われますのでご注意ください。
+                - list [ref=e497]:
+                  - listitem [ref=e498]:
+                    - paragraph [ref=e499]:
+                      - strong [ref=e500]: パターン1
+                      - text: の内容 がコントロールグループにも反映されます。
+                - paragraph [ref=e501]: 例) パターン1に下記のような設定を行った場合、コントロールグループにも同様の設定が反映されます
+                - img "../../_images/position-and-control-group.ja.png" [ref=e502]
+          - generic [ref=e503]:
+            - heading "コンテンツを作成する" [level=2] [ref=e504]
+            - paragraph [ref=e505]: テンプレート選択画面で選んだテンプレートを編集し、コンテンツを作成します。
+            - paragraph [ref=e506]: 選択したテンプレートによって設定可能なコンテンツは異なります。以下にタイプ別の代表的なコンテンツについて説明します。
+            - generic [ref=e507]:
+              - paragraph [ref=e508]: "注釈:"
+              - paragraph [ref=e509]:
+                - text: 「変数の挿入」ボタンがある項目には、Liquid記法によってユーザープロフィールの値を挿入することができます。詳細は
+                - link "Liquidによるパーソナライズ" [ref=e510] [cursor=pointer]:
+                  - /url: liquid-personalization.html
+                - text: をご覧ください。
+            - generic [ref=e511]:
+              - heading "ダイアログ" [level=3] [ref=e512]
+              - paragraph [ref=e513]: ダイアログタイプのWebメッセージでは、表示位置やオーバーレイの有無を指定して、画像やテキスト、ボタンを組み合わせたメッセージを表示することができます。例えば、ECにおけるクーポンや全員に周知したいアンケート・お知らせなど、ユーザーに強く主張したいコンテンツを表示するのに有効です。
+              - paragraph [ref=e514]: どの要素を使えるかは選択したテンプレートによりますが、例えばボタンなら1つ ~ 4つの中で選択でき、指定のページを開くURLもしくはディープリンクを設定することもできます。
+              - paragraph [ref=e515]: 下記のフォームに入力してWebメッセージを作成します。
+              - img "web message dialog" [ref=e516]
+              - generic [ref=e517]:
+                - heading "ダイアログ" [level=4] [ref=e518]
+                - paragraph [ref=e519]:
+                  - strong [ref=e520]: 背景色
+                - paragraph [ref=e521]: ダイアログ部分の背景色の色を指定出来ます。
+                - paragraph [ref=e522]:
+                  - strong [ref=e523]: 横幅
+                - paragraph [ref=e524]: ダイアログの横幅を指定できます。pxによる絶対値もしくは%による相対値で指定が出来ます。
+                - generic [ref=e525]:
+                  - paragraph [ref=e526]: "注釈:"
+                  - list [ref=e527]:
+                    - listitem [ref=e528]:
+                      - paragraph [ref=e529]: pxを指定した場合の最大値は640px, %を指定した場合の最大値は100%です。
+                - paragraph [ref=e530]:
+                  - strong [ref=e531]: 余白
+                - paragraph [ref=e532]: コンテンツ部分と外枠との間の余白を上下左右指定出来ます。
+                - paragraph [ref=e533]:
+                  - strong [ref=e534]: 枠線
+                - paragraph [ref=e535]: 外枠の太さ及び色を指定出来ます。
+                - paragraph [ref=e536]:
+                  - strong [ref=e537]: 角丸
+                - paragraph [ref=e538]: 外枠の角にどの程度丸みをつけるかを指定出来ます。
+              - generic [ref=e539]:
+                - heading "オーバーレイ" [level=4] [ref=e540]
+                - paragraph [ref=e541]: メッセージを表示する際に、画面全体を要素（オーバーレイ）で覆うかどうかを選択出来ます。オーバーレイをつけることでユーザーの動きを止めてメッセージに注目してもらうことができます。また、オーバーレイで覆われた画面をクリックすると、メッセージとオーバーレイのどちらも非表示となります。なお、チェックを外すことでオーバーレイを無効にすることも可能です。
+                - paragraph [ref=e542]:
+                  - strong [ref=e543]: 背景色
+                - paragraph [ref=e544]: ダイアログの背景の色を指定出来ます。
+              - generic [ref=e545]:
+                - heading "閉じるボタン" [level=4] [ref=e546]
+                - paragraph [ref=e547]: メッセージを閉じるボタン（メッセージの右上に配置）の表示有無を選択出来ます。閉じるボタンを表示しない場合でも、オーバーレイを設定していればユーザーはメッセージを非表示にすることが出来ます。
+                - paragraph [ref=e548]:
+                  - strong [ref=e549]: 位置
+                - paragraph [ref=e550]: 閉じるボタンの位置をダイアログの内側にするか、外側にするかを指定出来ます。
+                - paragraph [ref=e551]:
+                  - strong [ref=e552]: 背景色
+                - paragraph [ref=e553]: 閉じるボタンの色を指定出来ます。
+                - paragraph [ref=e554]:
+                  - strong [ref=e555]: アイコン
+                - paragraph [ref=e556]: 閉じるボタンのアイコンの色を指定出来ます。
+                - generic [ref=e557]:
+                  - paragraph [ref=e558]: "注釈:"
+                  - list [ref=e559]:
+                    - listitem [ref=e560]:
+                      - paragraph [ref=e561]: オーバーレイと閉じるボタンの両方を無くしてしまうと、ユーザーがメッセージを閉じれなくなります。
+              - generic [ref=e562]:
+                - heading "見出し" [level=4] [ref=e563]
+                - paragraph [ref=e564]: メッセージのヘッダーを指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+              - generic [ref=e565]:
+                - heading "本文" [level=4] [ref=e566]
+                - paragraph [ref=e567]: メッセージの本文を指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+                - generic [ref=e568]:
+                  - paragraph [ref=e569]: "注釈:"
+                  - list [ref=e570]:
+                    - listitem [ref=e571]:
+                      - paragraph [ref=e572]: 本文・見出しの最大文字数は5000字です
+              - generic [ref=e573]:
+                - heading "画像（画像を利用するテンプレートを選択時にのみ表示されます）" [level=4] [ref=e574]
+                - paragraph [ref=e575]: メッセージに表示する画像を指定します。ダイアログの画像サイズはテンプレートによって3種類のタイプがあります。
+                - list [ref=e576]:
+                  - listitem [ref=e577]:
+                    - paragraph [ref=e578]: "ファイルフォーマット: JPEG、PNG"
+                  - listitem [ref=e579]:
+                    - paragraph [ref=e580]: ファイルサイズ
+                    - list [ref=e581]:
+                      - listitem [ref=e582]:
+                        - paragraph [ref=e583]: "最大: 1MB"
+                - paragraph [ref=e584]:
+                  - strong [ref=e585]: 大きな画像のダイアログ
+                - list [ref=e586]:
+                  - listitem [ref=e587]:
+                    - paragraph [ref=e588]: "画像サイズ - 推奨: 600px × 500px 以上（デスクトップ、モバイル）"
+                - img "web message dialog bigimage" [ref=e589]
+                - paragraph [ref=e590]:
+                  - strong [ref=e591]: 小さな画像のダイアログ
+                - list [ref=e592]:
+                  - listitem [ref=e593]:
+                    - paragraph [ref=e594]: "画像サイズ - 推奨: 150px × 150px 以上（デスクトップ、モバイル）"
+                - img "web message dialog smallimage" [ref=e595]
+                - paragraph [ref=e596]:
+                  - strong [ref=e597]: 画像のみのダイアログ
+                - list [ref=e598]:
+                  - listitem [ref=e599]:
+                    - paragraph [ref=e600]: "画像サイズ - 推奨: 800px × 800px（デスクトップ、モバイル）"
+                - img "web message dialog imageonly" [ref=e601]
+            - generic [ref=e602]:
+              - heading "画像のカスタマイズ項目" [level=3] [ref=e603]
+              - paragraph [ref=e604]: 画像は下記の項目が設定可能です。
+              - img "cutomizable dialog image" [ref=e605]
+              - paragraph [ref=e606]:
+                - strong [ref=e607]: 角丸
+              - paragraph [ref=e608]: 画像の角をどの程度丸ませるかを指定することが出来ます。
+              - paragraph [ref=e609]:
+                - strong [ref=e610]: URLもしくはディープリンク (一部のテンプレートでのみ利用可能 / 任意)
+              - paragraph [ref=e611]: 画像を押した時に指定したURLのページを開いたり、アプリを起動して、アプリ内の任意の画面に遷移することが出来ます。
+              - paragraph [ref=e612]:
+                - strong [ref=e613]: トラッキングイベント名 (任意)
+              - paragraph [ref=e614]: 効果測定で利用可能な、画像を押した際に記録されるイベント名を指定することが可能です。
+              - paragraph [ref=e615]:
+                - strong [ref=e616]: 横幅
+              - paragraph [ref=e617]: 画像の横幅を指定することが出来ます。pxによる絶対値もしくは%による横幅に対する相対値で指定が出来ます。
+              - generic [ref=e618]:
+                - heading "ボタンの表示(ボタンを2個以上利用するテンプレートを選択時にのみ表示されます)" [level=4] [ref=e619]
+                - paragraph [ref=e620]:
+                  - strong [ref=e621]: 余白
+                - paragraph [ref=e622]: ボタンの余白を指定することが出来ます。
+                - paragraph [ref=e623]:
+                  - strong [ref=e624]: ボタンの配置
+                - paragraph [ref=e625]: ボタンの縦・横並びを選択可能です。
+              - generic [ref=e626]:
+                - heading "ボタン1 / ボタン2 / ボタン3 / ボタン4(ボタンを利用したテンプレートを選択時にのみ表示されます。)" [level=4] [ref=e627]
+                - paragraph [ref=e628]: ボタンに表示するテキストを指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/テキストの色/ボタンの背景色/余白/ボタンの枠線の有無/外枠の角の丸みを指定出来ます。
+                - generic [ref=e629]:
+                  - paragraph [ref=e630]: "注釈:"
+                  - list [ref=e631]:
+                    - listitem [ref=e632]:
+                      - paragraph [ref=e633]: ボタンのテキスト最大文字数は5000字です
+              - generic [ref=e634]:
+                - heading "URLもしくはディープリンク (任意)" [level=4] [ref=e635]
+                - paragraph [ref=e636]: URLもしくはディープリンクを指定すると、ボタンを押した時に指定したURLのページを開いたり、アプリを起動して、アプリ内の任意の画面に遷移することが出来ます。URLもしくはディープリンクを指定しないでボタンを押した場合は、Webメッセージが閉じられます。
+                - generic [ref=e637]:
+                  - paragraph [ref=e638]: "注釈:"
+                  - list [ref=e639]:
+                    - listitem [ref=e640]:
+                      - paragraph [ref=e641]: URLもしくはディープリンクを指定しない場合、同一URLへの遷移として取り扱われてしまうことにより、画面のリロードが行われる場合があります。
+                - list [ref=e642]:
+                  - listitem [ref=e643]:
+                    - paragraph [ref=e644]: 文字列長
+                    - list [ref=e645]:
+                      - listitem [ref=e646]:
+                        - paragraph [ref=e647]: "最大: 1000文字"
+              - generic [ref=e648]:
+                - heading "トラッキングイベント名 (任意)" [level=4] [ref=e649]
+                - paragraph [ref=e650]: トラッキングイベント名を指定すると、アクションボタンをクリックしたときに計測されるイベントを変更することが出来ます。
+              - generic [ref=e651]:
+                - heading "代表的なダイアログ" [level=4] [ref=e652]
+                - paragraph [ref=e653]: ダイアログのテンプレートのうち、代表的なものを以下に取り上げます。
+              - generic [ref=e654]:
+                - heading "テキスト+ボタン" [level=4] [ref=e655]
+                - img "web message dialog bigimage" [ref=e656]
+              - generic [ref=e657]:
+                - heading "テキスト+画像" [level=4] [ref=e658]
+                - img "web message dialog bigimage" [ref=e659]
+              - generic [ref=e660]:
+                - heading "テキスト + 画像 + ボタン２つ" [level=4] [ref=e661]
+                - img "web message dialog bigimage" [ref=e662]
+              - generic [ref=e663]:
+                - heading "テキスト + 画像 + テキスト + ボタン２つ" [level=4] [ref=e664]
+                - img "web message dialog bigimage" [ref=e665]
+            - generic [ref=e666]:
+              - heading "吹き出し" [level=3] [ref=e667]
+              - paragraph [ref=e668]: 吹き出しタイプのWebメッセージでは、サイト上のメニューやボタンなど特定の要素にマッチするセレクタを指定して、そこにメッセージを表示します。例えば、購入ボタンや申し込みボタンといったCV要素のセレクタに直接ポップアップを表示させてCVを促進するのに有効です。
+              - paragraph [ref=e669]: 下記のフォームに入力してWebメッセージを作成します。
+              - img "web message speech balloon" [ref=e670]
+              - generic [ref=e671]:
+                - heading "吹き出し" [level=4] [ref=e672]
+                - paragraph [ref=e673]:
+                  - strong [ref=e674]: 背景色
+                - paragraph [ref=e675]: 吹き出し部分の背景色の色を指定出来ます。
+                - paragraph [ref=e676]:
+                  - strong [ref=e677]: 余白
+                - paragraph [ref=e678]: コンテンツ部分と外枠との間の余白を上下左右指定出来ます。
+                - paragraph [ref=e679]:
+                  - strong [ref=e680]: 枠線
+                - paragraph [ref=e681]: 外枠の太さ及び色を指定出来ます。
+                - paragraph [ref=e682]:
+                  - strong [ref=e683]: 角丸
+                - paragraph [ref=e684]: 外枠の角にどの程度丸みをつけるかを指定出来ます。
+                - paragraph [ref=e685]:
+                  - strong [ref=e686]: 矢印長さ
+                - paragraph [ref=e687]: 吹き出しの矢印の長さを指定出来ます。
+                - paragraph [ref=e688]:
+                  - strong [ref=e689]: 矢印位置
+                - paragraph [ref=e690]: 吹き出し矢印をメッセージの左からどの位置に出すかを指定出来ます。
+              - generic [ref=e691]:
+                - heading "閉じるボタン" [level=4] [ref=e692]
+                - paragraph [ref=e693]: メッセージを閉じるボタンの表示有無を選択できます。閉じるボタンはメッセージの右上に配置されます。
+                - paragraph [ref=e694]:
+                  - strong [ref=e695]: 位置
+                - paragraph [ref=e696]: 閉じるボタンの位置を吹き出しの内側にするか、外側にするかを指定出来ます。
+                - paragraph [ref=e697]:
+                  - strong [ref=e698]: 背景色
+                - paragraph [ref=e699]: 閉じるボタンの色を指定出来ます。
+                - paragraph [ref=e700]:
+                  - strong [ref=e701]: アイコン
+                - paragraph [ref=e702]: 閉じるボタンのアイコンの色を指定出来ます。
+                - generic [ref=e703]:
+                  - paragraph [ref=e704]: "注釈:"
+                  - list [ref=e705]:
+                    - listitem [ref=e706]:
+                      - paragraph [ref=e707]: 閉じるボタンを無くしてしまうと、ユーザーがメッセージを閉じれなくなります。
+              - generic [ref=e708]:
+                - heading "見出し" [level=4] [ref=e709]
+                - paragraph [ref=e710]: メッセージのヘッダーを指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+              - generic [ref=e711]:
+                - heading "本文" [level=4] [ref=e712]
+                - paragraph [ref=e713]: メッセージの本文を指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+                - generic [ref=e714]:
+                  - paragraph [ref=e715]: "注釈:"
+                  - list [ref=e716]:
+                    - listitem [ref=e717]:
+                      - paragraph [ref=e718]: 本文・見出しの最大文字数は5000字です
+            - generic [ref=e719]:
+              - heading "埋め込み" [level=3] [ref=e720]
+              - paragraph [ref=e721]: 埋め込みタイプのWebメッセージでは、サイト上の特定の要素にマッチするセレクタを指定して、そこにメッセージを表示します。例えば、ヘッダーに最新のお知らせを表示したり、タイムセールを開催しているという情報を表示するのに有効です。
+              - generic [ref=e722]:
+                - paragraph [ref=e723]: "注釈:"
+                - list [ref=e724]:
+                  - listitem [ref=e725]:
+                    - paragraph [ref=e726]: 埋め込みテンプレートは画像・ボタンを押しても閉じません。
+                  - listitem [ref=e727]:
+                    - paragraph [ref=e728]: メッセージが閉じないので、効果測定においてボタンの押下数が多くなる可能性がございます。
+              - paragraph [ref=e729]: 下記のフォームに入力してWebメッセージを作成します。
+              - img "position embedded form customizable" [ref=e730]
+              - generic [ref=e731]:
+                - heading "埋め込み" [level=4] [ref=e732]
+                - paragraph [ref=e733]:
+                  - strong [ref=e734]: 背景色
+                - paragraph [ref=e735]: 埋め込み部分の背景色の色を指定出来ます。
+                - paragraph [ref=e736]:
+                  - strong [ref=e737]: 横幅
+                - paragraph [ref=e738]: 埋め込みの横幅を指定できます。pxによる絶対値もしくは%による基準となる要素に対する相対値で指定が出来ます。
+                - generic [ref=e739]:
+                  - paragraph [ref=e740]: "注釈:"
+                  - list [ref=e741]:
+                    - listitem [ref=e742]:
+                      - paragraph [ref=e743]: pxを指定した場合の最大値は1440px, %を指定した場合の最大値は100%です。
+                - paragraph [ref=e744]:
+                  - strong [ref=e745]: 余白
+                - paragraph [ref=e746]: コンテンツ部分と外枠との間の余白を上下左右指定出来ます。
+                - paragraph [ref=e747]:
+                  - strong [ref=e748]: 枠線
+                - paragraph [ref=e749]: 外枠の太さ及び色を指定出来ます。
+                - paragraph [ref=e750]:
+                  - strong [ref=e751]: 角丸
+                - paragraph [ref=e752]: 外枠の角にどの程度丸みをつけるかを指定出来ます。
+              - generic [ref=e753]:
+                - heading "見出し" [level=4] [ref=e754]
+                - paragraph [ref=e755]: メッセージのヘッダーを指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+              - generic [ref=e756]:
+                - heading "本文" [level=4] [ref=e757]
+                - paragraph [ref=e758]: メッセージの本文を指定します。テキストの大きさ/太さ/左寄せ/中央寄せ/右寄せ/色/余白を指定出来ます。
+                - generic [ref=e759]:
+                  - paragraph [ref=e760]: "注釈:"
+                  - list [ref=e761]:
+                    - listitem [ref=e762]:
+                      - paragraph [ref=e763]: 本文・見出しの最大文字数は5000字です
+            - generic [ref=e764]:
+              - heading "カウントダウン" [level=3] [ref=e765]
+              - paragraph [ref=e766]: カウントダウンタイプのWebメッセージでは、指定された時刻までの残り時間を表示することが可能です。例えば、ECサイトであれば「期間限定セール終了まであと3日」のような表示を行うことで、CVの促進が期待出来ます。
+              - paragraph [ref=e767]: カウントダウンのテンプレートはその他のテンプレートと組み合わせて、基本的な見た目を決定します。組み合わせ可能なテンプレートは以下です。詳細は各々のテンプレートをご参照ください。
+              - paragraph [ref=e768]:
+                - link "ダイアログ" [ref=e769] [cursor=pointer]:
+                  - /url: "#web-message-version-dialog"
+              - paragraph [ref=e770]:
+                - link "埋め込み" [ref=e771] [cursor=pointer]:
+                  - /url: "#web-message-version-embedded"
+              - paragraph [ref=e772]:
+                - link "吹き出し" [ref=e773] [cursor=pointer]:
+                  - /url: "#web-message-version-balloon"
+              - generic [ref=e774]:
+                - heading "カウントダウン設定" [level=4] [ref=e775]
+                - paragraph [ref=e776]: カウントダウンで表示するタイマーの設定を行います。
+                - img "countdown timer" [ref=e777]
+                - paragraph [ref=e778]:
+                  - strong [ref=e779]: 終了日時
+                - paragraph [ref=e780]: タイマーの終了時刻を指定出来ます。
+                - paragraph [ref=e781]:
+                  - strong [ref=e782]: タイマー表記
+                - paragraph [ref=e783]: タイマーの日時表記を指定出来ます。指定可能な形式は以下です
+                - list [ref=e784]:
+                  - listitem [ref=e785]:
+                    - paragraph [ref=e786]: 日
+                    - list [ref=e787]:
+                      - listitem [ref=e788]:
+                        - paragraph [ref=e789]: "例: 「3日」"
+                  - listitem [ref=e790]:
+                    - paragraph [ref=e791]: 日、時
+                    - list [ref=e792]:
+                      - listitem [ref=e793]:
+                        - paragraph [ref=e794]: "例: 「3日 3時間」"
+                  - listitem [ref=e795]:
+                    - paragraph [ref=e796]: 日、時、分
+                    - list [ref=e797]:
+                      - listitem [ref=e798]:
+                        - paragraph [ref=e799]: "例: 「3日 3時間 59分」"
+                  - listitem [ref=e800]:
+                    - paragraph [ref=e801]: 日、時、分、秒
+                    - list [ref=e802]:
+                      - listitem [ref=e803]:
+                        - paragraph [ref=e804]: "例: 「3日 3時間 59分 59秒」"
+                - paragraph [ref=e805]:
+                  - strong [ref=e806]: タイマー
+                - paragraph [ref=e807]: タイマーの日時の文字の大きさ/太さ/色を指定することが出来ます。
+                - generic [ref=e808]:
+                  - paragraph [ref=e809]: "注釈:"
+                  - paragraph [ref=e810]: カウントダウンの終了時刻を過ぎてもキャンペーンが終了していなかった場合、下図のように日時表記に応じて0が表示されます。例えば、下図では日時表記に「日、時、分、秒」を指定していたため、「0日 0時間 0分 0秒」のように表示されています。
+                - generic [ref=e811]:
+                  - paragraph [ref=e812]: "注釈:"
+                  - paragraph [ref=e813]:
+                    - text: 実際に表示されるタイマーの表記の単位は
+                    - strong [ref=e814]: 当該のWebサイトのHTML要素のlang属性
+                    - text: によって決定されます。
+                  - paragraph [ref=e815]:
+                    - text: 例えば、タイマーの表記に日、時、分、秒を利用し、当該のWebサイトのHTML要素のlang属性が"en"だった場合、
+                    - strong [ref=e816]: 1days 3hors 4minutes 3seconds
+                    - text: のように表示されます。
+                  - paragraph [ref=e817]:
+                    - text: HTML要素のlang属性に関しては
+                    - link "公式サイト" [ref=e818] [cursor=pointer]:
+                      - /url: https://developer.mozilla.org/ja/docs/Web/API/HTMLElement/lang
+                    - text: をご確認ください。
+                - img "countdown example" [ref=e819]
+                - paragraph [ref=e820]:
+                  - strong [ref=e821]: タイマーの前に来るテキスト
+                - paragraph [ref=e822]: タイマーの日時の前に来るテキストを指定することが出来ます。上図を例に取ると「セール終了まで」の部分に相当します。
+                - paragraph [ref=e823]: テキストの大きさ/太さ/色が指定出来ます。
+                - paragraph [ref=e824]:
+                  - strong [ref=e825]: タイマーの後に来るテキスト
+                - paragraph [ref=e826]: タイマーの日時の後に来るテキストを指定することが出来ます。上図を例に取ると「急げ」の部分に相当します。
+                - paragraph [ref=e827]: テキストの大きさ/太さ/色が指定出来ます。
+                - paragraph [ref=e828]:
+                  - strong [ref=e829]: カウントダウン全体のデザイン調節
+                - paragraph [ref=e830]: カウントダウン全体の左寄せ・中央寄せ・右寄せ/余白が指定出来ます。
+                - generic [ref=e831]:
+                  - paragraph [ref=e832]: "注釈:"
+                  - paragraph [ref=e833]: カウントダウンのテンプレート内でカスタムメッセージを利用される場合は、誤って data-repro-template--countdown-wrapper 属性を消去しないようにご注意ください。効果測定が正しく行われません。
+            - generic [ref=e834]:
+              - heading "固定バー" [level=3] [ref=e835]
+              - paragraph [ref=e836]: 固定バータイプのWebメッセージでは、Webサイトの上部もしくは下部の決まった位置に常に配置され、ユーザーのページスクロールにも追従するメッセージを表示することが可能です。
+              - paragraph [ref=e837]: 例えばクッキー許諾などエンドユーザーに対して重要なインフォメーションやアクションを促したいといったユースケースで活用することが考えられます。
+              - generic [ref=e838]:
+                - heading "固定バー" [level=4] [ref=e839]
+                - paragraph [ref=e840]: 固定バーのテンプレートの位置や背景色の設定を行います。
+                - img "sticky bar" [ref=e841]
+                - paragraph [ref=e842]:
+                  - strong [ref=e843]: 背景色
+                - paragraph [ref=e844]: 固定バーの背景色の色を指定出来ます。
+                - paragraph [ref=e845]:
+                  - strong [ref=e846]: 余白
+                - paragraph [ref=e847]: コンテンツ部分と外枠との間の余白を上下左右指定出来ます。
+                - paragraph [ref=e848]:
+                  - strong [ref=e849]: 位置調整
+                - paragraph [ref=e850]: 上下方向への固定バーの位置調整が可能です。
+                - paragraph [ref=e851]:
+                  - strong [ref=e852]: 上下位置
+                - paragraph [ref=e853]: 画面上下のどちらに固定バーを表示するかを指定出来ます。
+            - generic [ref=e854]:
+              - heading "アイコン" [level=3] [ref=e855]
+              - paragraph [ref=e856]: アイコンタイプのWebメッセージでは、例えばTwitterのライクボタンのようなアイコンをWebサイトの右下などに常に表示し、ユーザーにアクションを促すといったことが可能です。
+              - generic [ref=e857]:
+                - heading "表示位置" [level=4] [ref=e858]
+                - img "icon position" [ref=e859]
+                - paragraph [ref=e860]:
+                  - strong [ref=e861]: 位置
+                - paragraph [ref=e862]: アイコンをWebサイト上のどこに表示するかを左上/上など9通りから選びます。
+                - img "icon position" [ref=e863]
+              - generic [ref=e864]:
+                - heading "画像1" [level=4] [ref=e865]
+                - paragraph [ref=e866]: アイコンとして使う画像に関する設定を行います。
+                - paragraph [ref=e867]:
+                  - strong [ref=e868]: 角丸
+                - paragraph [ref=e869]: 画像の角をどの程度丸めるかを指定出来ます。
+                - paragraph [ref=e870]:
+                  - strong [ref=e871]: URLもしくはディープリンク (任意)
+                - paragraph [ref=e872]: アイコンを押した際の遷移先を指定出来ます。
+                - paragraph [ref=e873]:
+                  - strong [ref=e874]: トラッキングイベント名（任意）
+                - paragraph [ref=e875]: アイコンを押した際にトラッキングされるイベント名を指定出来ます。
+              - generic [ref=e876]:
+                - heading "アイコン" [level=4] [ref=e877]
+                - paragraph [ref=e878]:
+                  - strong [ref=e879]: 背景色
+                - paragraph [ref=e880]: アイコン部分の背景色の色を指定出来ます。
+                - paragraph [ref=e881]:
+                  - strong [ref=e882]: 横幅
+                - paragraph [ref=e883]: アイコンの横幅を指定できます。pxによる絶対値もしくは%による基準となる要素に対する相対値で指定が出来ます。
+                - paragraph [ref=e884]:
+                  - strong [ref=e885]: 位置調整
+                - paragraph [ref=e886]: 水平方向/垂直方向の位置の調整が可能です。
+              - generic [ref=e887]:
+                - heading "閉じるボタン" [level=4] [ref=e888]
+                - paragraph [ref=e889]:
+                  - strong [ref=e890]: 閉じるボタン
+                - paragraph [ref=e891]: メッセージを閉じるボタンの表示有無を選択できます。閉じるボタンはメッセージの右上に配置されます。
+                - paragraph [ref=e892]:
+                  - strong [ref=e893]: 位置
+                - paragraph [ref=e894]: 閉じるボタンの位置をアイコンの内側にするか、外側にするかを指定出来ます。
+                - paragraph [ref=e895]:
+                  - strong [ref=e896]: 背景色
+                - paragraph [ref=e897]: 閉じるボタンの色を指定出来ます。
+                - paragraph [ref=e898]:
+                  - strong [ref=e899]: アイコン
+                - paragraph [ref=e900]: 閉じるボタンのアイコンの色を指定出来ます。
+          - generic [ref=e901]:
+            - heading "キャンペーンをニュースフィードとして利用する" [level=2] [ref=e902]
+            - paragraph [ref=e903]:
+              - link "キャンペーン設定" [ref=e904] [cursor=pointer]:
+                - /url: "#web-message-campaign-settings"
+              - text: にて、キャンペーンをニュースフィードとして使うにチェックを入れた場合は、下記の画像のようなニュースフィード用の入力フォームがコンテンツ作成用のフォームの下に出現し、設定が可能です。詳細は
+              - link "ニュースフィード" [ref=e905] [cursor=pointer]:
+                - /url: newsfeed.html
+              - text: をご覧ください。
+            - img "NewsFeed form" [ref=e906]
+            - generic [ref=e907]:
+              - term [ref=e908]:
+                - strong [ref=e909]: タイトル
+              - definition [ref=e910]:
+                - paragraph [ref=e911]:
+                  - text: ニュースフィードのタイトルを指定します。ここで入力した値は、ニュースフィード内の
+                  - code [ref=e912]: title
+                  - text: として取得が可能です。
+              - term [ref=e913]:
+                - strong [ref=e914]: 概要
+              - definition [ref=e915]:
+                - paragraph [ref=e916]:
+                  - text: ニュースフィードの概要を指定します。ここで入力した値は、ニュースフィード内の
+                  - code [ref=e917]: summary
+                  - text: として取得が可能です。
+              - term [ref=e918]:
+                - strong [ref=e919]: 詳細（任意）
+              - definition [ref=e920]:
+                - paragraph [ref=e921]:
+                  - text: ニュースフィードの本文を指定します。ここで入力した値は、ニュースフィード内の
+                  - code [ref=e922]: body
+                  - text: として取得が可能です。
+            - paragraph [ref=e923]:
+              - strong [ref=e924]: リンク先URL（任意）
+              - text: ニュースフィードのリンク先となるURLを指定します。ここで入力した値は、ニュースフィード内の
+              - code [ref=e925]: link_url_string
+              - text: （SDK）
+              - code [ref=e926]: link_url
+              - text: （ニュースフィードAPI）として取得が可能です。
+            - paragraph [ref=e927]:
+              - strong [ref=e928]: 画像（任意）
+              - text: ニュースフィードに紐づく画像を指定します。ここでアップロードした画像のURLまたは入力したURLの値は、ニュースフィード内の
+              - code [ref=e929]: image_url_string
+              - text: （SDK）
+              - code [ref=e930]: link_url
+              - text: （ニュースフィードAPI）として取得が可能です。
+            - generic [ref=e931]:
+              - heading "プレビュー機能を使った確認方法" [level=3] [ref=e932]
+              - paragraph [ref=e933]: Webメッセージ・プレビュー機能を利用して、配信前のWebメッセージを指定したサイトで確認することができます。
+              - img "Web Message Preview" [ref=e934]
+              - paragraph [ref=e935]:
+                - strong [ref=e936]: 初めてプレビュー機能を使う場合
+              - list [ref=e937]:
+                - listitem [ref=e938]:
+                  - paragraph [ref=e939]: メッセージ作成画面で「プレビューをサイトで確認」ボタンを押します。
+              - img "Web Message Preview bottun" [ref=e940]
+              - list [ref=e941]:
+                - listitem [ref=e942]:
+                  - paragraph [ref=e943]: メッセージを表示したいサイトのURLを入力し、「保存」ボタンを押します。
+                - listitem [ref=e944]:
+                  - paragraph [ref=e945]: 「サイトで確認」ボタンを押す、生成されたURLをコピーして貼り付ける、QRコードをスキャンする、のいずれかで指定したサイトを開きます。
+                - listitem [ref=e946]:
+                  - paragraph [ref=e947]: 開いた先のURLで作成・編集中のメッセージがプレビューとして表示されます。
+              - paragraph [ref=e948]:
+                - strong [ref=e949]: 2回目以降の場合
+              - list [ref=e950]:
+                - listitem [ref=e951]:
+                  - paragraph [ref=e952]: メッセージ作成画面で「プレビューをサイトで確認」ボタンを押します。
+                - listitem [ref=e953]:
+                  - paragraph [ref=e954]: URLの入力欄に前回保存されたURLが表示されます。URLを変更したい場合は、変更後のURLを入力して「更新」ボタンを押します。
+                - listitem [ref=e955]:
+                  - paragraph [ref=e956]: 「サイトで確認」ボタンを押す、生成されたURLをコピーして貼り付ける、QRコードをスキャンする、のいずれかで指定したサイトを開きます。
+                - listitem [ref=e957]:
+                  - paragraph [ref=e958]: 開いた先のURLで作成・編集中のメッセージがプレビューとして表示されます。
+              - generic [ref=e959]:
+                - paragraph [ref=e960]: "注釈:"
+                - list [ref=e961]:
+                  - listitem [ref=e962]:
+                    - paragraph [ref=e963]: 1度生成したプレビュー用のURLに変更後のメッセージ内容を再反映させたい場合は、「更新する」ボタンを押してください。
+                  - listitem [ref=e964]:
+                    - paragraph [ref=e965]: プレビューが表示されたサイト上では、イベントのトラッキングはされず、プレビューしている以外のメッセージも表示されません。またプレビューを閲覧中はブラウザのコンソールにメッセージが出力されることがありますが、サイトの動作には影響を与えないためご安心ください。
+                  - listitem [ref=e966]:
+                    - paragraph [ref=e967]: 管理画面上で生成されたプレビュー用のURLに有効期限はありません。
+                  - listitem [ref=e968]:
+                    - paragraph [ref=e969]: メッセージに設定された配信条件（表示トリガーや配信対象設定など）はプレビューには反映されず、プレビュー用のURLを開くと必ずメッセージは表示されます
+                  - listitem [ref=e970]:
+                    - paragraph [ref=e971]: 指定したサイトにバージョン2以上のWeb SDKが導入されていないとプレビューは表示されません。
+                  - listitem [ref=e972]:
+                    - paragraph [ref=e973]: サイトによってはリダイレクトによりクエリパラメータが削除されたり、利用しているJavaScriptライブラリが遷移後にクエリパラメータを削除することがあります。こういったケースではメッセージのプレビューは表示されないのでご注意ください。
+          - generic [ref=e974]:
+            - heading "カスタムメッセージ" [level=2] [ref=e975]
+            - paragraph [ref=e976]:
+              - link "カスタムメッセージ" [ref=e977] [cursor=pointer]:
+                - /url: custom-message.html
+              - text: の項目をご確認ください。
+          - generic [ref=e978]:
+            - heading "配信対象者を各パターンに振り分ける" [level=2] [ref=e979]
+            - img "web message variant distribution" [ref=e980]
+            - paragraph [ref=e981]:
+              - link "配信対象設定" [ref=e982] [cursor=pointer]:
+                - /url: "#web-message-select-target"
+              - text: で設定した配信対象者をコントロールグループと、パターン1に振り分けます。 コントロールグループ(統制群)とは、
+              - strong [ref=e983]: Webメッセージを表示しない対象者
+              - text: を指します。 キャンペーン自体の効果を計測するために、
+              - strong [ref=e984]: Webメッセージを表示するユーザー
+              - text: と
+              - strong [ref=e985]: Webメッセージを表示しないユーザー
+              - text: で効果を比較できます。 パターンを増やした状態での設定方法は、
+              - link "A/Bテスト" [ref=e986] [cursor=pointer]:
+                - /url: "#web-message-ab"
+              - text: をご覧ください。
+            - paragraph [ref=e987]:
+              - text: 例えば、配信条件を
+              - strong [ref=e988]: 既存ユーザー
+              - text: とした場合に、コントロールグループを
+              - strong [ref=e989]: 20%
+              - text: 、 パターン1を
+              - strong [ref=e990]: 80%
+              - text: に設定すると、既存ユーザーの中からランダムで抽出された
+              - strong [ref=e991]: 約80%
+              - text: のユーザーにメッセージが表示され、残りの
+              - strong [ref=e992]: 約20%
+              - text: のユーザーにはメッセージは表示されません。
+            - generic [ref=e993]:
+              - heading "割合を設定する" [level=3] [ref=e994]
+              - paragraph [ref=e995]:
+                - text: デフォルトではコントロールグループ
+                - strong [ref=e996]: 0%
+                - text: 、パターン1
+                - strong [ref=e997]: 100%
+                - text: となっているため、配信条件で指定したユーザーに
+                - strong [ref=e998]: 100%
+                - text: 表示されます。 コントロールグループを利用しない場合は、設定を変更する必要はありません。 コントロールグループを利用する場合は、コントロールグループとパターン1で合計100%となるように割合を設定出来ます。
+              - paragraph [ref=e999]:
+                - strong [ref=e1000]: 均等に振り分ける
+                - text: をクリックすると、コントロールグループとパターン1を
+                - strong [ref=e1001]: 50%
+                - text: ずつに均等に振り分けます。
+                - strong [ref=e1002]: 均等に振り分ける(コントロールグループなし)
+                - text: をクリックすると、コントロールグループを
+                - strong [ref=e1003]: 0%
+                - text: 、パターン1を
+                - strong [ref=e1004]: 100%
+                - text: に設定します。
+              - generic [ref=e1005]:
+                - paragraph [ref=e1006]: "注釈:"
+                - list [ref=e1007]:
+                  - listitem [ref=e1008]:
+                    - paragraph [ref=e1009]:
+                      - text: コントロールグループは
+                      - strong [ref=e1010]: 0%
+                      - text: ~
+                      - strong [ref=e1011]: 99%
+                      - text: まで設定出来ます。
+                  - listitem [ref=e1012]:
+                    - paragraph [ref=e1013]:
+                      - text: パターン1は
+                      - strong [ref=e1014]: 1%
+                      - text: ~
+                      - strong [ref=e1015]: 100%
+                      - text: まで設定出来ます。
+                  - listitem [ref=e1016]:
+                    - paragraph [ref=e1017]: 整数のみ設定出来ます。
+                  - listitem [ref=e1018]:
+                    - paragraph [ref=e1019]: 振り分け設定は新規作成時のみ行うことが出来ます。
+                  - listitem [ref=e1020]:
+                    - paragraph [ref=e1021]: 配信数の規模により、設定した割合と実際の配信数が乖離することがあります。
+          - generic [ref=e1022]:
+            - heading "配信設定" [level=2] [ref=e1023]
+            - generic [ref=e1024]:
+              - term [ref=e1025]:
+                - strong [ref=e1026]: 配信期間
+              - definition [ref=e1027]:
+                - paragraph [ref=e1028]:
+                  - text: キャンペーンを配信する期間を設定してください。ここで設定した期間、メッセージがユーザーごとに一度だけ表示されます。ユーザーは
+                  - link "ユーザーID" [ref=e1029] [cursor=pointer]:
+                    - /url: ../../dev/sdk/user-id.html
+                  - text: で区別されます。
+              - term [ref=e1030]:
+                - strong [ref=e1031]: 配信曜日
+              - definition [ref=e1032]:
+                - paragraph [ref=e1033]: 配信曜日の指定が行えます。曜日を選択することで、該当曜日にメッセージが配信できます。指定しない場合は全ての曜日で配信が行われます。
+              - term [ref=e1034]:
+                - strong [ref=e1035]: 配信時間帯
+              - definition [ref=e1036]:
+                - paragraph [ref=e1037]: 配信時間帯の指定が行えます。時間帯を選択することで、該当時間帯にメッセージが配信できます。指定しない場合は全ての時間帯で配信が行われます。
+              - term [ref=e1038]:
+                - strong [ref=e1039]: 表示頻度
+              - definition [ref=e1040]:
+                - paragraph [ref=e1041]: このキャンペーンが各ユーザーに表示される回数を制御できます。複数回表示する場合は、累計回数（最大で2〜10回または無制限）を制限し、さらに1日の最大表示回数（1〜10回)も制限することができます。
+            - generic [ref=e1042]:
+              - paragraph [ref=e1043]: "注釈:"
+              - list [ref=e1044]:
+                - listitem [ref=e1045]:
+                  - paragraph [ref=e1046]: 配信対象が初回ユーザーの場合、表示頻度は1回または無制限のみ設定できます。
+                - listitem [ref=e1047]:
+                  - paragraph [ref=e1048]: 1日の最大表示回数を指定しない場合、弊社システムの状況によっては、設定した回数以上メッセージが表示されることがございます。
+            - generic [ref=e1049]:
+              - paragraph [ref=e1050]: "警告:"
+              - list [ref=e1051]:
+                - listitem [ref=e1052]:
+                  - paragraph [ref=e1053]: 1ユーザーに複数回表示する場合、メッセージが表示されてから、Repro内部でメッセージが表示されたことを検知するまではメッセージが表示されません。
+            - generic [ref=e1054]:
+              - term [ref=e1055]:
+                - strong [ref=e1056]: メッセージの同時表示
+              - definition [ref=e1057]:
+                - paragraph [ref=e1058]: 他のメッセージと同一PV上へ表示する有効/無効の指定が行えます。「他のメッセージとの同時表示を有効にする」にチェックをいれることで、同時表示が有効になります。指定しない場合は無効になります。
+            - generic [ref=e1059]:
+              - paragraph [ref=e1060]: "注釈:"
+              - list [ref=e1061]:
+                - listitem [ref=e1062]:
+                  - paragraph [ref=e1063]: 同時表示が無効同士のメッセージの場合は、同一PV上にはどちらか一方のみが表示されます。
+                - listitem [ref=e1064]:
+                  - paragraph [ref=e1065]: 同一PV上への表示について、同時表示が無効のものは最大で1個、それに加え同時表示が有効のものがすべて表示されます。
+            - paragraph [ref=e1066]: "例:"
+            - table [ref=e1067]:
+              - rowgroup [ref=e1072]:
+                - row "メッセージA メッセージB 結果" [ref=e1073]:
+                  - columnheader "メッセージA" [ref=e1074]:
+                    - paragraph [ref=e1075]: メッセージA
+                  - columnheader "メッセージB" [ref=e1076]:
+                    - paragraph [ref=e1077]: メッセージB
+                  - columnheader "結果" [ref=e1078]:
+                    - paragraph [ref=e1079]: 結果
+              - rowgroup [ref=e1080]:
+                - row "無効 無効 AとBはどちらか一方しか表示されません" [ref=e1081]:
+                  - cell "無効" [ref=e1082]:
+                    - paragraph [ref=e1083]: 無効
+                  - cell "無効" [ref=e1084]:
+                    - paragraph [ref=e1085]: 無効
+                  - cell "AとBはどちらか一方しか表示されません" [ref=e1086]:
+                    - paragraph [ref=e1087]: AとBはどちらか一方しか表示されません
+                - row "有効 有効 AとBのメッセージは両方表示されます" [ref=e1088]:
+                  - cell "有効" [ref=e1089]:
+                    - paragraph [ref=e1090]: 有効
+                  - cell "有効" [ref=e1091]:
+                    - paragraph [ref=e1092]: 有効
+                  - cell "AとBのメッセージは両方表示されます" [ref=e1093]:
+                    - paragraph [ref=e1094]: AとBのメッセージは両方表示されます
+                - row "無効 有効 AとBのメッセージは両方表示されます" [ref=e1095]:
+                  - cell "無効" [ref=e1096]:
+                    - paragraph [ref=e1097]: 無効
+                  - cell "有効" [ref=e1098]:
+                    - paragraph [ref=e1099]: 有効
+                  - cell "AとBのメッセージは両方表示されます" [ref=e1100]:
+                    - paragraph [ref=e1101]: AとBのメッセージは両方表示されます
+            - generic [ref=e1102]:
+              - term [ref=e1103]:
+                - strong [ref=e1104]: 表示優先度
+              - definition [ref=e1105]:
+                - paragraph [ref=e1106]:
+                  - text: 同時表示が無効のメッセージの場合、優先度は
+                  - strong [ref=e1107]: "1"
+                  - text: から
+                  - strong [ref=e1108]: "100"
+                  - text: までの数値で指定でき、数値が大きいほど優先して表示されます。既定値は
+                  - strong [ref=e1109]: "50"
+                  - text: です。
+            - generic [ref=e1110]:
+              - paragraph [ref=e1111]: "注釈:"
+              - generic [ref=e1112]:
+                - term [ref=e1113]: 同時表示を無効に指定しているメッセージが複数個同時に以下条件を満たしたとき、どちらが先に表示されるかは以下のルールで決定されます。
+                - definition [ref=e1114]:
+                  - list [ref=e1115]:
+                    - listitem [ref=e1116]:
+                      - paragraph [ref=e1117]: 優先度が高いメッセージが優先されて表示されます。
+                    - listitem [ref=e1118]:
+                      - paragraph [ref=e1119]: 同じ優先度のメッセージ同士の場合、更新日時が最新のものが優先されて表示されます。
+            - paragraph [ref=e1120]: "例:"
+            - generic [ref=e1121]:
+              - term [ref=e1122]: メッセージ表示トリガーが同じ以下の表示条件とした場合、
+              - definition [ref=e1123]:
+                - list [ref=e1124]:
+                  - listitem [ref=e1125]:
+                    - paragraph [ref=e1126]: メッセージA 同時表示が無効 優先度80 1ユーザーに1回のみ表示
+                  - listitem [ref=e1127]:
+                    - paragraph [ref=e1128]: メッセージB 同時表示が無効 優先度50 1ユーザーに1回のみ表示
+              - term [ref=e1129]: 以下のように配信されます。
+              - definition [ref=e1130]:
+                - list [ref=e1131]:
+                  - listitem [ref=e1132]:
+                    - paragraph [ref=e1133]: 1回目のアクセス メッセージA のみ表示されます
+                  - listitem [ref=e1134]:
+                    - paragraph [ref=e1135]: 2回目のアクセス メッセージB のみ表示されます
+            - img "web message Schedule Delivery" [ref=e1136]
+            - generic [ref=e1137]:
+              - paragraph [ref=e1138]: "注釈:"
+              - generic [ref=e1139]:
+                - term [ref=e1140]: 本機能のリリース以前に「高中低」で設定されていた優先度は、以下のように変更されています。
+                - definition [ref=e1141]:
+                  - list [ref=e1142]:
+                    - listitem [ref=e1143]:
+                      - paragraph [ref=e1144]: "低: 30"
+                    - listitem [ref=e1145]:
+                      - paragraph [ref=e1146]: "中: 50"
+                    - listitem [ref=e1147]:
+                      - paragraph [ref=e1148]: "高: 80"
+          - generic [ref=e1149]:
+            - heading "メッセージ表示トリガー" [level=2] [ref=e1150]
+            - paragraph [ref=e1151]: メッセージ表示トリガーによってメッセージの表示タイミングを制御することができます。 ユースケースによって以下の設定を行います。
+            - generic [ref=e1152]:
+              - paragraph [ref=e1153]: "注釈:"
+              - paragraph [ref=e1154]:
+                - text: 既存のイベントを利用せずに新しい条件でトリガーさせたい場合は、イベント選択時
+                - strong [ref=e1155]: イベントを新規作成
+                - text: を押下して新しいイベントを作成することが可能です。入力項目の詳細については
+                - link "こちら" [ref=e1156] [cursor=pointer]:
+                  - /url: ../setting/web-tracking-rule.html
+                - text: をご覧下さい。
+              - link "Web Message New Event Trigger" [ref=e1157] [cursor=pointer]:
+                - /url: ../../_images/web-message-new-event.png
+                - img "Web Message New Event Trigger" [ref=e1158]
+            - generic [ref=e1159]:
+              - heading "イベント実行時にトリガーを実行する" [level=3] [ref=e1160]
+              - paragraph [ref=e1161]: 指定したイベントが実行された場合にトリガーします。
+              - img "Web Message Trigger Event" [ref=e1162]
+              - generic [ref=e1163]:
+                - term [ref=e1164]:
+                  - strong [ref=e1165]: トリガーの種類
+                - definition [ref=e1166]:
+                  - paragraph [ref=e1167]:
+                    - strong [ref=e1168]: イベントの実行
+                    - text: を選択します
+                - term [ref=e1169]:
+                  - strong [ref=e1170]: トリガー
+                - definition [ref=e1171]:
+                  - list [ref=e1172]:
+                    - listitem [ref=e1173]:
+                      - paragraph [ref=e1174]: 最初の選択リストからイベントを指定します
+                    - listitem [ref=e1175]:
+                      - paragraph [ref=e1176]:
+                        - text: 次の選択リストから
+                        - strong [ref=e1177]: 実行時
+                        - text: を指定します
+            - generic [ref=e1178]:
+              - heading "イベントの合計実行回数によってトリガーを実行する" [level=3] [ref=e1179]
+              - paragraph [ref=e1180]: 指定したイベントが特定の回数だけ実行された場合にトリガーします。
+              - img "Web Message Event Trigger Occurrence" [ref=e1181]
+              - generic [ref=e1182]:
+                - term [ref=e1183]:
+                  - strong [ref=e1184]: トリガーの種類
+                - definition [ref=e1185]:
+                  - paragraph [ref=e1186]:
+                    - strong [ref=e1187]: イベントの実行
+                    - text: を選択します
+                - term [ref=e1188]:
+                  - strong [ref=e1189]: トリガー
+                - definition [ref=e1190]:
+                  - list [ref=e1191]:
+                    - listitem [ref=e1192]:
+                      - paragraph [ref=e1193]: 最初の選択リストからイベントを指定します
+                    - listitem [ref=e1194]:
+                      - paragraph [ref=e1195]:
+                        - text: 次の選択リストから
+                        - strong [ref=e1196]: 合計実行回数
+                        - text: を指定します
+                - term [ref=e1197]:
+                  - strong [ref=e1198]: 条件
+                - definition [ref=e1199]:
+                  - list [ref=e1200]:
+                    - listitem [ref=e1201]:
+                      - paragraph [ref=e1202]: 合計実行回数
+                      - list [ref=e1203]:
+                        - listitem [ref=e1204]:
+                          - paragraph [ref=e1205]: 数値は、最小2から最大30まで指定できます
+                        - listitem [ref=e1206]:
+                          - paragraph [ref=e1207]: 比較方法は「回目」、「回目以上」、「回目以下」が指定できます
+                    - listitem [ref=e1208]:
+                      - paragraph [ref=e1209]: 集計対象期間
+                      - list [ref=e1210]:
+                        - listitem [ref=e1211]:
+                          - paragraph [ref=e1212]: 「セッション内」、もしくは「時間」、「分」、「秒」のいずれかから期間を指定できます
+              - generic [ref=e1213]:
+                - paragraph [ref=e1214]: "注釈:"
+                - list [ref=e1215]:
+                  - listitem [ref=e1216]:
+                    - paragraph [ref=e1217]: 期間を指定した場合は、最大3時間まで指定できます
+                  - listitem [ref=e1218]:
+                    - paragraph [ref=e1219]: "期間は設定したイベントが新しく実行された時点から遡ります(例: 3/15 15:00 時点でイベントを実行した場合、集計対象期間が「3時間」であれば 3/15 12:00 以降が集計対象となります)"
+            - generic [ref=e1220]:
+              - heading "イベント実行時のイベントプロパティの値によってトリガーを実行する" [level=3] [ref=e1221]
+              - paragraph [ref=e1222]: 指定したイベントプロパティが特定の値であった場合にトリガーします。
+              - img "Web Message Trigger Event Property" [ref=e1223]
+              - generic [ref=e1224]:
+                - term [ref=e1225]:
+                  - strong [ref=e1226]: トリガーの種類
+                - definition [ref=e1227]:
+                  - paragraph [ref=e1228]:
+                    - strong [ref=e1229]: イベントの実行
+                    - text: を選択します
+                - term [ref=e1230]:
+                  - strong [ref=e1231]: トリガー
+                - definition [ref=e1232]:
+                  - list [ref=e1233]:
+                    - listitem [ref=e1234]:
+                      - paragraph [ref=e1235]: 最初の選択リストからイベントを指定します
+                    - listitem [ref=e1236]:
+                      - paragraph [ref=e1237]: 次の選択リストからイベントプロパティのキーを指定します
+                    - listitem [ref=e1238]:
+                      - paragraph [ref=e1239]:
+                        - text: 次の選択リストから
+                        - strong [ref=e1240]: 値
+                        - text: を指定します
+                - term [ref=e1241]:
+                  - strong [ref=e1242]: 条件
+                - definition [ref=e1243]:
+                  - list [ref=e1244]:
+                    - listitem [ref=e1245]:
+                      - paragraph [ref=e1246]: イベントプロパティの条件となる値を指定します
+                    - listitem [ref=e1247]:
+                      - paragraph [ref=e1248]: 比較方法は「と一致する」、「と一致しない」、「のいずれか」、「以上（数値）」、「以下（数値）」、「を含む（文字列）」、「を含まない（文字列）」、「正規表現に一致」、「正規表現に一致（大文字と小文字の違いを無視）」、「正規表現に一致しない」、「正規表現に一致しない（大文字と小文字の違いを無視）」から選択可能です
+              - generic [ref=e1249]:
+                - paragraph [ref=e1250]: "注釈:"
+                - list [ref=e1251]:
+                  - listitem [ref=e1252]:
+                    - paragraph [ref=e1253]:
+                      - code [ref=e1254]: 正規表現に一致する
+                      - text: など、正規表現にもとづく条件を利用した場合、指定された値は
+                      - code [ref=e1255]: new RegExp()
+                      - text: の引数となり条件比較が行われます。正規表現の詳細な仕様については
+                      - link "MDNのドキュメント" [ref=e1256] [cursor=pointer]:
+                        - /url: https://developer.mozilla.org/ja/docs/Web/JavaScript/Guide/Regular_Expressions
+                      - text: を参照してください。
+                  - listitem [ref=e1257]:
+                    - paragraph [ref=e1258]:
+                      - text: JavaScriptのオブジェクトに対してどのような比較が行われるかに関しては
+                      - link "イベントトリガー、Webメッセージの表示条件における値の扱いについて" [ref=e1259] [cursor=pointer]:
+                        - /url: ../../faq/web/object-compare.html
+                      - text: をご確認ください。
+            - generic [ref=e1260]:
+              - heading "ユーザープロフィールのセットによってトリガーを実行する" [level=3] [ref=e1261]
+              - paragraph [ref=e1262]: ユーザープロフィールがセットされた際に、セットされる値が特定の値であった場合にトリガーします。
+              - img "Web Message Trigger User Profile" [ref=e1263]
+              - generic [ref=e1264]:
+                - term [ref=e1265]:
+                  - strong [ref=e1266]: トリガーの種類
+                - definition [ref=e1267]:
+                  - paragraph [ref=e1268]:
+                    - strong [ref=e1269]: ユーザープロフィールのセット
+                    - text: を選択します
+                - term [ref=e1270]:
+                  - strong [ref=e1271]: トリガー
+                - definition [ref=e1272]:
+                  - list [ref=e1273]:
+                    - listitem [ref=e1274]:
+                      - paragraph [ref=e1275]: ユーザープロフィールを指定します
+                - term [ref=e1276]:
+                  - strong [ref=e1277]: 条件
+                - definition [ref=e1278]:
+                  - list [ref=e1279]:
+                    - listitem [ref=e1280]:
+                      - paragraph [ref=e1281]: セットされる値
+                      - list [ref=e1282]:
+                        - listitem [ref=e1283]:
+                          - paragraph [ref=e1284]: セットされる値を指定します
+                        - listitem [ref=e1285]:
+                          - paragraph [ref=e1286]: 一致する場合のみ有効です
+                        - listitem [ref=e1287]:
+                          - paragraph [ref=e1288]: セット前の値を指定することはできません
+                        - listitem [ref=e1289]:
+                          - paragraph [ref=e1290]: セット前と同じ値がセットされた場合でもトリガーが実行されます
+              - generic [ref=e1291]:
+                - paragraph [ref=e1292]: "警告:"
+                - list [ref=e1293]:
+                  - listitem [ref=e1294]:
+                    - paragraph [ref=e1295]:
+                      - text: Web SDKバージョン2.26.1以前では、
+                      - link "ユーザープロフィールの条件付きセット操作" [ref=e1296] [cursor=pointer]:
+                        - /url: ../../dev/web/user-profile.html#web-user-profile-conditional-set
+                      - text: で一致する値がセットされた場合、または
+                      - link "ユーザープロフィールの増加値/減少値" [ref=e1297] [cursor=pointer]:
+                        - /url: ../../dev/web/user-profile.html#web-user-profile-increment-and-decrement
+                      - text: が
+                      - emphasis [ref=e1298]: セットされる値
+                      - text: と一致する場合でもトリガーが実行されます。ご注意ください。
+              - generic [ref=e1299]:
+                - paragraph [ref=e1300]: "注釈:"
+                - list [ref=e1301]:
+                  - listitem [ref=e1302]:
+                    - paragraph [ref=e1303]:
+                      - text: Web SDKバージョン2.26.2以降は
+                      - link "ユーザープロフィールの条件付きセット操作" [ref=e1304] [cursor=pointer]:
+                        - /url: ../../dev/web/user-profile.html#web-user-profile-conditional-set
+                      - text: で一致する値がセットされた場合、または
+                      - link "ユーザープロフィールの増加値/減少値" [ref=e1305] [cursor=pointer]:
+                        - /url: ../../dev/web/user-profile.html#web-user-profile-increment-and-decrement
+                      - text: で計算結果が一致した場合でもトリガーは発火しません。
+          - generic [ref=e1306]:
+            - heading "配信対象設定" [level=2] [ref=e1307]
+            - img "../../_images/web-message-selecttarget.ja.png" [ref=e1308]
+            - paragraph [ref=e1309]:
+              - text: イベントやユーザープロフィール、既存ユーザーといったセグメンテーションフィルターをつかって、配信対象となるユーザーを指定できます。 各フィルターは
+              - strong [ref=e1310]: and
+              - text: 、
+              - strong [ref=e1311]: and not
+              - text: 、
+              - strong [ref=e1312]: or
+              - text: を使って、最大5個まで組み合わせられます。
+            - list [ref=e1313]:
+              - listitem [ref=e1314]:
+                - paragraph [ref=e1315]:
+                  - strong [ref=e1316]: and
+                  - text: ": 指定した条件を全て満たすユーザーが対象になります"
+              - listitem [ref=e1317]:
+                - paragraph [ref=e1318]:
+                  - strong [ref=e1319]: and not
+                  - text: ": 指定した条件にあてはまるユーザーが対象から除外されます"
+              - listitem [ref=e1320]:
+                - paragraph [ref=e1321]:
+                  - strong [ref=e1322]: or
+                  - text: ": 指定した複数の条件のどれかにあてはまるユーザーが対象になります"
+            - paragraph [ref=e1323]: "例えば:"
+            - list [ref=e1324]:
+              - listitem [ref=e1325]:
+                - paragraph [ref=e1326]: 3日前にWebサイトを閲覧して、その後2日間Webサイトを閲覧してないユーザーへ配信する場合
+            - img "../../_images/web-message-segmentation-filter-case1.ja.png" [ref=e1327]
+            - list [ref=e1328]:
+              - listitem [ref=e1329]:
+                - paragraph [ref=e1330]: 性別が女性で直近3日以内にイベントAかイベントBのどちらかを実行したユーザーへ配信する場合
+            - img "../../_images/web-message-segmentation-filter-case2.ja.png" [ref=e1331]
+            - generic [ref=e1332]:
+              - heading "対象デバイス" [level=3] [ref=e1333]
+              - paragraph [ref=e1334]:
+                - strong [ref=e1335]: 全てのデバイス
+                - text: 、
+                - strong [ref=e1336]: スマートフォン/タブレット
+                - text: 、
+                - strong [ref=e1337]: PC
+                - text: でアクセスしたユーザーを対象に配信することができます。
+            - generic [ref=e1338]:
+              - heading "オーディエンスでフィルタリング" [level=3] [ref=e1339]
+              - paragraph [ref=e1340]:
+                - link "オーディエンス" [ref=e1341] [cursor=pointer]:
+                  - /url: audience.html
+                - text: で作成したセグメンテーションを利用することができます。
+              - generic [ref=e1342]:
+                - paragraph [ref=e1343]: "注釈:"
+                - list [ref=e1344]:
+                  - listitem [ref=e1345]:
+                    - paragraph [ref=e1346]: "フィルターオーディエンス: 他のフィルタリング条件と組み合わせることはできません。"
+                  - listitem [ref=e1347]:
+                    - paragraph [ref=e1348]: "インポートオーディエンス: 他のフィルタリング条件と組み合わせることができます。"
+            - generic [ref=e1349]:
+              - heading "イベントでフィルタリング" [level=3] [ref=e1350]
+              - paragraph [ref=e1351]:
+                - link "イベント" [ref=e1352] [cursor=pointer]:
+                  - /url: ../../dev/sdk/tracking.html
+                - text: を実行したユーザーをセグメンテーションすることができます。実行した期間や回数を指定することができます。
+            - generic [ref=e1353]:
+              - heading "イベントプロパティでフィルタリング" [level=3] [ref=e1354]
+              - paragraph [ref=e1355]:
+                - link "イベント" [ref=e1356] [cursor=pointer]:
+                  - /url: ../../dev/sdk/tracking.html
+                - text: を実行したユーザーのうち、実行されたイベントに付帯するプロパティにもとづいてユーザーをセグメンテーションすることができます。プロパティの名前や値、実行した期間や回数を指定することができます。
+            - generic [ref=e1357]:
+              - heading "ユーザープロフィールでフィルタリング" [level=3] [ref=e1358]
+              - paragraph [ref=e1359]:
+                - link "ユーザープロフィール" [ref=e1360] [cursor=pointer]:
+                  - /url: ../../dev/sdk/user-profile.html
+                - text: に登録されている情報にもとづいてユーザーをセグメンテーションすることができます。SDKでプロフィールの型に数値を指定している場合、「以上、以下、より大きい、より小さい」などをつかって、値を比較する条件を指定できます。文字を指定している場合、「一致する、一致しない、含む」などをつかって、条件を指定できます。日付を指定している場合、「◯日前以前、◯日前〜▢日前、特定日以前」などをつかって、条件を指定できます。
+              - paragraph [ref=e1361]:
+                - text: 日付の指定については、
+                - link "サポートサイトのFAQ" [ref=e1362] [cursor=pointer]:
+                  - /url: https://support.repro.io/hc/ja/articles/23886462974489
+                - text: に詳細な説明がありますので、こちらも参考にしてください。
+            - generic [ref=e1363]:
+              - heading "全ユーザー" [level=3] [ref=e1364]
+              - paragraph [ref=e1365]:
+                - text: Reproへの登録の有無に関わらず、全てのユーザーが対象になります。全ユーザーを利用する場合は、
+                - strong [ref=e1366]: その他の条件をフィルターに使うことができません
+                - text: ので、ご注意ください。
+            - generic [ref=e1367]:
+              - heading "初回ユーザー" [level=3] [ref=e1368]
+              - paragraph [ref=e1369]: 初めてSDKが入ったページを開いたユーザーが対象になります。なお、初回ユーザーのセグメントは初回セッション内（=初めてSDKが入ったページを開き、最後に発火されたイベントから30分以内）でのみ有効となりますので、ご注意ください。
+              - paragraph [ref=e1370]:
+                - strong [ref=e1371]: 初回ユーザでなくなる場合の具体例
+              - list [ref=e1372]:
+                - listitem [ref=e1373]:
+                  - paragraph [ref=e1374]: 5 / 1 19:00 SDKが入ったページを初めて訪問し、最初のイベント(A)を実行
+                - listitem [ref=e1375]:
+                  - paragraph [ref=e1376]: 5 / 1 19:31 イベント(B)を実行
+              - paragraph [ref=e1377]:
+                - text: 上記の場合、
+                - strong [ref=e1378]: イベント（B)をトリガーとして、初回ユーザーにWebメッセージを表示することはできません
+                - text: のでご注意ください。
+            - generic [ref=e1379]:
+              - heading "既存ユーザー" [level=3] [ref=e1380]
+              - paragraph [ref=e1381]:
+                - text: Reproに登録されたすべてのユーザーが対象となります。既存ユーザーから特定条件を満たすユーザーを除外する場合は、
+                - strong [ref=e1382]: and not
+                - text: でフィルターを追加してください。
+          - generic [ref=e1383]:
+            - heading "下書きとして保存" [level=2] [ref=e1384]
+            - paragraph [ref=e1385]:
+              - text: キャンペーンの必須項目をすべて記入していない状態など、キャンペーンの作成途中で作成を終えたい場合は、
+              - strong [ref=e1386]: 下書きで保存
+              - text: をクリックしてください。 下書きで保存をした場合は、後からキャンペーンのゴールやメッセージのパターンを変更することができます。
+            - paragraph [ref=e1387]: 下書き状態のキャンペーンはメッセージ一覧画面の下書きタブから選択できます。
+            - img "Select Draft" [ref=e1388]
+          - generic [ref=e1389]:
+            - heading "公開、もしくは、非公開にする" [level=2] [ref=e1390]
+            - paragraph [ref=e1391]:
+              - text: 公開もしくは非公開をクリックする前に、設定したキャンペーンの内容を注意深くチェックしてください。 キャンペーンを公開、非公開で登録後からキャンペーンのゴール、メッセージのパターン が
+              - strong [ref=e1392]: 変更できなくなります。
+            - paragraph [ref=e1393]:
+              - text: 確認後、キャンペーンを公開する準備が整っていれば、
+              - strong [ref=e1394]: 公開
+              - text: を、そうでない場合は
+              - strong [ref=e1395]: 非公開
+              - text: をクリックしてください。
+          - generic [ref=e1396]:
+            - heading "効果測定" [level=2] [ref=e1397]
+            - paragraph [ref=e1398]: キャンペーンの効果を確認できます。
+            - generic [ref=e1399]:
+              - heading "配信結果" [level=3] [ref=e1400]
+              - generic [ref=e1401]:
+                - term [ref=e1402]:
+                  - strong [ref=e1403]: 配信数
+                - definition [ref=e1404]:
+                  - paragraph [ref=e1405]: Webメッセージが表示されたユーザー数を日次で集計し、合計した数です。
+                - term [ref=e1406]:
+                  - strong [ref=e1407]: コンバージョン数
+                - definition [ref=e1408]:
+                  - paragraph [ref=e1409]: 配信から24時間以内に、作成画面で指定したゴールを達成したユーザーの数を日次で集計し、合計した数です。
+                - term [ref=e1410]:
+                  - strong [ref=e1411]: コンバージョン率
+                - definition [ref=e1412]:
+                  - paragraph [ref=e1413]: コンバージョン数 / 配信数 です。
+                - term [ref=e1414]:
+                  - strong [ref=e1415]: 結果の推移
+                - definition [ref=e1416]:
+                  - paragraph [ref=e1417]: キャンペーン実施期間中の配信数、コンバージョン数を日次で集計した結果を表示しています。計測単位はユーザーです。
+          - generic [ref=e1418]:
+            - heading "A/Bテスト" [level=2] [ref=e1419]
+            - paragraph [ref=e1420]: 配信対象に指定したユーザーに複数のパターンのメッセージを均等に出し分けることで、どのようなメッセージを配信すればコンバージョン率が向上するのかを検証することができる機能です。
+            - paragraph [ref=e1421]: 最も効果の高かったメッセージを勝ちパターンとして指定することができます。
+            - generic [ref=e1422]:
+              - heading "メッセージ作成" [level=3] [ref=e1423]
+              - paragraph [ref=e1424]: メッセージのパターンを2個以上作成することで、A/Bテストを行うことができます。
+              - img "web message Enable A/B Testing" [ref=e1425]
+              - list [ref=e1426]:
+                - listitem [ref=e1427]:
+                  - paragraph [ref=e1428]: メッセージは最大4パターンまで追加することができます。
+                - listitem [ref=e1429]:
+                  - paragraph [ref=e1430]: パターンの追加や削除は新規作成時のみ行うことができます。
+            - generic [ref=e1431]:
+              - heading "配信対象者を各パターンに振り分ける" [level=3] [ref=e1432]
+              - img "web message multiple variants" [ref=e1433]
+              - paragraph [ref=e1434]: パターンを2つ以上に設定した場合も、各パターンに配信対象者を振り分けられます。 コントロールグループを含む各パターンの合計が100%になるように設定します。
+              - paragraph [ref=e1435]:
+                - strong [ref=e1436]: 均等に振り分ける
+                - text: をクリックすると、コントロールグループと各パターンを均等に振り分けます。
+                - strong [ref=e1437]: 均等に振り分ける(コントロールグループなし)
+                - text: をクリックすると、コントロールグループを
+                - strong [ref=e1438]: 0%
+                - text: に設定し、
+                - strong [ref=e1439]: 100%
+                - text: を各パターンで均等に振り分けます。
+              - generic [ref=e1440]:
+                - paragraph [ref=e1441]: "注釈:"
+                - list [ref=e1442]:
+                  - listitem [ref=e1443]:
+                    - paragraph [ref=e1444]:
+                      - text: コントロールグループは
+                      - strong [ref=e1445]: 0%
+                      - text: ~
+                      - strong [ref=e1446]: 99%
+                      - text: まで設定出来ます。
+                  - listitem [ref=e1447]:
+                    - paragraph [ref=e1448]:
+                      - text: 各パターンは
+                      - strong [ref=e1449]: 1%
+                      - text: ~
+                      - strong [ref=e1450]: 100%
+                      - text: まで設定出来ます。
+                  - listitem [ref=e1451]:
+                    - paragraph [ref=e1452]: 整数のみ設定出来ます。
+                  - listitem [ref=e1453]:
+                    - paragraph [ref=e1454]: 振り分け設定は新規作成時のみ行うことが出来ます。
+                  - listitem [ref=e1455]:
+                    - paragraph [ref=e1456]: 配信数の規模により、設定した割合と実際の配信数が乖離することがあります。
+            - generic [ref=e1457]:
+              - heading "効果測定（A/Bテスト）" [level=3] [ref=e1458]
+              - paragraph [ref=e1459]:
+                - strong [ref=e1460]: 詳細画面
+              - img "A/B testing measurement" [ref=e1461]
+              - paragraph [ref=e1462]:
+                - text: 配信数やコンバージョン数が計上されると効果測定結果が表示されます。グラフにはWEBメッセージの配信数、各ボタンの押下数、コンバージョン率がパターンごとに表示されています。キャンペーンのデータ更新タイミングについての詳細は
+                - link "こちら" [ref=e1463] [cursor=pointer]:
+                  - /url: ../misc/aggregation.html
+                - text: をご覧ください。
+              - generic [ref=e1464]:
+                - paragraph [ref=e1465]: "注釈:"
+                - list [ref=e1466]:
+                  - listitem [ref=e1467]:
+                    - paragraph [ref=e1468]:
+                      - text: コントロールグループの各データはキャンペーン自体の効果を判断しやすくするため、キャンペーン全体の
+                      - strong [ref=e1469]: 配信数
+                      - text: 、
+                      - strong [ref=e1470]: コンバージョン数
+                      - text: 、
+                      - strong [ref=e1471]: コンバージョン率
+                      - text: には反映されません。
+                  - listitem [ref=e1472]:
+                    - paragraph [ref=e1473]:
+                      - text: コントロールグループに属するユーザーにはWebメッセージは配信されないため、配信数、ボタン1押下数、ボタン2押下数は常に
+                      - strong [ref=e1474]: "-"
+                      - text: で表示されます。
+                  - listitem [ref=e1475]:
+                    - paragraph [ref=e1476]: コントロールグループのコンバージョン数は、コントロールグループに属するユーザーがキャンペーンに設定したゴールのイベントを発生させた数を表示します。
+                  - listitem [ref=e1477]:
+                    - paragraph [ref=e1478]: コントロールグループのコンバージョン率は、コンバージョン数をコントロールグループに属するユーザー数で割って算出されます。
+              - paragraph [ref=e1479]: 利用されるテンプレートの種類・テンプレ内で利用している要素によって効果測定画面に表示される要素が異なります。詳細は下記をご参照ください。なお、表中の標準はWEBメッセージのテンプレート選択画面において、オリジナル以外のものに対応し、カスタムはカスタムメッセージを用いた場合を表します。
+              - table "効果測定表示項目" [ref=e1480]:
+                - caption [ref=e1481]: 効果測定表示項目
+                - rowgroup [ref=e1486]:
+                  - row "標準 カスタムメッセージ" [ref=e1487]:
+                    - columnheader [ref=e1488]
+                    - columnheader "標準" [ref=e1489]:
+                      - paragraph [ref=e1490]: 標準
+                    - columnheader "カスタムメッセージ" [ref=e1491]:
+                      - paragraph [ref=e1492]: カスタムメッセージ
+                - rowgroup [ref=e1493]:
+                  - row "表示項目 テンプレート内で利用している要素に応じて変動。 (例えばボタンを2個、画像を2個利用するテンプレートでは、効果測定にはボタン1 / ボタン2 / 画像1 / 画像2が表示されます。) テンプレ内で利用している要素とは無関係にボタン1 / ボタン2 / ボタン3 / ボタン4 / 画像1 / 画像2 / 画像3 / 画像4 が表示" [ref=e1494]:
+                    - rowheader "表示項目" [ref=e1495]:
+                      - paragraph [ref=e1496]: 表示項目
+                    - cell "テンプレート内で利用している要素に応じて変動。 (例えばボタンを2個、画像を2個利用するテンプレートでは、効果測定にはボタン1 / ボタン2 / 画像1 / 画像2が表示されます。)" [ref=e1497]:
+                      - paragraph [ref=e1498]:
+                        - strong [ref=e1499]: テンプレート内で利用している要素に応じて変動。
+                        - text: (例えばボタンを2個、画像を2個利用するテンプレートでは、効果測定にはボタン1 / ボタン2 / 画像1 / 画像2が表示されます。)
+                    - cell "テンプレ内で利用している要素とは無関係にボタン1 / ボタン2 / ボタン3 / ボタン4 / 画像1 / 画像2 / 画像3 / 画像4 が表示" [ref=e1500]:
+                      - paragraph [ref=e1501]:
+                        - strong [ref=e1502]: テンプレ内で利用している要素とは無関係にボタン1 / ボタン2 / ボタン3 / ボタン4 / 画像1 / 画像2 / 画像3 / 画像4
+                        - text: が表示
+              - paragraph [ref=e1503]: A/Bテストの実行中にはA/Bテストの実行結果が表示されます。ここではコントロールグループを含む各パターンを選択した指標 (ボタン1押下率、ボタン2押下率、メインコンバージョン率、サブコンバージョン率) を用いて比較を行えます。
+              - img "Significant Difference Result" [ref=e1504]
+              - paragraph [ref=e1505]:
+                - strong [ref=e1506]: パターン
+              - paragraph [ref=e1507]: コントロールグループを含む、A/Bテストで送信を行う各パターンが表示されます。
+              - paragraph [ref=e1508]:
+                - strong [ref=e1509]: ベースライン
+              - paragraph [ref=e1510]: A/Bテストで各パターンを比較する際に基準となるパターンをベースラインとして選択します。ベースラインを変更することで、様々なパターン間の比較ができます。
+              - paragraph [ref=e1511]:
+                - strong [ref=e1512]: 対象となる指標
+              - paragraph [ref=e1513]: A/Bテストで各パターンをベースラインと比較する際に用いる指標を選択します。指標には割合を表す値 (ボタン1押下率、ボタン2押下率、メインコンバージョン率、サブコンバージョン率) が選択できます。また、一覧に表示する指標については編集画面から変更できます。
+              - paragraph [ref=e1514]:
+                - strong [ref=e1515]: 90%信頼区間
+              - paragraph [ref=e1516]:
+                - text: 各パターンをベースラインと比較した場合の 90% 信頼区間が表示されます。90% 信頼区間そのものの意味については
+                - link "FAQ" [ref=e1517] [cursor=pointer]:
+                  - /url: ../../faq/general/significant-difference/5.html
+                - text: をご参照ください。ここでは代表的なパターンの読み取り方について示します。
+              - paragraph [ref=e1518]: パターン１：
+              - img "Significant Difference Exist Up" [ref=e1519]
+              - paragraph [ref=e1520]: このような表示の場合、パターンとベースラインとの差が有意であることを意味します。配信を開始してから十分な期間が経過している場合、勝ちパターンの決定へと進むことを推奨します。
+              - paragraph [ref=e1521]: パターン２：
+              - img "Significant Difference No Result" [ref=e1522]
+              - paragraph [ref=e1523]: このような表示の場合、パターンとベースラインとの差が有意ではないことを意味します。結果が出るまでもう少し待つか、配信を開始してから十分な期間が経過している場合、差がないものとして次のキャンペーンの開始を検討することを推奨します。
+              - paragraph [ref=e1524]: パターン３：
+              - img "Significant Difference Exist Down" [ref=e1525]
+              - paragraph [ref=e1526]: このような表示の場合、パターンとベースラインとの差が有意であることを意味します。このような表示しかない場合、ベースラインとして設定しているパターンを勝ちパターンして決定することを推奨します。
+              - paragraph [ref=e1527]: パターン４：
+              - img "Significant Difference Not Calculated" [ref=e1528]
+              - paragraph [ref=e1529]: このような表示の場合、そのパターンは指標の値が存在しないため、有意差の計算が不可能であることを意味します。
+              - generic [ref=e1530]:
+                - paragraph [ref=e1531]: "注釈:"
+                - list [ref=e1532]:
+                  - listitem [ref=e1533]:
+                    - paragraph [ref=e1534]: A/Bテスト有意差 測定結果は勝ちパターンを選択すると下記のような表示になり、各パターンの比較結果が表示されないようになります
+              - img "Significant Difference Winner Selected" [ref=e1535]
+              - paragraph [ref=e1536]:
+                - strong [ref=e1537]: 結果の推移
+              - paragraph [ref=e1538]: グラフにはWebメッセージの配信数、ボタン1押下数、ボタン2押下数、メインコンバージョン率、サブコンバージョン率がパターンごとに表示されています。
+              - img "AB Testing Result Transition" [ref=e1539]
+              - paragraph [ref=e1540]:
+                - strong [ref=e1541]: 一覧画面
+              - paragraph [ref=e1542]: A/Bテストを実行しているキャンペーンが公開中または非公開の場合に、一覧画面で各キャンペーンのA/Bテストの状態を確認できます。 アイコンの表示条件は次のとおりです。
+              - table [ref=e1543]:
+                - rowgroup [ref=e1547]:
+                  - row "アイコン 表示条件" [ref=e1548]:
+                    - columnheader "アイコン" [ref=e1549]:
+                      - paragraph [ref=e1550]: アイコン
+                    - columnheader "表示条件" [ref=e1551]:
+                      - paragraph [ref=e1552]: 表示条件
+                - rowgroup [ref=e1553]:
+                  - row "trending_up 有意差があり、ベースラインを上回る結果のパターンが1つ以上存在する場合" [ref=e1554]:
+                    - cell "trending_up" [ref=e1555]:
+                      - paragraph [ref=e1556]:
+                        - img "trending_up" [ref=e1557]
+                    - cell "有意差があり、ベースラインを上回る結果のパターンが1つ以上存在する場合" [ref=e1558]:
+                      - paragraph [ref=e1559]: 有意差があり、ベースラインを上回る結果のパターンが1つ以上存在する場合
+                  - row "trending_down 有意差があり、ベースラインを下回る結果のパターンのみが存在する場合" [ref=e1560]:
+                    - cell "trending_down" [ref=e1561]:
+                      - paragraph [ref=e1562]:
+                        - img "trending_down" [ref=e1563]
+                    - cell "有意差があり、ベースラインを下回る結果のパターンのみが存在する場合" [ref=e1564]:
+                      - paragraph [ref=e1565]: 有意差があり、ベースラインを下回る結果のパターンのみが存在する場合
+                  - row "more 有意差がないパターンのみが存在する場合" [ref=e1566]:
+                    - cell "more" [ref=e1567]:
+                      - paragraph [ref=e1568]:
+                        - img "more" [ref=e1569]
+                    - cell "有意差がないパターンのみが存在する場合" [ref=e1570]:
+                      - paragraph [ref=e1571]: 有意差がないパターンのみが存在する場合
+                  - row "report_problem 全てのパターンで計算ができない場合" [ref=e1572]:
+                    - cell "report_problem" [ref=e1573]:
+                      - paragraph [ref=e1574]:
+                        - img "report_problem" [ref=e1575]
+                    - cell "全てのパターンで計算ができない場合" [ref=e1576]:
+                      - paragraph [ref=e1577]: 全てのパターンで計算ができない場合
+                  - row "check_circle 勝ちパターンを選択済みの場合" [ref=e1578]:
+                    - cell "check_circle" [ref=e1579]:
+                      - paragraph [ref=e1580]:
+                        - img "check_circle" [ref=e1581]
+                    - cell "勝ちパターンを選択済みの場合" [ref=e1582]:
+                      - paragraph [ref=e1583]: 勝ちパターンを選択済みの場合
+                  - row "block A/Bテストを実行していて、ベースラインとなるパターンか対象となる指標が設定されていない場合" [ref=e1584]:
+                    - cell "block" [ref=e1585]:
+                      - paragraph [ref=e1586]:
+                        - img "block" [ref=e1587]
+                    - cell "A/Bテストを実行していて、ベースラインとなるパターンか対象となる指標が設定されていない場合" [ref=e1588]:
+                      - paragraph [ref=e1589]: A/Bテストを実行していて、ベースラインとなるパターンか対象となる指標が設定されていない場合
+                  - row "ー キャンペーンがA/Bテストを実行していない場合" [ref=e1590]:
+                    - cell "ー" [ref=e1591]:
+                      - paragraph [ref=e1592]: ー
+                    - cell "キャンペーンがA/Bテストを実行していない場合" [ref=e1593]:
+                      - paragraph [ref=e1594]: キャンペーンがA/Bテストを実行していない場合
+              - generic [ref=e1595]:
+                - paragraph [ref=e1596]: "注釈:"
+                - list [ref=e1597]:
+                  - listitem [ref=e1598]:
+                    - paragraph [ref=e1599]: 有意差があり、ベースラインを上回る結果と下回る結果のキャンペーンが両方ともに存在する場合には、ベースラインを上回る結果が1つでも存在する場合として表示がされます
+                  - listitem [ref=e1600]:
+                    - paragraph [ref=e1601]:
+                      - text: ご不明点がある場合
+                      - link "FAQ" [ref=e1602] [cursor=pointer]:
+                        - /url: ../../faq/general/index.html
+                      - text: もあわせてご確認ください
+            - generic [ref=e1603]:
+              - heading "勝ちパターンを選ぶ" [level=3] [ref=e1604]
+              - paragraph [ref=e1605]: 勝ちパターンを選ぶと、以降はそのパターンのみが配信対象のユーザーに配信されるようになります。
+        - list [ref=e1606]:
+          - listitem [ref=e1607]:
+            - link "« HTMLアプリ内メッセージ" [ref=e1608] [cursor=pointer]:
+              - /url: html-in-app-message.html
+          - listitem [ref=e1609]:
+            - link "カスタムメッセージ »" [ref=e1610] [cursor=pointer]:
+              - /url: custom-message.html
+          - listitem
+        - generic [ref=e1611]:
+          - paragraph [ref=e1612]:
+            - link "" [ref=e1613] [cursor=pointer]:
+              - /url: //www.facebook.com/reproio
+            - link "" [ref=e1614] [cursor=pointer]:
+              - /url: //twitter.com/reproio
+            - link "" [ref=e1615] [cursor=pointer]:
+              - /url: //github.com/reproio
+          - paragraph [ref=e1616]:
+            - link "Repro Service Site" [ref=e1617] [cursor=pointer]:
+              - /url: //repro.io
+            - link "About Us" [ref=e1618] [cursor=pointer]:
+              - /url: //repro.io/company/about/
+            - link "Careers" [ref=e1619] [cursor=pointer]:
+              - /url: //culture.repro.io/jobs
+            - link "Terms of Service" [ref=e1620] [cursor=pointer]:
+              - /url: //repro.io/company/legal/term/
+            - link "Privacy Policy" [ref=e1621] [cursor=pointer]:
+              - /url: //repro.io/company/legal/privacy/
+            - link "Cookie Policy" [ref=e1622] [cursor=pointer]:
+              - /url: //repro.io/company/legal/cookie/
+          - paragraph [ref=e1623]: © 2026 Repro Inc.
+    - generic [ref=e1624]:
+      - generic [ref=e1625]:
+        - text: 本Webサイトは機能改善を目的とした利用状況の分析にCookieを使用しています。
+        - link "詳細" [ref=e1626] [cursor=pointer]:
+          - /url: https://repro.io/company/legal/cookie/
+      - generic [ref=e1627]:
+        - generic [ref=e1628]: COOKIEを拒否
+        - generic [ref=e1629]: COOKIEを許可

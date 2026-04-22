@@ -1,0 +1,1074 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e3]:
+      - link "Repro - Mobile Analytics for growth" [ref=e4] [cursor=pointer]:
+        - /url: ../../../../../ja/
+        - img "Repro - Mobile Analytics for growth" [ref=e5]
+      - navigation [ref=e6]:
+        - link "English" [ref=e8] [cursor=pointer]:
+          - /url: ../../../../../en/dev/web/getstarted/web.html
+        - link "アカウント登録" [ref=e9] [cursor=pointer]:
+          - /url: https://app.repro.io/suppliers/sign_up
+          - generic [ref=e10]: アカウント登録
+        - link "管理画面に戻る" [ref=e11] [cursor=pointer]:
+          - /url: https://app.repro.io/
+          - generic [ref=e12]: 管理画面に戻る
+  - generic [ref=e14]:
+    - generic [ref=e15]:
+      - complementary [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e19]:
+            - searchbox "Search" [ref=e21]
+            - text: 
+          - list [ref=e22]:
+            - listitem [ref=e23]:
+              - link "動作環境" [ref=e24] [cursor=pointer]:
+                - /url: ../../../requirements.html
+            - listitem [ref=e25]:
+              - link "管理画面ガイド" [ref=e26] [cursor=pointer]:
+                - /url: ../../../dashboard/index.html
+            - listitem [ref=e27]:
+              - link "開発ガイド" [ref=e28] [cursor=pointer]:
+                - /url: ../../index.html
+              - list [ref=e29]:
+                - listitem [ref=e30]:
+                  - link "アカウント作成" [ref=e31] [cursor=pointer]:
+                    - /url: ../../repro-account.html
+                - listitem [ref=e32]:
+                  - link "iOS/Android SDK" [ref=e33] [cursor=pointer]:
+                    - /url: ../../sdk/index.html
+                - listitem [ref=e34]:
+                  - link "Web" [ref=e35] [cursor=pointer]:
+                    - /url: ../index.html
+                  - list [ref=e36]:
+                    - listitem [ref=e37]:
+                      - link "導入" [ref=e38] [cursor=pointer]:
+                        - /url: "#"
+                      - list [ref=e39]:
+                        - listitem [ref=e40]:
+                          - link "Repro Webを導入する" [ref=e41] [cursor=pointer]:
+                            - /url: "#repro-web"
+                          - list [ref=e42]:
+                            - listitem [ref=e43]:
+                              - link "手順" [ref=e44] [cursor=pointer]:
+                                - /url: "#id2"
+                        - listitem [ref=e45]:
+                          - link "アカウントにログインする" [ref=e46] [cursor=pointer]:
+                            - /url: "#setting-login-for-repro"
+                        - listitem [ref=e47]:
+                          - link "導入方法を選択する" [ref=e48] [cursor=pointer]:
+                            - /url: "#choose-deployment-method"
+                        - listitem [ref=e49]:
+                          - link "Google Tag Manager(GTM)で導入する" [ref=e50] [cursor=pointer]:
+                            - /url: "#google-tag-manager-gtm"
+                          - list [ref=e51]:
+                            - listitem [ref=e52]:
+                              - link "目次" [ref=e53] [cursor=pointer]:
+                                - /url: "#id5"
+                        - listitem [ref=e54]:
+                          - link "セットアップ計測タグを導入する" [ref=e55] [cursor=pointer]:
+                            - /url: "#install-setup-measurement-tags"
+                          - list [ref=e56]:
+                            - listitem [ref=e57]:
+                              - link "セットアップ計測タグを準備する" [ref=e58] [cursor=pointer]:
+                                - /url: "#id7"
+                            - listitem [ref=e59]:
+                              - link "ユーザーIDを設定する" [ref=e60] [cursor=pointer]:
+                                - /url: "#id"
+                            - listitem [ref=e61]:
+                              - link "セットアップ計測タグを設置する" [ref=e62] [cursor=pointer]:
+                                - /url: "#setting-setup-tag"
+                            - listitem [ref=e63]:
+                              - link "セットアップ計測タグの動作確認をする" [ref=e64] [cursor=pointer]:
+                                - /url: "#id10"
+                            - listitem [ref=e65]:
+                              - link "セットアップ計測タグの公開" [ref=e66] [cursor=pointer]:
+                                - /url: "#id13"
+                        - listitem [ref=e67]:
+                          - link "コンバージョン計測タグを導入する" [ref=e68] [cursor=pointer]:
+                            - /url: "#install-cv-measurement-tags"
+                          - list [ref=e69]:
+                            - listitem [ref=e70]:
+                              - link "コンバージョン計測タグを準備する" [ref=e71] [cursor=pointer]:
+                                - /url: "#id15"
+                            - listitem [ref=e72]:
+                              - link "コンバージョン計測タグの設置" [ref=e73] [cursor=pointer]:
+                                - /url: "#id18"
+                        - listitem [ref=e74]:
+                          - link "イベント計測タグを導入する" [ref=e75] [cursor=pointer]:
+                            - /url: "#install-event-measurement-tags"
+                          - list [ref=e76]:
+                            - listitem [ref=e77]:
+                              - link "イベント計測タグを準備する" [ref=e78] [cursor=pointer]:
+                                - /url: "#id20"
+                            - listitem [ref=e79]:
+                              - link "イベント計測タグを設置する" [ref=e80] [cursor=pointer]:
+                                - /url: "#id21"
+                            - listitem [ref=e81]:
+                              - link "イベント計測タグの動作を確認する" [ref=e82] [cursor=pointer]:
+                                - /url: "#id22"
+                        - listitem [ref=e83]:
+                          - link "ユーザープロフィールを取得する" [ref=e84] [cursor=pointer]:
+                            - /url: "#get-user-profile"
+                          - list [ref=e85]:
+                            - listitem [ref=e86]:
+                              - link "1.サイト上のデータをGTM経由で取得する" [ref=e87] [cursor=pointer]:
+                                - /url: "#gtm"
+                            - listitem [ref=e88]:
+                              - link "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する方法" [ref=e89] [cursor=pointer]:
+                                - /url: "#dbdmprepro-webapi"
+                            - listitem [ref=e90]:
+                              - link "ユーザープロフィール取得の動作確認方法" [ref=e91] [cursor=pointer]:
+                                - /url: "#id26"
+                        - listitem [ref=e92]:
+                          - link "Webページに直接タグを埋め込み導入する" [ref=e93] [cursor=pointer]:
+                            - /url: "#web"
+                          - list [ref=e94]:
+                            - listitem [ref=e95]:
+                              - link "目次" [ref=e96] [cursor=pointer]:
+                                - /url: "#id27"
+                        - listitem [ref=e97]:
+                          - link "セットアップ計測タグを導入する" [ref=e98] [cursor=pointer]:
+                            - /url: "#install-setup-measurement-tags-2"
+                          - list [ref=e99]:
+                            - listitem [ref=e100]:
+                              - link "セットアップ計測タグを準備する" [ref=e101] [cursor=pointer]:
+                                - /url: "#id29"
+                            - listitem [ref=e102]:
+                              - link "セットアップ計測タグを設置する" [ref=e103] [cursor=pointer]:
+                                - /url: "#id30"
+                            - listitem [ref=e104]:
+                              - link "セットアップ計測タグの動作を確認する" [ref=e105] [cursor=pointer]:
+                                - /url: "#id31"
+                        - listitem [ref=e106]:
+                          - link "コンバージョン計測タグの導入" [ref=e107] [cursor=pointer]:
+                            - /url: "#install-cv-measurement-tags-2"
+                          - list [ref=e108]:
+                            - listitem [ref=e109]:
+                              - link "コンバージョン計測タグを準備する" [ref=e110] [cursor=pointer]:
+                                - /url: "#id33"
+                            - listitem [ref=e111]:
+                              - link "コンバージョン計測タグを設置する" [ref=e112] [cursor=pointer]:
+                                - /url: "#id36"
+                        - listitem [ref=e113]:
+                          - link "イベント計測タグの導入" [ref=e114] [cursor=pointer]:
+                            - /url: "#install-event-measurement-tags-2"
+                          - list [ref=e115]:
+                            - listitem [ref=e116]:
+                              - link "イベント計測タグを設置する" [ref=e117] [cursor=pointer]:
+                                - /url: "#id38"
+                            - listitem [ref=e118]:
+                              - link "イベント計測タグの動作確認方法" [ref=e119] [cursor=pointer]:
+                                - /url: "#id39"
+                        - listitem [ref=e120]:
+                          - link "ユーザープロフィールを取得する" [ref=e121] [cursor=pointer]:
+                            - /url: "#get-user-profile-2"
+                          - list [ref=e122]:
+                            - listitem [ref=e123]:
+                              - link "1.サイトからユーザープロフィール計測タグで取得する" [ref=e124] [cursor=pointer]:
+                                - /url: "#obtain-via-web"
+                            - listitem [ref=e125]:
+                              - link "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する" [ref=e126] [cursor=pointer]:
+                                - /url: "#obtain-via-api-2"
+                            - listitem [ref=e127]:
+                              - link "ユーザープロフィール取得の動作確認方法" [ref=e128] [cursor=pointer]:
+                                - /url: "#id43"
+                        - listitem [ref=e129]:
+                          - link "最後に" [ref=e130] [cursor=pointer]:
+                            - /url: "#id44"
+                    - listitem [ref=e131]:
+                      - link "ユーザーID" [ref=e132] [cursor=pointer]:
+                        - /url: ../user-id.html
+                    - listitem [ref=e133]:
+                      - link "ユーザープロフィール" [ref=e134] [cursor=pointer]:
+                        - /url: ../user-profile.html
+                    - listitem [ref=e135]:
+                      - link "ReproへのLINEユーザーIDの登録 (Web SDK)" [ref=e136] [cursor=pointer]:
+                        - /url: ../line-integration.html
+                    - listitem [ref=e137]:
+                      - link "イベントトラッキング" [ref=e138] [cursor=pointer]:
+                        - /url: ../tracking.html
+                    - listitem [ref=e139]:
+                      - link "セッション・ライフサイクル" [ref=e140] [cursor=pointer]:
+                        - /url: ../session.html
+                    - listitem [ref=e141]:
+                      - link "デバイスID" [ref=e142] [cursor=pointer]:
+                        - /url: ../device-id.html
+                    - listitem [ref=e143]:
+                      - link "オプトアウト機能" [ref=e144] [cursor=pointer]:
+                        - /url: ../optout.html
+                    - listitem [ref=e145]:
+                      - link "バージョン1 から バージョン2 への更新手順" [ref=e146] [cursor=pointer]:
+                        - /url: ../migration.html
+                    - listitem [ref=e147]:
+                      - link "API" [ref=e148] [cursor=pointer]:
+                        - /url: ../api.html
+                    - listitem [ref=e149]:
+                      - link "クロスドメイン・トラッキング機能" [ref=e150] [cursor=pointer]:
+                        - /url: ../cross-domain-tracking.html
+                    - listitem [ref=e151]:
+                      - link "WebViewでの動作について" [ref=e152] [cursor=pointer]:
+                        - /url: ../webview.html
+                    - listitem [ref=e153]:
+                      - link "SPA(Single Page Application)サイトへの導入" [ref=e154] [cursor=pointer]:
+                        - /url: ../spa.html
+                    - listitem [ref=e155]:
+                      - link "Webプッシュ通知" [ref=e156] [cursor=pointer]:
+                        - /url: ../web-push-notification.html
+                    - listitem [ref=e157]:
+                      - link "Repro Webの計測タグが正しく動いているか確認する" [ref=e158] [cursor=pointer]:
+                        - /url: ../measurement-tag.html
+                    - listitem [ref=e159]:
+                      - link "Repro Webの利用するCookieについて" [ref=e160] [cursor=pointer]:
+                        - /url: ../cookies.html
+                - listitem [ref=e161]:
+                  - link "オーディエンスAPI" [ref=e162] [cursor=pointer]:
+                    - /url: ../../audience-api/index.html
+                - listitem [ref=e163]:
+                  - link "オーディエンスインポート(β)" [ref=e164] [cursor=pointer]:
+                    - /url: ../../audience-import/index.html
+                - listitem [ref=e165]:
+                  - link "プッシュAPI" [ref=e166] [cursor=pointer]:
+                    - /url: ../../push-api/index.html
+                - listitem [ref=e167]:
+                  - link "イベントバルクトラッキング (β)" [ref=e168] [cursor=pointer]:
+                    - /url: ../../event-bulk-tracking/index.html
+                - listitem [ref=e169]:
+                  - link "ユーザープロフィールAPI" [ref=e170] [cursor=pointer]:
+                    - /url: ../../user-profile-api/index.html
+                - listitem [ref=e171]:
+                  - link "ユーザープロフィールバルクインポート" [ref=e172] [cursor=pointer]:
+                    - /url: ../../user-profile-bulk-import-api/index.html
+                - listitem [ref=e173]:
+                  - link "ニュースフィードAPI" [ref=e174] [cursor=pointer]:
+                    - /url: ../../newsfeed-api/index.html
+                - listitem [ref=e175]:
+                  - link "削除ユーザー登録API" [ref=e176] [cursor=pointer]:
+                    - /url: ../../user-data-deletions-api/index.html
+                - listitem [ref=e177]:
+                  - link "メール" [ref=e178] [cursor=pointer]:
+                    - /url: ../../mail/index.html
+            - listitem [ref=e179]:
+              - link "リリースノート" [ref=e180] [cursor=pointer]:
+                - /url: ../../../releases/index.html
+            - listitem [ref=e181]:
+              - link "FAQ" [ref=e182] [cursor=pointer]:
+                - /url: ../../../faq/index.html
+      - generic [ref=e186]:
+        - generic [ref=e187]:
+          - heading "導入" [level=1] [ref=e188]
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: "注釈:"
+            - paragraph [ref=e191]:
+              - text: ネイティブアプリのWebViewでSDKを動作させる場合は、
+              - link "こちら" [ref=e192] [cursor=pointer]:
+                - /url: ../../sdk/webview.html
+              - text: を実装し、Repro Webは導入しないようにしてください。
+          - generic [ref=e193]:
+            - heading "Repro Webを導入する" [level=2] [ref=e194]
+            - generic [ref=e195]:
+              - generic [ref=e196]: Repro Webをサイトで利用できるようにするための手順を説明します。
+              - generic [ref=e197]: 本マニュアルに従って導入作業を進めてください。
+            - generic [ref=e198]:
+              - heading "手順" [level=3] [ref=e199]
+              - list [ref=e200]:
+                - listitem [ref=e201]:
+                  - paragraph [ref=e202]:
+                    - link "アカウントにログインする" [ref=e203] [cursor=pointer]:
+                      - /url: "#setting-login-for-repro"
+                - listitem [ref=e204]:
+                  - paragraph [ref=e205]:
+                    - link "導入方法を選択する" [ref=e206] [cursor=pointer]:
+                      - /url: "#choose-deployment-method"
+                - listitem [ref=e207]:
+                  - paragraph [ref=e208]:
+                    - link "Google Tag Manager(GTM)で導入する" [ref=e209] [cursor=pointer]:
+                      - /url: "#install-with-gtm"
+                - listitem [ref=e210]:
+                  - paragraph [ref=e211]:
+                    - link "Webページに直接タグを埋め込み導入する" [ref=e212] [cursor=pointer]:
+                      - /url: "#install-directly-on-web-pages"
+          - generic [ref=e213]:
+            - heading "アカウントにログインする" [level=2] [ref=e214]
+            - paragraph [ref=e215]: はじめにRepro Webの利用申し込みをするとご連絡いただいたメールアドレスへ招待メールが届きます。 メール内の「今すぐ確認」リンクから、Repro Webの管理画面へログインしてください。
+            - paragraph [ref=e216]:
+              - img "login_1.png" [ref=e217]
+            - paragraph [ref=e218]: すでに企業内で他のメンバーの方がRepro Webを利用している場合は、 Repro Web管理者権限を持つメンバーの方に 左メニューの設定 > メンバー管理 からメールアドレスを登録し、 アカウントへ招待していただく事もできます。
+          - generic [ref=e219]:
+            - heading "導入方法を選択する" [level=2] [ref=e220]
+            - paragraph [ref=e221]: Repro Webはタグマネージャーを使って導入することができます。
+            - paragraph [ref=e222]: Repro WebではGoogle Tag Manager(GTM)とYahoo Tag Manager(YTM)の動作を確認していますが、 YTMは「タグの実行順序がコントロールできない」という問題があるため、 Google Tag Manager(GTM)での導入を推奨しています。
+            - paragraph [ref=e223]: その他の計測タグマネージャーでも動作実績はございますが動作確認の上ご利用ください。
+            - paragraph [ref=e224]: 本マニュアルではGoogle Tag Manager(GTM)を使った場合とウェブページに直接埋め込む場合の導入方法をご紹介します。
+            - generic [ref=e225]:
+              - link "Google Tag Manager(GTM)で導入する" [ref=e227] [cursor=pointer]:
+                - /url: "#install-with-gtm"
+              - link "Webページに直接タグを埋め込み導入する" [ref=e229] [cursor=pointer]:
+                - /url: "#install-directly-on-web-pages"
+            - paragraph [ref=e231]: また、以下の条件に該当する場合はサポート担当へお問合せ下さい。 適切な導入方法をご案内します。
+            - list [ref=e232]:
+              - listitem [ref=e233]:
+                - paragraph [ref=e234]: 複数ドメインをまたいで計測する
+              - listitem [ref=e235]:
+                - paragraph [ref=e236]: ASPサービスやカートシステムを利用しているサイトへ導入する
+          - generic [ref=e237]:
+            - heading "Google Tag Manager(GTM)で導入する" [level=2] [ref=e238]
+            - paragraph [ref=e239]: Google Tag Manager(以下GTM)を使ってRepro Webを導入する方法を説明します。
+            - generic [ref=e240]:
+              - heading "目次" [level=3] [ref=e241]
+              - list [ref=e242]:
+                - listitem [ref=e243]:
+                  - paragraph [ref=e244]:
+                    - link "セットアップ計測タグを導入する" [ref=e245] [cursor=pointer]:
+                      - /url: "#install-setup-measurement-tags"
+                - listitem [ref=e246]:
+                  - paragraph [ref=e247]:
+                    - link "コンバージョン計測タグを導入する" [ref=e248] [cursor=pointer]:
+                      - /url: "#install-cv-measurement-tags"
+                - listitem [ref=e249]:
+                  - paragraph [ref=e250]:
+                    - link "イベント計測タグを導入する" [ref=e251] [cursor=pointer]:
+                      - /url: "#install-event-measurement-tags"
+                - listitem [ref=e252]:
+                  - paragraph [ref=e253]:
+                    - link "ユーザープロフィールを取得する" [ref=e254] [cursor=pointer]:
+                      - /url: "#get-user-profile"
+          - generic [ref=e255]:
+            - heading "セットアップ計測タグを導入する" [level=2] [ref=e256]
+            - generic [ref=e257]:
+              - generic [ref=e258]: セットアップ計測タグはサイト上のRepro Webを利用する上で必須の設定項目です。
+              - generic [ref=e259]: 以下手順に沿って導入を進めてください。
+            - generic [ref=e260]:
+              - heading "セットアップ計測タグを準備する" [level=3] [ref=e261]
+              - paragraph [ref=e262]: サイトに設置するセットアップ計測タグを準備します。
+              - paragraph [ref=e263]: まず、導入サイトでユーザーIDを取得するか否かをご判断下さい。
+              - generic [ref=e264]:
+                - paragraph [ref=e265]: "注釈:"
+                - paragraph [ref=e266]: ユーザーIDとは、Repro Webでユーザーを同定するための識別子です。 通常Repro Webはブラウザ(cookie)をベースにユーザーを同定しますが、異なるブラウザやプラットフォームを跨いでユーザを識別するためには、ユーザーIDにDB上の会員IDなど固有の識別子をセットする必要があります。
+                - paragraph [ref=e267]: 例えば、以下のようなケースを実現するためにはユーザーIDの設定が必要です。
+                - list [ref=e268]:
+                  - listitem [ref=e269]:
+                    - paragraph [ref=e270]: PC、スマホといったデバイスを跨いだ計測やセグメント施策を実施する場合
+                  - listitem [ref=e271]:
+                    - paragraph [ref=e272]: WebとAppなどプラットフォームを跨いだ計測やセグメント施策を実施する場合
+                  - listitem [ref=e273]:
+                    - paragraph [ref=e274]: 会員ID等をキーとしてDB、DMP等のサーバーデータとRepro Webを直接連携する場合
+              - paragraph [ref=e275]: ECサイトなどログイン機能があるサイトではユーザーIDの設定を推奨します。 ユーザーIDを設定する場合、セットアップ計測タグに会員IDユーザ同定ができる値を動的に埋め込みます。 この作業は基礎的なプログラムの知識が必要ですので、サイト管理者様など、適切なご担当者様へ本マニュアルを連携し作業を進めてください。
+              - paragraph [ref=e276]:
+                - text: 以下、ユーザーIDを取得する場合は
+                - code [ref=e277]: ユーザーID実装あり
+                - text: のタグを利用し、ユーザーIDを取得しない場合は
+                - code [ref=e278]: ユーザーID実装なし
+                - text: のタグを利用してください。
+              - paragraph [ref=e279]:
+                - strong [ref=e280]: セットアップ計測タグ(ユーザーID実装あり)
+              - generic [ref=e283]: "// SET_USER_ID の部分に貴社のユーザーIDが取得できる実装をしてください <script> !function(o,e,n){var r=[];if(window.reproio)console.info(\"Repro Web SDK was loaded more than once\");else{window.reproio=function(){r.push(arguments)};var i=o.createElement(e),t=o.getElementsByTagName(e)[0];i.src=\"https://cdn.reproio.com/web/v2/repro-sdk.min.js\",i.async=!0,i.crossOrigin=\"\",i.onload=function(){window.reproio(\"setSnippetVersion\",\"2.1\"),r.forEach(function(o){window.reproio.apply(window.reproio,o)})},t.parentNode.insertBefore(i,t)}}(document,\"script\"); reproio(\"setUserID\", \"SET_USER_ID\"); reproio(\"setup\", \"YOUR_REPRO_SDK_TOKEN\"); reproio(\"track\",\"PageView\"); </script>"
+              - paragraph [ref=e284]:
+                - strong [ref=e285]: セットアップ計測タグ(ユーザーID実装なし)
+              - generic [ref=e288]: "<script> !function(o,e,n){var r=[];if(window.reproio)console.info(\"Repro Web SDK was loaded more than once\");else{window.reproio=function(){r.push(arguments)};var i=o.createElement(e),t=o.getElementsByTagName(e)[0];i.src=\"https://cdn.reproio.com/web/v2/repro-sdk.min.js\",i.async=!0,i.crossOrigin=\"\",i.onload=function(){window.reproio(\"setSnippetVersion\",\"2.1\"),r.forEach(function(o){window.reproio.apply(window.reproio,o)})},t.parentNode.insertBefore(i,t)}}(document,\"script\"); reproio(\"setup\", \"YOUR_REPRO_SDK_TOKEN\"); reproio(\"track\",\"PageView\"); </script>"
+              - paragraph [ref=e289]: 次に、招待されたRepro Webの管理画面にログインし、 左メニューの設定 > プロジェクト設定 > 認証情報よりSDKトークンをコピーして下さい。
+              - paragraph [ref=e290]:
+                - img "login_2.png" [ref=e291]
+              - paragraph [ref=e292]:
+                - text: コピーしたSDKトークンの値をセットアップ計測タグ記述内の下から3行目、
+                - code [ref=e293]: YOUR_REPRO_SDK_TOKEN
+                - text: 部分に張り付けてください。
+              - paragraph [ref=e294]:
+                - text: 例えばSDKトークンが「asefpuh1jbnnvadi」の場合、以下のようになります。
+                - img "login_3.png" [ref=e295]
+              - paragraph [ref=e296]:
+                - text: Repro Webご利用のサイトがSPAとして構築されている場合、
+                - link "SPA(Single Page Application)サイトへの導入" [ref=e297] [cursor=pointer]:
+                  - /url: ../spa.html
+                - text: を参照してください。
+              - paragraph [ref=e298]: 以上でセットアップ計測タグの準備は完了です。
+              - paragraph [ref=e299]:
+                - text: ユーザーIDを取得しない場合は、
+                - link "セットアップ計測タグを設置する" [ref=e300] [cursor=pointer]:
+                  - /url: "#setting-setup-tag"
+                - text: のステップへお進み下さい。
+            - generic [ref=e301]:
+              - heading "ユーザーIDを設定する" [level=3] [ref=e302]
+              - paragraph [ref=e303]:
+                - text: ユーザーID実装ありのセットアップ計測タグを設定した場合は、 セットアップ計測タグ記述内の指定部分(
+                - code [ref=e304]: SET_USER_ID
+                - text: )に動的に会員ID等の値を埋め込んでください。
+              - paragraph [ref=e305]: こちらの詳細な実施方法はGTMのドキュメントをご参照ください。 ここでは設定例をご紹介します。
+              - paragraph [ref=e306]:
+                - text: まず、ログイン時、サイト上に
+                - link "データレイヤー変数" [ref=e307] [cursor=pointer]:
+                  - /url: https://support.google.com/tagmanager/answer/6164391?hl=ja
+                - text: 等で会員IDを吐き出すようにしてください。
+              - list [ref=e308]:
+                - listitem [ref=e309]:
+                  - paragraph [ref=e310]: 現在会員IDが吐き出されていない場合は軽微なサイト改修が必要です
+                - listitem [ref=e311]:
+                  - paragraph [ref=e312]: プログラムの基礎知識があるサイトご担当者様へ改修をご依頼下さい
+              - paragraph [ref=e313]:
+                - text: 次にGTMのユーザー定義変数としてサイト上の会員IDを登録します。
+                - img "login_10.png" [ref=e314]
+              - paragraph [ref=e315]:
+                - text: 最後にセットアップ計測タグの所定箇所に二重波括弧で会員IDを埋め込みます。
+                - img "login_11.png" [ref=e316]
+            - generic [ref=e317]:
+              - heading "セットアップ計測タグを設置する" [level=3] [ref=e318]
+              - paragraph [ref=e319]: 準備したセットアップ計測タグをGTM経由でサイトに設置します。
+              - paragraph [ref=e320]: GTMの管理画面にアクセスしていただき、以下の手順を行って下さい。
+              - list [ref=e321]:
+                - listitem [ref=e322]:
+                  - paragraph [ref=e323]: 左メニュー > タグ を選択して下さい
+                - listitem [ref=e324]:
+                  - paragraph [ref=e325]: 新規ボタンをクリックして下さい
+              - paragraph [ref=e326]:
+                - img "login_4.png" [ref=e327]
+              - paragraph [ref=e328]: 3.タグ名にはわかりやすい名前をつけてください。今回は「Repro Web SDK - setup」としています
+              - paragraph [ref=e329]:
+                - text: 4.タグの種類は
+                - code [ref=e330]: カスタムHTML
+                - text: を選択して下さい
+              - paragraph [ref=e331]: 5.HTML部分に、セットアップ計測タグを準備する項目で作成したセットアップ計測タグをコピーしてペーストして下さい
+              - paragraph [ref=e332]:
+                - text: 6.詳細設定の下にある「タグ呼び出しオプション」を
+                - code [ref=e333]: １ページにつき１度
+                - text: に設定して下さい
+              - paragraph [ref=e334]:
+                - img "login_5.png" [ref=e335]
+              - paragraph [ref=e336]:
+                - text: 7.トリガーには計測対象全てのページで実行される
+                - code [ref=e337]: DOM Ready
+                - text: を設定して下さい
+              - list [ref=e338]:
+                - listitem [ref=e339]:
+                  - paragraph [ref=e340]: トリガーが存在しない場合、下記の手順でトリガーを新規作成してください
+                  - paragraph [ref=e341]:
+                    - text: 1.「トリガー」の項目をクリックして下さい
+                    - img "login_7.png" [ref=e342]
+                  - paragraph [ref=e343]:
+                    - text: 2.画面右上の「+」をクリックしてください
+                    - img "login_8.png" [ref=e344]
+                  - generic [ref=e345]:
+                    - generic [ref=e346]: 3.トリガー名には、わかりやすい名前をつけてください。今回「DOM Ready」とします
+                    - generic [ref=e347]:
+                      - text: 4.トリガーのタイプには
+                      - code [ref=e348]: DOM Ready
+                      - text: を設定して下さい
+                    - generic [ref=e349]:
+                      - text: 5.このトリガーの発生場所は
+                      - code [ref=e350]: すべてのDOM Ready イベント
+                      - text: を選択して下さい
+                    - generic [ref=e351]: 6.保存をクリックして、トリガーを保存して下さい
+                  - paragraph [ref=e352]:
+                    - img "login_9.png" [ref=e353]
+            - generic [ref=e354]:
+              - heading "セットアップ計測タグの動作確認をする" [level=3] [ref=e355]
+              - generic [ref=e356]:
+                - heading "セットアップ計測タグの設置状況を確認する" [level=4] [ref=e357]
+                - paragraph [ref=e358]: セットアップ計測タグが設置されているかどうかを確認する場合は、公開ボタンの左隣の「プレビュー」ボタンを押下してください。
+                - paragraph [ref=e359]:
+                  - text: プレビュー押下後、設置サイトを閲覧するとサイト内で動作しているタグが確認できます。
+                  - img "login_12.png" [ref=e360]
+              - generic [ref=e361]:
+                - heading "Repro Webへデータが上がったか確認する" [level=4] [ref=e362]
+                - paragraph [ref=e363]: Repro Webが動作しているかを確認します。
+                - generic [ref=e364]:
+                  - generic [ref=e365]: 左メニューのイベント > イベント設定 を確認してください。
+                  - generic [ref=e366]: ここに「PageView」が登録されていれば問題ありません。
+                - paragraph [ref=e368]:
+                  - strong [ref=e369]: 左メニューのイベント > イベント設定
+                  - img "login_13.png" [ref=e370]
+            - generic [ref=e371]:
+              - heading "セットアップ計測タグの公開" [level=3] [ref=e372]
+              - paragraph [ref=e373]: GTMにて公開をクリックし、設定したセットアップ計測タグをサイトに反映させてください。
+          - generic [ref=e374]:
+            - heading "コンバージョン計測タグを導入する" [level=2] [ref=e375]
+            - paragraph [ref=e376]: コンバージョン計測タグとは購入、予約、資料請求といったサイト成果を計測するためのタグです。
+            - paragraph [ref=e377]: 完了ページ等の成果地点で動作させることでサイト成果やその際の付帯情報を計測できます。
+            - generic [ref=e378]:
+              - heading "コンバージョン計測タグを準備する" [level=3] [ref=e379]
+              - generic [ref=e380]:
+                - heading "コンバージョンのみを取得する場合" [level=4] [ref=e381]
+                - paragraph [ref=e382]:
+                  - text: コンバージョン計測タグ記述内の
+                  - code [ref=e383]: ここに~
+                  - text: 部分を管理画面へ反映させたい名称に差し替えてください。
+                - paragraph [ref=e384]:
+                  - strong [ref=e385]: コンバージョン計測タグ
+                - generic [ref=e388]: <script> reproio("track", "ここに「/complete 購入完了」のようなイベント名を入力してください"); </script>
+              - generic [ref=e389]:
+                - heading "コンバージョン付帯情報も取得する場合" [level=4] [ref=e390]
+                - paragraph [ref=e391]: 例えばECサイトで、購入経験、前回購入日、前回購入金額、前回購入商品カテゴリ、といった値を等を取得する場合、購入完了時点で以下のような記述を行う事で取得可能です。
+                - paragraph [ref=e392]:
+                  - text: コンバージョン計測タグ記述内の
+                  - code [ref=e393]: ここに~
+                  - text: 部分を管理画面へ反映させたい名称に差し替え、取得したい情報に応じて計測タグ内の記述を編集してください。
+                - paragraph [ref=e394]: ※埋め込む値はGTMの変数で用意する必要があります
+                - paragraph [ref=e395]:
+                  - strong [ref=e396]: コンバージョン計測タグ(付帯情報を取得する場合)
+                - generic [ref=e399]: <script> reproio("track", "ここに「/complete 購入完了」のようなイベント名を入力してください"); reproio("setStringUserProfile", "購入経験", "あり"); reproio("setDateUserProfile", "最終購入日", new Date()); reproio("setIntUserProfile", "前回購入合計金額", "ここに動的に合計金額を埋め込んでください"); reproio("setStringUserProfile", "前回購入商品カテゴリ", "ここに動的に商品カテゴリを埋め込んでください"); </script>
+                - paragraph [ref=e400]: 取得する値やその利用方法について相談したい場合は、Reproカスタマーサクセス担当までご連絡ください。
+            - generic [ref=e401]:
+              - heading "コンバージョン計測タグの設置" [level=3] [ref=e402]
+              - generic [ref=e403]:
+                - generic [ref=e404]: まずトリガーの設定をします。
+                - generic [ref=e405]: 以下、ページパスに「/complete」を含むページで購入完了コンバージョンを計測したい場合の例です。
+              - generic [ref=e407]:
+                - generic [ref=e408]: 1.トリガーを選択して下さい
+                - generic [ref=e409]: 2.新規ボタンをタップして下さい
+              - paragraph [ref=e410]:
+                - img "trigger-setting.jpg" [ref=e411]
+              - generic [ref=e412]:
+                - generic [ref=e413]:
+                  - text: 3.トリガーのタイプに
+                  - code [ref=e414]: DOM Ready
+                  - text: を選択して下さい
+                - generic [ref=e415]:
+                  - text: "4."
+                  - code [ref=e416]: 一部のDOM Readyイベント
+                  - text: を設定して下さい
+                - generic [ref=e417]:
+                  - text: 5.ページ発生イベントに 画像の様に
+                  - code [ref=e418]: Page path
+                  - code [ref=e419]: 含む
+                  - code [ref=e420]: /complete
+                  - text: を設定して下さい
+              - paragraph [ref=e421]:
+                - img "login_14.png" [ref=e422]
+              - paragraph [ref=e423]: 次にタグの設定をします。
+              - generic [ref=e424]:
+                - generic [ref=e425]: 1.タグを選択して下さい
+                - generic [ref=e426]: 2.新規ボタンをタップして下さい
+              - paragraph [ref=e427]:
+                - img "tag-setting.jpg" [ref=e428]
+              - generic [ref=e429]:
+                - generic [ref=e430]:
+                  - text: 3.タグの種類に
+                  - code [ref=e431]: カスタムHTML
+                  - text: を選択して下さい
+                - generic [ref=e432]: 4.コンバージョン計測タグの準備で作成した内容をHTMLの中に貼り付けて下さい
+              - paragraph [ref=e433]:
+                - img "login_15.png" [ref=e434]
+              - list [ref=e435]:
+                - listitem [ref=e436]:
+                  - paragraph [ref=e437]: "備考１：合計購入金額等、動的な値を取得する場合は事前にGTMのユーザー定義変数で値を用意し、コンバージョン計測タグの所定箇所に二重並み括弧\"{{}}\"で括って埋め込んでください。"
+                - listitem [ref=e438]:
+                  - paragraph [ref=e439]:
+                    - text: 備考２：この際、タグの詳細設定で以下2点の設定を忘れずに行ってください。 - タグの呼び出しオプションを
+                    - code [ref=e440]: 1回のイベントにつき1度
+                    - text: を設定 - タグの順序付けでコンバージョン計測タグが発効する前にセットアップ計測タグを配信するよう設定
+              - paragraph [ref=e441]:
+                - img "login_16.png" [ref=e442]
+              - paragraph [ref=e443]: 最後に、先の手順で設定したコンバージョン計測用トリガーを選択し保存して、GTMを公開してください。
+              - generic [ref=e444]:
+                - paragraph [ref=e445]: "注釈:"
+                - generic [ref=e446]:
+                  - generic [ref=e447]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e448]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e449]:
+                  - generic [ref=e450]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e451]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e452]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e453]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e454]:
+                  - generic [ref=e455]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e456]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e457]:
+            - heading "イベント計測タグを導入する" [level=2] [ref=e458]
+            - paragraph [ref=e459]: ページビューに加えてWebサイト上のユーザー行動を計測できます。
+            - paragraph [ref=e460]: 例えばカート投入クリック、特定要素の表示、といった行動を計測できます。
+            - generic [ref=e461]:
+              - heading "イベント計測タグを準備する" [level=3] [ref=e462]
+              - paragraph [ref=e463]:
+                - text: 取得したいイベント名を
+                - code [ref=e464]: ここに~
+                - text: の部分へ記述してください。
+              - paragraph [ref=e465]:
+                - strong [ref=e466]: イベント計測タグ
+              - generic [ref=e469]: <script> reproio("track", "ここにイベント名を入力してください"); </script>
+              - generic [ref=e470]:
+                - paragraph [ref=e471]: "注釈:"
+                - generic [ref=e472]:
+                  - generic [ref=e473]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e474]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e475]:
+                  - generic [ref=e476]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e477]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e478]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e479]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e480]:
+                  - generic [ref=e481]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e482]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+            - generic [ref=e483]:
+              - heading "イベント計測タグを設置する" [level=3] [ref=e484]
+              - generic [ref=e485]:
+                - generic [ref=e486]: まず、GTMのトリガーでイベントの発火条件を作成します。
+                - generic [ref=e487]: 以下、「カートに追加」という文字を含んだサイト要素のクリックを取得したい場合の例です。
+              - generic [ref=e489]:
+                - generic [ref=e490]: 1.トリガーを選択して下さい
+                - generic [ref=e491]: 2.新規ボタンをタップして下さい
+              - paragraph [ref=e492]:
+                - img "trigger-setting.jpg" [ref=e493]
+              - generic [ref=e494]:
+                - generic [ref=e495]:
+                  - text: 3.トリガーのタイプに
+                  - code [ref=e496]: クリック-すべての要素
+                  - text: を選択して下さい
+                - generic [ref=e497]:
+                  - text: "4."
+                  - code [ref=e498]: 一部のクリック
+                  - text: を設定して下さい
+                - generic [ref=e499]:
+                  - text: 5.ページ発生イベントに 画像の様に
+                  - code [ref=e500]: Click Text
+                  - code [ref=e501]: 含む
+                  - code [ref=e502]: カートに追加
+                  - text: を設定して下さい
+              - paragraph [ref=e503]:
+                - img "login_17.png" [ref=e504]
+              - paragraph [ref=e505]: その他GTMでは特定要素の表示、タイマー、スクロール、YouTube動画再生開始、等の様々なイベントを設定することができます。
+              - paragraph [ref=e506]: 次にタグの設定をします。
+              - generic [ref=e507]:
+                - generic [ref=e508]: 1.タグを選択して下さい
+                - generic [ref=e509]: 2.新規ボタンをタップして下さい
+              - paragraph [ref=e510]:
+                - img "tag-setting.jpg" [ref=e511]
+              - generic [ref=e512]:
+                - generic [ref=e513]:
+                  - text: 3.タグの種類に
+                  - code [ref=e514]: カスタムHTML
+                  - text: を選択して下さい
+                - generic [ref=e515]: 4.コンバージョン計測タグの準備で作成した内容をHTMLの中に貼り付けて下さい
+              - paragraph [ref=e516]:
+                - img "login_18.png" [ref=e517]
+              - generic [ref=e519]: この際、タグの詳細設定で以下2点の設定を忘れずに行ってください。
+              - list [ref=e520]:
+                - listitem [ref=e521]:
+                  - paragraph [ref=e522]:
+                    - text: タグの呼び出しオプションを
+                    - code [ref=e523]: 1回のイベントにつき1度
+                    - text: を設定
+                - listitem [ref=e524]:
+                  - paragraph [ref=e525]: タグの順序付けでコンバージョン計測タグが発効する前にセットアップ計測タグを配信するよう設定
+              - paragraph [ref=e526]:
+                - img "login_19.png" [ref=e527]
+              - paragraph [ref=e528]: 最後に、先の手順で設定したイベント計測用トリガーを選択し保存して、GTMを公開してください。
+            - generic [ref=e529]:
+              - heading "イベント計測タグの動作を確認する" [level=3] [ref=e530]
+              - paragraph [ref=e531]: 左メニューのイベント > イベント設定 より取得したイベントが登録されているかを確認してください。
+              - paragraph [ref=e532]:
+                - img "login_20.png" [ref=e533]
+              - generic [ref=e534]:
+                - paragraph [ref=e535]: "注釈:"
+                - generic [ref=e536]:
+                  - generic [ref=e537]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e538]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e539]:
+                  - generic [ref=e540]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e541]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e542]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e543]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e544]:
+                  - generic [ref=e545]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e546]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e547]:
+            - heading "ユーザープロフィールを取得する" [level=2] [ref=e548]
+            - generic [ref=e549]:
+              - generic [ref=e550]: ユーザープロフィールとは、性別、年齢、地域、言語、会員種別といったユーザーの属性情報です。
+              - generic [ref=e551]: ユーザープロフィールを取得する事で各ユーザー属性ごとの計測や施策を実施できます。
+            - paragraph [ref=e552]: ユーザープロフィールを取得する方法としては以下2種類の方法があります。
+            - generic [ref=e553]:
+              - link "1.サイト上のデータをGTM経由で取得する" [ref=e555] [cursor=pointer]:
+                - /url: "#obtain-via-gtm"
+              - link "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する方法" [ref=e557] [cursor=pointer]:
+                - /url: "#obtain-via-api"
+            - paragraph [ref=e559]: 設定する際には基礎的なプログラミング知識が必要な場合があります。 サイト管理者様等、適切な方へ本マニュアルを連携し作業を進めてください。
+            - generic [ref=e560]:
+              - heading "1.サイト上のデータをGTM経由で取得する" [level=3] [ref=e561]
+              - generic [ref=e562]:
+                - heading "ユーザープロフィール計測タグを準備する" [level=4] [ref=e563]
+                - paragraph [ref=e564]: ユーザープロフィール計測タグを設置し、所定箇所に取得したい値を埋め込んでください。
+                - paragraph [ref=e565]: 以下のタグの中から、取得するデータ型の種類に応じて適切なタグを利用してください。
+                - paragraph [ref=e566]:
+                  - strong [ref=e567]: ユーザープロフィール計測タグ(文字列型)
+                - generic [ref=e570]: <script> reproio("setStringUserProfile", "男女", "ここに値を埋め込んでください"); reproio("setStringUserProfile", "会員ランク", "ここに値を埋め込んでください"); reproio("setStringUserProfile", "ログイン状態", "ここに値を埋め込んでください"); reproio("setStringUserProfile", "ニックネーム", "ここに値を埋め込んでください"); </script>
+                - paragraph [ref=e571]:
+                  - strong [ref=e572]: ユーザープロフィール計測タグ(整数型)
+                - generic [ref=e575]: <script> reproio("setIntUserProfile", "年齢", "ここに値を埋め込んでください"); reproio("setIntUserProfile", "保有ポイント残高", "ここに値を埋め込んでください"); </script>
+                - paragraph [ref=e576]:
+                  - strong [ref=e577]: ユーザープロフィール計測タグ(日付型)
+                - generic [ref=e580]: <script> reproio("setDateUserProfile", "会員登録日", "ここに値を埋め込んでください"); reproio("setDateUserProfile", "お誕生日", "ここに値を埋め込んでください"); </script>
+              - generic [ref=e581]:
+                - heading "ユーザープロフィール計測タグを設置する" [level=4] [ref=e582]
+                - paragraph [ref=e583]: 準備したユーザープロフィール計測タグをGTMで設置します。
+                - paragraph [ref=e584]: まず、GTMのトリガーでイベントの発火条件を作成します。
+                - paragraph [ref=e585]: 例えば、ログイン状態(≒「ID+8桁数字」の会員IDがサイトに吐き出されている時)のページビューで会員情報を取得したい場合は、下記のような設定となります。
+                - generic [ref=e586]:
+                  - generic [ref=e587]: 1.トリガーを選択して下さい
+                  - generic [ref=e588]: 2.新規ボタンをタップして下さい
+                - paragraph [ref=e589]:
+                  - img "trigger-setting.jpg" [ref=e590]
+                - generic [ref=e591]:
+                  - generic [ref=e592]:
+                    - text: 3.トリガーのタイプに
+                    - code [ref=e593]: ページビュー
+                    - text: を選択して下さい
+                  - generic [ref=e594]:
+                    - text: "4."
+                    - code [ref=e595]: 一部のページビュー
+                    - text: を設定して下さい
+                  - generic [ref=e596]:
+                    - text: 5.ページ発生イベントに 画像の様に
+                    - code [ref=e597]: 会員ID
+                    - code [ref=e598]: 先頭が一致
+                    - code [ref=e599]: ID
+                    - text: を設定して下さい
+                - paragraph [ref=e600]:
+                  - img "login_21.png" [ref=e601]
+                - paragraph [ref=e602]: 次にタグの設定をします。
+                - generic [ref=e603]:
+                  - generic [ref=e604]: 1.タグを選択して下さい
+                  - generic [ref=e605]: 2.新規ボタンをタップして下さい
+                - paragraph [ref=e606]:
+                  - img "tag-setting.jpg" [ref=e607]
+                - generic [ref=e608]:
+                  - generic [ref=e609]:
+                    - text: 3.タグの種類に
+                    - code [ref=e610]: カスタムHTML
+                    - text: を選択して下さい
+                  - generic [ref=e611]: 4.先程用意したユーザープロフィール計測タグをカスタムHTMLで貼り付けてください
+                  - generic [ref=e612]: 動的に取得する変数はあらかじめGTMのユーザー定義変数として用意し埋め込んでください
+                - paragraph [ref=e613]:
+                  - img "login_22.png" [ref=e614]
+                - paragraph [ref=e615]: この際、タグの詳細設定で以下2点の設定を忘れずに行ってください。
+                - list [ref=e616]:
+                  - listitem [ref=e617]:
+                    - paragraph [ref=e618]:
+                      - text: タグの呼び出しオプションを
+                      - code [ref=e619]: 1回のイベントにつき1度
+                      - text: を設定
+                  - listitem [ref=e620]:
+                    - paragraph [ref=e621]: タグの順序付けでユーザープロフィール計測タグが発効する前にセットアップ計測タグを配信するよう設定
+                - paragraph [ref=e622]:
+                  - img "login_27.png" [ref=e623]
+                - paragraph [ref=e624]: 最後に、先の手順で設定したイベント計測用トリガーを選択し保存して、GTMを公開してください。
+            - generic [ref=e625]:
+              - heading "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する方法" [level=3] [ref=e626]
+              - paragraph [ref=e627]: はじめに、この方法はセットアップ計測タグでのユーザーID設定が必須です。
+              - paragraph [ref=e628]: サイト上に存在する情報だけでなく自社のデータベースにのみ保持しているユーザーの属性情報を、直接ユーザープロフィールに登録できます。
+              - paragraph [ref=e629]: このAPIを利用して更新したユーザープロフィールの情報を基にして、対象となるユーザーを絞り込んだメッセージを送信することができます。
+              - paragraph [ref=e630]: APIの種類が4つありますので、Reproサポート担当と相談し適切なAPIを選んでください。
+              - list [ref=e631]:
+                - listitem [ref=e632]:
+                  - paragraph [ref=e633]:
+                    - link "ユーザープロフィールバルクインポート" [ref=e634] [cursor=pointer]:
+                      - /url: ../../user-profile-bulk-import-api/index.html
+                - listitem [ref=e635]:
+                  - paragraph [ref=e636]:
+                    - link "ユーザープロフィールAPI" [ref=e637] [cursor=pointer]:
+                      - /url: ../../user-profile-api/index.html
+                - listitem [ref=e638]:
+                  - paragraph [ref=e639]:
+                    - link "オーディエンスAPI" [ref=e640] [cursor=pointer]:
+                      - /url: ../../audience-api/index.html
+                - listitem [ref=e641]:
+                  - paragraph [ref=e642]:
+                    - link "オーディエンスインポート(β)" [ref=e643] [cursor=pointer]:
+                      - /url: ../../audience-import/index.html
+            - generic [ref=e644]:
+              - heading "ユーザープロフィール取得の動作確認方法" [level=3] [ref=e645]
+              - paragraph [ref=e646]: 登録されたユーザープロフィールは、左メニューのユーザープロフィール > ユーザープロフィール設定 に表示されます。
+              - paragraph [ref=e647]: こちらで正しくデータが反映されているかを確認してください。
+              - paragraph [ref=e648]:
+                - strong [ref=e649]: Repro Web管理画面 > 左メニューのユーザープロフィール > ユーザープロフィール設定
+                - img "login_24.png" [ref=e650]
+              - paragraph [ref=e651]: 尚、取得された値が意図通りであるかどうかについては、左メニューのアナリティクス > アクセス分析 のフィルターより所定の値をクリックしてご確認をお願いします。
+              - paragraph [ref=e652]:
+                - img "login_25.png" [ref=e653]
+              - generic [ref=e654]:
+                - paragraph [ref=e655]: "注釈:"
+                - generic [ref=e656]:
+                  - generic [ref=e657]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e658]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e659]:
+                  - generic [ref=e660]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e661]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e662]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e663]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e664]:
+                  - generic [ref=e665]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e666]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e667]:
+            - heading "Webページに直接タグを埋め込み導入する" [level=2] [ref=e668]
+            - paragraph [ref=e669]: Webページに直接Repro Webのタグを埋め込む導入方法を説明します。
+            - generic [ref=e670]:
+              - heading "目次" [level=3] [ref=e671]
+              - list [ref=e672]:
+                - listitem [ref=e673]:
+                  - paragraph [ref=e674]:
+                    - link "セットアップ計測タグを導入する" [ref=e675] [cursor=pointer]:
+                      - /url: "#install-setup-measurement-tags-2"
+                - listitem [ref=e676]:
+                  - paragraph [ref=e677]:
+                    - link "コンバージョン計測タグの導入" [ref=e678] [cursor=pointer]:
+                      - /url: "#install-cv-measurement-tags-2"
+                - listitem [ref=e679]:
+                  - paragraph [ref=e680]:
+                    - link "イベント計測タグの導入" [ref=e681] [cursor=pointer]:
+                      - /url: "#install-event-measurement-tags-2"
+                - listitem [ref=e682]:
+                  - paragraph [ref=e683]:
+                    - link "ユーザープロフィールを取得する" [ref=e684] [cursor=pointer]:
+                      - /url: "#get-user-profile-2"
+          - generic [ref=e685]:
+            - heading "セットアップ計測タグを導入する" [level=2] [ref=e686]
+            - generic [ref=e687]:
+              - generic [ref=e688]: Repro Webを利用する上で必須の設定項目です。
+              - generic [ref=e689]: 以下手順に沿って導入を進めてください。
+            - generic [ref=e690]:
+              - heading "セットアップ計測タグを準備する" [level=3] [ref=e691]
+              - paragraph [ref=e692]: サイトに設置するセットアップ計測タグを準備します。
+              - paragraph [ref=e693]: まず、導入サイトでユーザーIDを取得するか否かをご判断下さい。
+              - generic [ref=e694]:
+                - paragraph [ref=e695]: "注釈:"
+                - paragraph [ref=e696]: ユーザーIDとは、Repro Webでユーザーを同定するための識別子です。 通常Repro Webはブラウザ(cookie)をベースにユーザーを同定しますが、異なるブラウザやプラットフォームを跨いでユーザを識別するためには、ユーザーIDにDB上の会員IDなど固有の識別子をセットする必要があります。
+                - paragraph [ref=e697]: 例えば、以下のようなケースを実現するためにはユーザーIDの設定が必要です。
+                - list [ref=e698]:
+                  - listitem [ref=e699]:
+                    - paragraph [ref=e700]: PC、スマホといったデバイスを跨いだ計測やセグメント施策を実施する場合
+                  - listitem [ref=e701]:
+                    - paragraph [ref=e702]: WebとAppなどプラットフォームを跨いだ計測やセグメント施策を実施する場合
+                  - listitem [ref=e703]:
+                    - paragraph [ref=e704]: 会員ID等をキーとしてDB、DMP等のサーバーデータとRepro Webを直接連携する場合
+              - paragraph [ref=e705]: ECサイトなどログイン機能があるサイトではユーザーIDの設定を推奨します。 ユーザーIDを設定する場合、計測タグに会員IDユーザ同定ができる値を動的に埋め込みます。 この作業は基礎的なプログラムの知識が必要ですので、サイト管理者様など、適切なご担当者様へ本マニュアルを連携し作業を進めてください。
+              - paragraph [ref=e706]:
+                - text: 以下、ユーザーIDを取得する場合は
+                - code [ref=e707]: ユーザーID実装あり
+                - text: のタグを利用し、 ユーザーIDを取得しない場合は
+                - code [ref=e708]: ユーザーID実装なし
+                - text: のタグを利用してください。
+              - paragraph [ref=e709]:
+                - strong [ref=e710]: セットアップ計測タグ(ユーザーID実装あり)
+              - generic [ref=e713]: "// SET_USER_ID の部分に貴社のユーザーIDが取得できる実装をしてください <script> !function(o,e,n){var r=[];if(window.reproio)console.info(\"Repro Web SDK was loaded more than once\");else{window.reproio=function(){r.push(arguments)};var i=o.createElement(e),t=o.getElementsByTagName(e)[0];i.src=\"https://cdn.reproio.com/web/v2/repro-sdk.min.js\",i.async=!0,i.crossOrigin=\"\",i.onload=function(){window.reproio(\"setSnippetVersion\",\"2.1\"),r.forEach(function(o){window.reproio.apply(window.reproio,o)})},t.parentNode.insertBefore(i,t)}}(document,\"script\"); reproio(\"setUserID\", \"SET_USER_ID\"); reproio(\"setup\", \"YOUR_REPRO_SDK_TOKEN\"); reproio(\"track\",\"PageView\"); </script>"
+              - paragraph [ref=e714]:
+                - strong [ref=e715]: セットアップ計測タグ(ユーザーID実装なし)
+              - generic [ref=e718]: "<script> !function(o,e,n){var r=[];if(window.reproio)console.info(\"Repro Web SDK was loaded more than once\");else{window.reproio=function(){r.push(arguments)};var i=o.createElement(e),t=o.getElementsByTagName(e)[0];i.src=\"https://cdn.reproio.com/web/v2/repro-sdk.min.js\",i.async=!0,i.crossOrigin=\"\",i.onload=function(){window.reproio(\"setSnippetVersion\",\"2.1\"),r.forEach(function(o){window.reproio.apply(window.reproio,o)})},t.parentNode.insertBefore(i,t)}}(document,\"script\"); reproio(\"setup\", \"YOUR_REPRO_SDK_TOKEN\"); reproio(\"track\",\"PageView\"); </script>"
+              - paragraph [ref=e719]: 次に、招待されたRepro Webの管理画面にログインし、左メニューの設定 > プロジェクト設定 > 認証情報よりSDKトークンをコピーし下さい。
+              - paragraph [ref=e720]:
+                - img "login_2.png" [ref=e721]
+              - paragraph [ref=e722]:
+                - text: コピーしたSDKトークンの値をセットアップ計測タグ記述内の、
+                - code [ref=e723]: YOUR_REPRO_SDK_TOKEN
+                - text: 部分に張り付けてください。
+              - paragraph [ref=e724]:
+                - text: Repro Webご利用のサイトがSPAとして構築されている場合、
+                - link "SPA(Single Page Application)サイトへの導入" [ref=e725] [cursor=pointer]:
+                  - /url: ../spa.html
+                - text: を参照してください。
+              - paragraph [ref=e726]: 以上でセットアップ計測タグの準備は完了です。
+            - generic [ref=e727]:
+              - heading "セットアップ計測タグを設置する" [level=3] [ref=e728]
+              - paragraph [ref=e729]: セットアップ計測タグを計測対象サイト全てのページビューで発火するように設置してください。
+              - paragraph [ref=e730]: セットアップ計測タグはサイトのheadタグへの挿入をお願いします。
+              - paragraph [ref=e731]:
+                - text: ユーザーID実装ありのセットアップ計測タグを設定する場合は、 セットアップ計測タグ記述内の指定部分(
+                - code [ref=e732]: SET_USER_ID
+                - text: )に動的に会員ID等の値を埋め込んでください。
+            - generic [ref=e733]:
+              - heading "セットアップ計測タグの動作を確認する" [level=3] [ref=e734]
+              - paragraph [ref=e735]: イベント一覧に「PageView」が登録されているかご確認ください。
+              - paragraph [ref=e736]:
+                - strong [ref=e737]: 左メニューのイベント > イベント設定
+                - img "login_13.png" [ref=e738]
+          - generic [ref=e739]:
+            - heading "コンバージョン計測タグの導入" [level=2] [ref=e740]
+            - paragraph [ref=e741]: コンバージョン計測タグとは購入、予約、資料請求といったサイト成果を計測するためのタグです。
+            - paragraph [ref=e742]: 完了ページ等の成果地点で動作させることでサイト成果やその際の付帯情報を計測できます。
+            - generic [ref=e743]:
+              - heading "コンバージョン計測タグを準備する" [level=3] [ref=e744]
+              - generic [ref=e745]:
+                - heading "コンバージョンのみを取得する" [level=4] [ref=e746]
+                - paragraph [ref=e747]:
+                  - text: コンバージョン計測タグ記述内の
+                  - code [ref=e748]: ここに~
+                  - text: 部分を管理画面へ反映させたい名称に差し替えてください。
+                - paragraph [ref=e749]:
+                  - strong [ref=e750]: コンバージョン計測タグ
+                - generic [ref=e753]: <script> reproio("track", "ここに「/complete 購入完了」のようなイベント名を入力してください"); </script>
+              - generic [ref=e754]:
+                - heading "コンバージョンと一緒に付帯情報も取得する" [level=4] [ref=e755]
+                - paragraph [ref=e756]: 例えばECサイトで、購入経験、前回購入日、前回購入金額、前回購入商品カテゴリ、 といった値を等を取得する場合、購入完了時点で以下のような記述を行う事で取得可能です。
+                - paragraph [ref=e757]:
+                  - text: コンバージョン計測タグ記述内の
+                  - code [ref=e758]: ここに~
+                  - text: 部分を管理画面へ反映させたい名称に差し替え、 取得したい値を埋め込むようにした上で、成果地点でタグを動作させてください。
+                - paragraph [ref=e759]:
+                  - strong [ref=e760]: コンバージョン計測タグ(付帯情報を取得する場合)
+                - generic [ref=e763]: <script> reproio("track", "ここに「/complete 購入完了」のようなイベント名を入力してください"); reproio("setStringUserProfile", "購入経験", "あり"); reproio("setDateUserProfile", "最終購入日", new Date()); reproio("setIntUserProfile", "前回購入合計金額", "ここに動的に合計金額を埋め込んでください"); reproio("setStringUserProfile", "前回購入商品カテゴリ", "ここに動的に商品カテゴリを埋め込んでください"); </script>
+            - generic [ref=e764]:
+              - heading "コンバージョン計測タグを設置する" [level=3] [ref=e765]
+              - paragraph [ref=e766]: 準備したタグをheadもしくはbody内で発火するように設定してください。
+              - paragraph [ref=e767]: また、このタグは必ずセットアップ計測タグより後に動作するよう、 HTML内でセットアップ計測タグより下方に設置する様にしてください。
+              - paragraph [ref=e768]: 取得する値や利用方法について相談したい場合は、 Reproカスタマーサクセス担当までご連絡ください。
+              - generic [ref=e769]:
+                - paragraph [ref=e770]: "注釈:"
+                - generic [ref=e771]:
+                  - generic [ref=e772]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e773]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e774]:
+                  - generic [ref=e775]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e776]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e777]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e778]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e779]:
+                  - generic [ref=e780]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e781]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e782]:
+            - heading "イベント計測タグの導入" [level=2] [ref=e783]
+            - paragraph [ref=e784]: ページビュー以外のWebサイトにおけるユーザーの行動をトラックできます。
+            - paragraph [ref=e785]: 例えばカート投入クリックアクション、特定要素の表示などがあげられます。
+            - generic [ref=e786]:
+              - heading "イベント計測タグを設置する" [level=3] [ref=e787]
+              - paragraph [ref=e788]:
+                - code [ref=e789]: ここに~
+                - text: の部分を取得したいイベント名に書き換え、イベントを取得したいタイミングで以下のタグを動作させてください。
+              - paragraph [ref=e790]: また、このタグは必ずセットアップ計測タグより後に動作するよう、設置してください。
+              - paragraph [ref=e791]:
+                - strong [ref=e792]: イベント計測タグ
+              - generic [ref=e795]: <script> reproio("track", "ここにイベント名を入力してください"); </script>
+              - paragraph [ref=e796]: 尚、GoogleTagManager(GTM)ではリンクのクリックや特定要素の出現、といったイベント計測が容易に設定できます。
+              - paragraph [ref=e797]: 複数のイベントを同時に取得する場合、以下のように<script>タグ内に、取得するイベントをまとめて記述してください。
+              - paragraph [ref=e798]:
+                - strong [ref=e799]: 複数のイベント計測タグ
+              - generic [ref=e802]: <script> reproio("track", "ここにイベント1を入力してください"); reproio("track", "ここにイベント2を入力してください"); </script>
+            - generic [ref=e803]:
+              - heading "イベント計測タグの動作確認方法" [level=3] [ref=e804]
+              - paragraph [ref=e805]: 左メニューのイベント > イベント設定 より取得したイベントが登録されているかを確認してください。
+              - paragraph [ref=e806]:
+                - img "login_20.png" [ref=e807]
+              - generic [ref=e808]:
+                - paragraph [ref=e809]: "注釈:"
+                - generic [ref=e810]:
+                  - generic [ref=e811]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e812]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e813]:
+                  - generic [ref=e814]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e815]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e816]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e817]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e818]:
+                  - generic [ref=e819]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e820]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e821]:
+            - heading "ユーザープロフィールを取得する" [level=2] [ref=e822]
+            - generic [ref=e823]:
+              - generic [ref=e824]: ユーザープロフィールとは、性別、年齢、地域、言語、会員種別などのユーザー属性情報です。
+              - generic [ref=e825]: ユーザープロフィールを利用して各ユーザー属性ごとの計測や施策を実施できます。
+            - paragraph [ref=e826]: ユーザープロフィールを取得する方法としては以下2種類の方法があります。
+            - generic [ref=e827]:
+              - link "1.サイトからユーザープロフィール計測タグで取得する" [ref=e829] [cursor=pointer]:
+                - /url: "#obtain-via-web"
+              - link "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する" [ref=e831] [cursor=pointer]:
+                - /url: "#obtain-via-api-2"
+            - paragraph [ref=e833]: 設定する際には基礎的なプログラミング知識が必要な場合があります。 サイト管理者様等、適切な方へ本マニュアルを連携し作業を進めてください。
+            - generic [ref=e834]:
+              - heading "1.サイトからユーザープロフィール計測タグで取得する" [level=3] [ref=e835]
+              - paragraph [ref=e836]: ユーザープロフィール計測タグを設置し、所定箇所に取得したい値を埋め込んでください。
+              - paragraph [ref=e837]: 以下のタグの中から取得するデータ型の種類に応じて適切なタグを利用してください。
+              - paragraph [ref=e838]: また、このタグは必ずセットアップ計測タグより後に動作するよう、 HTML内でセットアップ計測タグより下方に設置する様にしてください。
+              - paragraph [ref=e839]:
+                - strong [ref=e840]: ユーザープロフィール取得タグ(文字列型)
+              - generic [ref=e843]: <script> reproio("setStringUserProfile", "男女", "ここに値を埋め込んでください"); </script>
+              - paragraph [ref=e844]:
+                - strong [ref=e845]: ユーザープロフィール取得タグ(整数型)
+              - generic [ref=e848]: <script> reproio("setIntUserProfile", "購入金額", "ここに値を埋め込んでください"); </script>
+              - paragraph [ref=e849]:
+                - strong [ref=e850]: ユーザープロフィール取得タグ(日付型)
+              - generic [ref=e853]: <script> reproio("setDateUserProfile", "最終購入日", ココにnew Date()等の値を埋め込んでください); </script>
+            - generic [ref=e854]:
+              - heading "2.自社DBやDMPからRepro Webへ直接APIでデータを連携する" [level=3] [ref=e855]
+              - paragraph [ref=e856]: はじめに、この方法はセットアップ計測タグでのユーザーID設定が必須です。
+              - paragraph [ref=e857]: サイト上に存在する情報だけでなく自社のデータベースにのみ保持しているユーザーの属性情報を、 直接ユーザープロフィールに登録できます。
+              - paragraph [ref=e858]: このAPIを利用して更新したユーザープロフィールの情報を基にして、 対象となるユーザーを絞り込んだメッセージを送信することができます。
+              - paragraph [ref=e859]: APIの種類が4つありますので、Reproサポート担当と相談し適切なAPIを選んでください。
+              - list [ref=e860]:
+                - listitem [ref=e861]:
+                  - paragraph [ref=e862]:
+                    - link "ユーザープロフィールバルクインポート" [ref=e863] [cursor=pointer]:
+                      - /url: ../../user-profile-bulk-import-api/index.html
+                - listitem [ref=e864]:
+                  - paragraph [ref=e865]:
+                    - link "ユーザープロフィールAPI" [ref=e866] [cursor=pointer]:
+                      - /url: ../../user-profile-api/index.html
+                - listitem [ref=e867]:
+                  - paragraph [ref=e868]:
+                    - link "オーディエンスAPI" [ref=e869] [cursor=pointer]:
+                      - /url: ../../audience-api/index.html
+                - listitem [ref=e870]:
+                  - paragraph [ref=e871]:
+                    - link "オーディエンスインポート(β)" [ref=e872] [cursor=pointer]:
+                      - /url: ../../audience-import/index.html
+            - generic [ref=e873]:
+              - heading "ユーザープロフィール取得の動作確認方法" [level=3] [ref=e874]
+              - paragraph [ref=e875]: 登録されたユーザープロフィールは、左メニューのユーザープロフィール > ユーザープロフィール設定 に表示されます。
+              - paragraph [ref=e876]: こちらで正しくデータが反映されているかを確認してください。
+              - paragraph [ref=e877]:
+                - strong [ref=e878]: 左メニューのユーザープロフィール > ユーザープロフィール設定
+              - paragraph [ref=e879]:
+                - img "login_24.png" [ref=e880]
+              - paragraph [ref=e881]: 尚、取得された値が意図通りであるかどうかについては、左メニューのアナリティクス > アクセス分析 のフィルターより所定の値をクリックしてご確認をお願いします。
+              - paragraph [ref=e882]:
+                - img "login_25.png" [ref=e883]
+              - generic [ref=e884]:
+                - paragraph [ref=e885]: "注釈:"
+                - generic [ref=e886]:
+                  - generic [ref=e887]: 空文字やnil、nullといった値を登録しようとすると、開発者ツールのコンソール上にエラーが出ます。
+                  - generic [ref=e888]: ※ただし、これによってWebサイトやRepro Webの動作に影響がでたりはしません。
+                - generic [ref=e889]:
+                  - generic [ref=e890]: このエラーが出るのを回避する方法として、一例ですが、
+                  - generic [ref=e891]: "if({{GTMの変数}}){reproio(\"track\", {{GTMの変数}});}"
+                  - generic [ref=e892]: というようにif文で条件分岐させる方法があります。
+                  - generic [ref=e893]: 具体的な方法はプログラムの基礎知識がある方にてご検討ください。
+                - generic [ref=e894]:
+                  - generic [ref=e895]: また、付帯情報に設定できる値は255文字以下です。
+                  - generic [ref=e896]: 255文字以上の値を取得したい場合は、値を分割して取得するといった対応をご検討ください。
+          - generic [ref=e897]:
+            - heading "最後に" [level=2] [ref=e898]
+            - paragraph [ref=e899]: 以上でRepro Webの導入は完了です。ご設定ありがとうございました。
+            - paragraph [ref=e900]: メッセージを配信する場合は、 左メニューのマーケティング > メッセージ の画面から設定を行ってください。
+        - list [ref=e901]:
+          - listitem [ref=e902]:
+            - 'link "« 導入: Flutter" [ref=e903] [cursor=pointer]':
+              - /url: ../../sdk/getstarted/flutter.html
+          - listitem [ref=e904]:
+            - link "iOS/Android SDK »" [ref=e905] [cursor=pointer]:
+              - /url: ../../sdk/index.html
+          - listitem
+        - generic [ref=e906]:
+          - paragraph [ref=e907]:
+            - link "" [ref=e908] [cursor=pointer]:
+              - /url: //www.facebook.com/reproio
+            - link "" [ref=e909] [cursor=pointer]:
+              - /url: //twitter.com/reproio
+            - link "" [ref=e910] [cursor=pointer]:
+              - /url: //github.com/reproio
+          - paragraph [ref=e911]:
+            - link "Repro Service Site" [ref=e912] [cursor=pointer]:
+              - /url: //repro.io
+            - link "About Us" [ref=e913] [cursor=pointer]:
+              - /url: //repro.io/company/about/
+            - link "Careers" [ref=e914] [cursor=pointer]:
+              - /url: //culture.repro.io/jobs
+            - link "Terms of Service" [ref=e915] [cursor=pointer]:
+              - /url: //repro.io/company/legal/term/
+            - link "Privacy Policy" [ref=e916] [cursor=pointer]:
+              - /url: //repro.io/company/legal/privacy/
+            - link "Cookie Policy" [ref=e917] [cursor=pointer]:
+              - /url: //repro.io/company/legal/cookie/
+          - paragraph [ref=e918]: © 2026 Repro Inc.
+    - generic [ref=e919]:
+      - generic [ref=e920]:
+        - text: 本Webサイトは機能改善を目的とした利用状況の分析にCookieを使用しています。
+        - link "詳細" [ref=e921] [cursor=pointer]:
+          - /url: https://repro.io/company/legal/cookie/
+      - generic [ref=e922]:
+        - generic [ref=e923]: COOKIEを拒否
+        - generic [ref=e924]: COOKIEを許可
