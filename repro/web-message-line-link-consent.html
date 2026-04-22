@@ -1,0 +1,193 @@
+<!--
+  Repro Webメッセージ - LINE ID連携許諾
+  ==========================================
+  【使い方】
+  1. Repro管理画面 > マーケティング > メッセージ > 新規作成 > Webメッセージ
+  2. テンプレート: 「カスタムメッセージ」を選択
+  3. このファイルの内容を貼り付ける
+
+  【配信トリガー設定】
+  - イベント: line_id_link_consent
+    (Repro Web設定で「URLに line_uid が含まれるときに発火」として設定)
+
+  【LINEメッセージのURL形式】
+  https://your-app.vercel.app/?line_uid=Uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx&channel_id=1234567890
+-->
+
+<style>
+  #repro-line-consent {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+    background: #fff;
+    border-radius: 16px;
+    padding: 28px 24px 24px;
+    max-width: 340px;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.12);
+  }
+
+  #repro-line-consent .consent-logo {
+    width: 52px;
+    height: 52px;
+    background: #06C755;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 16px;
+  }
+
+  #repro-line-consent .consent-logo svg {
+    width: 32px;
+    height: 32px;
+    fill: #fff;
+  }
+
+  #repro-line-consent h2 {
+    font-size: 18px;
+    font-weight: 700;
+    color: #111;
+    margin: 0 0 10px;
+    line-height: 1.4;
+  }
+
+  #repro-line-consent p {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.7;
+    margin: 0 0 24px;
+  }
+
+  #repro-line-consent .consent-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #repro-line-consent .btn-confirm {
+    background: #06C755;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+  }
+
+  #repro-line-consent .btn-confirm:hover {
+    background: #05b04b;
+  }
+
+  #repro-line-consent .btn-cancel {
+    background: transparent;
+    color: #888;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.2s;
+  }
+
+  #repro-line-consent .btn-cancel:hover {
+    background: #f5f5f5;
+  }
+
+  #repro-line-consent .consent-note {
+    font-size: 11px;
+    color: #aaa;
+    margin: 14px 0 0;
+    line-height: 1.6;
+  }
+</style>
+
+<div id="repro-line-consent">
+  <!-- LINE ロゴ -->
+  <div class="consent-logo">
+    <svg viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <path d="M24 4C12.95 4 4 11.82 4 21.4c0 8.56 7.56 15.71 17.8 17.08.7.15 1.64.46 1.88 1.06.21.54.14 1.38.07 1.92l-.3 1.82c-.09.54-.43 2.12 1.86 1.16 2.29-.97 12.35-7.27 16.86-12.45C45.4 28.93 44 25.3 44 21.4 44 11.82 35.05 4 24 4zm-7.1 22.5h-4.2a.9.9 0 01-.9-.9V16.4a.9.9 0 011.8 0v8.3h3.3a.9.9 0 010 1.8zm3.4 0a.9.9 0 01-1.8 0V16.4a.9.9 0 011.8 0v10.1zm9.8 0a.9.9 0 01-.88-.73l-3.1-6.82v6.65a.9.9 0 01-1.8 0V16.4a.9.9 0 011.68-.45l3.1 6.82V16.4a.9.9 0 011.8 0v10.1a.9.9 0 01-.8.5zm5.7 0h-4.2a.9.9 0 010-1.8h3.3V21.9h-3.3a.9.9 0 010-1.8h3.3v-2.8h-3.3a.9.9 0 010-1.8h4.2a.9.9 0 01.9.9v9.3a.9.9 0 01-.9.9z"/>
+    </svg>
+  </div>
+
+  <h2>LINEアカウントと連携する</h2>
+  <p>
+    連携すると、LINEでサービスからの<br>
+    お知らせをお届けできるようになります。
+  </p>
+
+  <div class="consent-actions">
+    <button class="btn-confirm" id="repro-line-consent-btn">連携する</button>
+    <button class="btn-cancel" id="repro-line-cancel-btn">後で</button>
+  </div>
+
+  <p class="consent-note">
+    連携はいつでも解除できます。
+  </p>
+</div>
+
+<script>
+(function () {
+  // ─────────────────────────────────────────────
+  // 設定: 自社の LINE チャネル ID を入力してください
+  // ─────────────────────────────────────────────
+  var LINE_CHANNEL_ID = 'YOUR_LINE_CHANNEL_ID';
+
+  // ─────────────────────────────────────────────
+  // [フロー図 2] URLパラメーターから line_uid を取得し
+  // localStorage にも保存（ページ遷移後もアクセス可能にする）
+  // ─────────────────────────────────────────────
+  var params = new URLSearchParams(window.location.search);
+  var lineUid = params.get('line_uid');
+  var channelId = params.get('channel_id') || LINE_CHANNEL_ID;
+
+  if (lineUid) {
+    localStorage.setItem('repro_line_uid', lineUid);
+  }
+  if (channelId) {
+    localStorage.setItem('repro_channel_id', channelId);
+  }
+
+  // localStorage からも取得（URLパラメーターがない場合のフォールバック）
+  lineUid = lineUid || localStorage.getItem('repro_line_uid');
+  channelId = channelId || localStorage.getItem('repro_channel_id') || LINE_CHANNEL_ID;
+
+  // ─────────────────────────────────────────────
+  // 「連携する」ボタン: linkLineID を実行
+  // ─────────────────────────────────────────────
+  document.getElementById('repro-line-consent-btn').addEventListener('click', function () {
+    if (!lineUid) {
+      console.warn('[Repro] line_uid が見つかりません。URLに ?line_uid=Uxxxx を付与してください。');
+      return;
+    }
+
+    if (typeof window.reproio !== 'function') {
+      console.warn('[Repro] Repro Web SDK が読み込まれていません。');
+      return;
+    }
+
+    // [フロー図 2] LINE ID を Repro に連携
+    window.reproio('linkLineID', lineUid, channelId);
+
+    // 連携後は localStorage をクリア
+    localStorage.removeItem('repro_line_uid');
+    localStorage.removeItem('repro_channel_id');
+
+    // Webメッセージを閉じる（Repro SDK のクローズ処理）
+    var el = document.getElementById('repro-line-consent');
+    if (el) el.style.display = 'none';
+  });
+
+  // ─────────────────────────────────────────────
+  // 「後で」ボタン: Webメッセージを閉じるだけ
+  // ─────────────────────────────────────────────
+  document.getElementById('repro-line-cancel-btn').addEventListener('click', function () {
+    var el = document.getElementById('repro-line-consent');
+    if (el) el.style.display = 'none';
+  });
+})();
+</script>
