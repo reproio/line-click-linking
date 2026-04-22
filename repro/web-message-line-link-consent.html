@@ -15,6 +15,17 @@
 -->
 
 <style>
+  #repro-line-consent-overlay {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+    box-sizing: border-box;
+    z-index: 99999;
+  }
+
   #repro-line-consent {
     font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
     background: #fff;
@@ -103,6 +114,7 @@
   }
 </style>
 
+<div id="repro-line-consent-overlay">
 <div id="repro-line-consent">
   <!-- LINE ロゴ -->
   <div class="consent-logo">
@@ -123,6 +135,7 @@
   <p class="consent-note">
     連携はいつでも解除できます。
   </p>
+</div>
 </div>
 
 <script>
@@ -173,7 +186,7 @@
     localStorage.removeItem('repro_channel_id');
 
     // Webメッセージを閉じる（Repro SDK のクローズ処理）
-    var el = document.getElementById('repro-line-consent');
+    var el = document.getElementById('repro-line-consent-overlay');
     if (el) el.style.display = 'none';
   });
 
@@ -181,7 +194,7 @@
   // 「後で」ボタン: Webメッセージを閉じるだけ
   // ─────────────────────────────────────────────
   document.getElementById('repro-line-cancel-btn').addEventListener('click', function () {
-    var el = document.getElementById('repro-line-consent');
+    var el = document.getElementById('repro-line-consent-overlay');
     if (el) el.style.display = 'none';
   });
 })();
